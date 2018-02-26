@@ -1,10 +1,10 @@
 name,id,designation,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,breakProb,minPieces,maxPieces,number
-界域 (Zone),istl_zonedefbit,,,,75,30,600,,50,,,300,450,450,240,250,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
-阻挠 (Foil),istl_funnel,,,,200,60,750,,80,,,350,500,500,240,500,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
-奥廖尔 (Oryol),istl_oryol_scanbit,,,,225,75,750,,80,,,250,300,300,210,225,7,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
-门卫 (Goalkeeper),istl_goalkeeper,,,,225,50,900,,140,,,250,300,300,180,225,10,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,0,,,
+Zone,istl_zonedefbit,,,,75,30,600,,50,,,300,450,450,240,250,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
+Foil,istl_funnel,,,,200,60,750,,80,,,350,500,500,240,500,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
+Oryol,istl_oryol_scanbit,,,,225,75,750,,80,,,250,300,300,210,225,7,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
+Goalkeeper,istl_goalkeeper,,,,225,50,900,,140,,,250,300,300,180,225,10,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,0,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-炮灰 (Dard),istl_dard,,istl_pulsejets_ftr,,100,15,500,,90,0,,300,450,400,150,300,12,NONE,,0,0,0,,,0,0,,,,,11,,10,6,,,0.25,0.75,,0,,,105
+Dard,istl_dard,,istl_pulsejets_ftr,,100,15,500,,90,0,,300,450,400,150,300,12,NONE,,0,0,0,,,0,0,,,,,11,,10,6,,,0.25,0.75,,0,,,105
 Spirale,istl_flare,,istl_pulsejets_ftr,,600,90,300,,50,0,,240,300,300,120,180,30,NONE,,0,0,0,,,1,1,,,,,10,,4.5,3,,,1,2,,0,,,100
 Mystère,istl_mystere,,istl_decoyflares_fighter,,682,180,400,,90,0,,180,180,150,75,180,35,NONE,,0,0,0,,,2,2,,,,,9,,3,5,,,2,2,,0,,,103
 Harridan,istl_harridan,,istl_pulsejets_ftr,,450,75,750,,100,0,,300,300,240,90,150,30,NONE,,0,0,0,,,1,1,,,,,11,,5,7,,,2,2,,0,,,101
