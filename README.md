@@ -6,7 +6,7 @@
 
 **超好玩**的开发中单机开放世界太空探索真实社保跑商小游戏。
 
-[>>> Click Here to Download 点此立刻社保 <<<](http://fractalsoftworks.com/)
+# [>>> PLAY NOW! 点此立刻社保！ <<<](http://fractalsoftworks.com/)
 
 ## Now Working On 目前正在进行的项目 
 * **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
@@ -14,7 +14,7 @@
 
 ## Finished 已经完成的项目
 * **Development Blog Post Translation 开发日志翻译**
-  * [Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购](Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md)
+      * [<a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
   【100 / 100 Completed 完成】
 
 ## Planned 将要进行的项目
