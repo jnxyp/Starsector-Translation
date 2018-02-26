@@ -6,7 +6,11 @@
 
 **超好玩**的开发中单机开放世界太空探索真实社保跑商小游戏。
 
+<<<<<<< HEAD
 # <a href = "fractalsoftworks.com" target = "_blank">→ PLAY NOW! 点此立刻社保！←</a>
+=======
+# [>>> PLAY NOW! 点此立刻社保！ <<<](http://fractalsoftworks.com/){:target="_blank"}
+>>>>>>> parent of ff007e0... Update README.md
 
 ## Now Working On 目前正在进行的项目 
 * **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
