@@ -1,3 +1,23 @@
-Original,Translation 1,Trnslation 2
-Dassault-Mikoyan Engineering,达索-米高扬工程集团,
-Fraction(s),势力
+Original,Translation 1,Trnslation 2,Translation 3,Status
+# Fractions,,,,
+Dassault-Mikoyan Engineering,达索-米高扬工程集团,达索-米高扬工程,,Tentative
+Dassault-Mikoyan governing board,达索-米高扬董事会,达索-米高扬统治委员会,,Tentative
+Sixth Bureau,第六部队,特勤六处,第六局,Tentative
+United Securities,联合安保,联合安全,,Tentative
+Blade Breakers,破刃者,,,Tentative
+Nikolaev System Authority,尼古拉耶夫星系管理局,,,Tentative
+# Systems,,,,
+Nikolaev ,尼古拉耶夫,,,Confirmed
+,,,,
+# Vocabularies,,,,
+Fraction,势力,,,Confirmed
+Shield,护盾,,,Confirmed
+Thruster,推进器,,,Confirmed
+Gantry,龙门架,,,Confirmed
+Salvage,打捞,救援,,Confirmed
+Frigate,护卫舰,,,Confirmed
+Destroyer,驱逐舰,,,Confirmed
+Cruiser,巡洋舰,,,Confirmed
+Battleship,战列舰,战舰,,Confirmed
+Carrier,航空母舰,航母,,Confirmed
+refit time,整备时间,,,Confirmed
