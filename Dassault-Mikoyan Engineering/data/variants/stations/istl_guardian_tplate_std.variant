@@ -1,0 +1,16 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_guardian_tplate",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_guardian_tplate_std",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "istl_thermalpd"}
+    }]
+}

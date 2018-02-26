@@ -1,0 +1,99 @@
+{
+	"id":"istl_chasseurLRM",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/ISTL/missiles/istl_chasseur.png",
+	"size":[14,30],	
+	"center":[7,15],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[155,225,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":50,
+				  "acc":150,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[155,225,255,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":1.6,
+						"contrailWidthAddedFractionAtEnd":-0.15,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[155,225,255,255],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.0,
+				    "length":32.0,
+				    "angle":180.0},
+				    {"id":"ES2",
+					"loc":[-11, -5],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[155,225,255,255],
+						"contrailDuration":0.33,
+						"contrailWidthMult":1.2,
+						"contrailWidthAddedFractionAtEnd":-0.7,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[155,225,255,255],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1.0,
+				    "length":3.0,
+				    "angle":195.0},
+				    {"id":"ES3",
+					"loc":[-11, 5],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[155,225,255,255],
+						"contrailDuration":0.33,
+						"contrailWidthMult":1.2,
+						"contrailWidthAddedFractionAtEnd":-0.7,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[155,225,255,255],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1.0,
+				    "length":3.0,
+				    "angle":165.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":800,
+					"minTimeToSplit":0.6,
+					"numShots":9,
+					"damage":200,
+					"emp":100,
+					"damageType":KINETIC,
+					"hitpoints":125,
+					"arc":270,
+					"spreadSpeed":1000,
+					"spreadSpeedRange":250,
+					"projectileSpec":"istl_ruptureasm",
+					"smokeSpec":{"particleSizeMin":16.0,
+								 "particleSizeRange":20.0,
+								 "cloudParticleCount":16,
+								 "cloudDuration":2.0,
+								 "cloudRadius":32.0,
+								 "blowbackParticleCount":12,
+								 "blowbackDuration":1.0,
+								 "blowbackLength":16.0,
+								 "blowbackSpread":8.0,
+								 "particleColor":[155,225,255,155]}
+					}				    
+}

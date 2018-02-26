@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_vesper",
+    "hullMods": [
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_vesper_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0002": "istl_marteau_esm_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_autolaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_linearcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_pdlaser",
+                "WS0005": "istl_pdlaser"
+            }
+        }
+    ]
+}

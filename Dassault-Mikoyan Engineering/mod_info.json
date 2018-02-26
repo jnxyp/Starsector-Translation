@@ -1,0 +1,10 @@
+{
+  "id":"istl_dam", # internal id
+	"name":"达索-米高扬工程集团 [Dassault-Mikoyan Engineering]", # displayed to the player
+	"author":"作者：Soren；翻译： Jn_xyp",
+	"version":"0.9.8b",
+	"description":"达索-米高扬工程 v0.9.8b - 添加达索-米高扬势力。 依赖 LazyLib 和 GraphicsLib.",
+	"gameVersion":"0.8.1a",
+	"jars":["jars/DME.jar"],
+	"modPlugin":"data.scripts.DMEModPlugin",
+}

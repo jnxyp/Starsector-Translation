@@ -1,0 +1,16 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 8,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "istl_guardian_tplate",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_guardian_tplate_eng",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "istl_plasbeamer"}
+    }]
+}

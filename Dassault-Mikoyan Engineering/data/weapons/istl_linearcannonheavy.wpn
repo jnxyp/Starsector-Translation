@@ -1,0 +1,31 @@
+{
+	"id":"istl_linearcannonheavy",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_lg.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_linearcannonheavy_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_linearcannonheavy_turret_recoil.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_med.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_linearcannonheavy_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_linearcannonheavy_hardpoint_recoil.png",
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[26, -6.5, 26, 6.5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[29, -6.5, 29, 6.5],
+	"hardpointAngleOffsets":[0, 0],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"ALTERNATING", # ALTERNATING, ALTERNATING_BURST or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":48.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":21.0,
+					   "particleSizeMin":14.0,
+					   "particleSizeRange":27.0,
+					   "particleDuration":0.08,
+					   "particleCount":35,
+					   "particleColor":[155,225,255,255]},
+	"projectileSpecId":"istl_linearcannonheavy_shot",  # projectile that will be fired
+	#"fireSoundOne":"istl_12cmrailgun_charge",
+	"fireSoundTwo":"istl_linearshotgun_fire",
+}

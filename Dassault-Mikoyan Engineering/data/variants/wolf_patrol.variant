@@ -1,0 +1,37 @@
+{
+    "displayName": "Patrol",
+    "fluxCapacitors": 1,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "wolf",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.75,
+    "variantId": "wolf_patrol",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "istl_hellhound",
+                "WS 006": "istl_hellhound"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "istl_magpulser",
+                "WS 004": "istl_ionbeamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "istl_micropd",
+                "WS 003": "istl_micropd"
+            }
+        }
+    ]
+}

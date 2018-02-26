@@ -1,0 +1,29 @@
+{
+	"id":"istl_autolaser_ftr",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/ISTL/weapons/istl_autolaser_small_turret_base.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_autolaser_small_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_autolaser_small_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_autolaser_small_hardpoint_glow.png",
+	"glowColor":[75,115,255,255],
+	"turretOffsets":[2, 3, 3, 0, 2, -3],
+	"turretAngleOffsets":[0, 0, 0],
+	"hardpointOffsets":[2, 3, 3, 0, 2, -3],
+	"hardpointAngleOffsets":[0, 0, 0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":9.0,
+					   "particleSizeRange":16.0,
+					   "particleDuration":0.08,
+					   "particleCount":30,
+					   "particleColor":[75,115,255,115]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"istl_autolaser_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge",
+	"fireSoundTwo":"istl_autolaser_fire",
+}

@@ -1,0 +1,18 @@
+{
+	"id":"istl_NTKautogun_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.NTKAutogunOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":24.0,
+	"hitGlowRadius":9,
+	"width":4.0,
+	"fadeTime":0.15,
+	"fringeColor":[215,150,75,255],
+	"coreColor":[255,225,200,255],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-24.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_miniblaster_long_bolt.png"
+}

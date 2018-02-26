@@ -1,0 +1,47 @@
+{
+	"id":"istl_marteau_esm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/ISTL/missiles/istl_marteau.png",
+	"size":[8,22],	
+	"center":[4,11],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[85,115,225,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":90, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":45,
+					 "coreRadius":30, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":1.8,
+					 "particleCount":120,
+					 "particleColor":[115,145,255,255]},
+	"engineSpec":{
+				  "turnAcc":150,
+				  "turnRate":75,
+				  "acc":240,
+				  "dec":190},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[115,145,255,255],
+						"contrailDuration":2.0,
+						"contrailWidthMult":3.0,
+						"contrailWidthAddedFractionAtEnd":-0.25,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[115,145,255,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":3.0,
+				    "length":32.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "Scanner Bit",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_oryol_scanbit",
+  "hullMods": [],
+  "variantId": "istl_oryol_scanbit_std",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_erpulsebeam"
+      }
+    }
+  ]
+}

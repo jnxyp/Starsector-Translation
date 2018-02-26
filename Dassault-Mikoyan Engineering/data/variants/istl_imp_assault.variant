@@ -1,0 +1,31 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 1,
+    "fluxVents": 6,
+    "hullId": "istl_imp",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_imp_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_lens_hdem_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_plasmadisruptor"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_plasbeamer",
+                "WS0004": "istl_impulsor",
+                "WS0005": "istl_impulsor"
+            }
+        }
+    ]
+}

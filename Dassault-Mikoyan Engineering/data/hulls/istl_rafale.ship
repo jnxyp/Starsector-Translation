@@ -1,0 +1,145 @@
+{
+  "bounds": [
+    14,
+    -4,
+    -1,
+    -17,
+    -11,
+    -8,
+    -3,
+    -0,
+    -11,
+    8,
+    -1,
+    17,
+    14,
+    4,
+    2.5,
+    -0
+  ],
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0003": "istl_blinkerB_blue",
+    "WS0004": "istl_blinkerB_blue",
+    "WS0005": "istl_blinkerA_blue",
+    "WS0006": "istl_blinkerA_blue"
+  },
+  "center": [
+    19,
+    13.5
+  ],
+  "collisionRadius": 30,
+  "engineSlots": [
+    {
+      "angle": 177.5,
+      "contrailSize": 7,
+      "length": 28,
+      "location": [
+        -12.5,
+        8
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    },
+    {
+      "angle": -177.5,
+      "contrailSize": 7,
+      "length": 28,
+      "location": [
+        -12.5,
+        -8
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    }
+  ],
+  "height": 30,
+  "hullId": "istl_rafale",
+  "hullName": "Rafale",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1.5,
+    -0
+  ],
+  "shieldRadius": 26.5,
+  "spriteName": "graphics/ISTL/ships/istl_rafale.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        7.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        -3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -1.5,
+        17.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -1.5,
+        -17.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        15,
+        4.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        15,
+        -4.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 38
+}

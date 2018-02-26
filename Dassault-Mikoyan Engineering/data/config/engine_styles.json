@@ -1,0 +1,101 @@
+{
+	#Decoy Flares
+	"DME_MainFlare":{
+		"engineColor":[115,145,255,255],
+		"contrailParticleSizeMult":15,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailMaxSpeedMult":-0.1,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[15,45,110,100],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"DME_LowFlare":{
+		"engineColor":[255,155,75,255],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2.0,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[55,55,55,100],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	#Missile Engines
+	"DMETorpedo":{
+		"engineColor":[255,175,125,255],
+		"contrailParticleSizeMult":6,
+		"contrailParticleDuration":2.0,
+		"contrailParticleFinalSizeMult":0.25,
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[100,100,100,155],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"BBTorpedo":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[75,255,175,255],
+		"contrailDuration":1.5,
+		"contrailWidthMult":2.5,
+		"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[75,255,175,155],
+		"type":"SMOKE" # GLOW or SMOKE
+	},	#Ship Engines
+	"DMEFlare":{
+		"engineColor":[255,175,125,255],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":1.25,
+		"contrailMaxSpeedMult":0.75,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[155,125,110,25],
+		"contrailCampaignColor":[175,145,120,25],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"DMEAdvFlare":{
+		"engineColor":[145,175,255,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":0.7,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[45,75,255,25],
+		"contrailCampaignColor":[125,155,255,25],
+		"type":"GLOW" # GLOW or SMOKE
+	},	
+	"DMEAdvFlare1":{
+		"engineColor":[95,155,255,255],
+		"contrailParticleSizeMult":9.0,
+		"contrailParticleDuration":0.12,
+		"contrailParticleFinalSizeMult":1.5,		
+		"contrailMaxSpeedMult":0.33,
+		"contrailAngularVelocityMult":0.33,
+		"contrailColor":[45,75,255,25],
+		"contrailCampaignColor":[95,135,255,55],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"DMEAdvFlare2":{
+		"engineColor":[125,20,225,195],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":0.6,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[145,70,225,35],
+		"contrailCampaignColor":[95,75,225,35],
+		"type":"GLOW" # GLOW or SMOKE
+	},	
+	"DMEPirFlare":{
+		"engineColor":[155,100,255,255],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":1.25,
+		"contrailMaxSpeedMult":0.75,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[75,50,155,25],
+		"contrailCampaignColor":[155,100,255,25],
+		"type":"GLOW" # GLOW or SMOKE
+	},	
+}

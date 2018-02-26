@@ -1,0 +1,10 @@
+{
+    "playableFaction":false,
+    "corvusCompatible":true,
+    "rebelFleetSuffix":"Deserters",
+    "startRelationships":{ "dassault_mikoyan":-1 },
+    
+    "responseFleetName":"Active Service Unit",
+    
+    "morality":"evil",
+}

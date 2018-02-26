@@ -1,0 +1,33 @@
+{
+	"id":"istl_plasmadisruptor",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_sm.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_plasmadisruptor_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_plasmadisruptor_turret_recoil.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_plasmadisruptor_turret_glow.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_sm.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_plasmadisruptor_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_plasmadisruptor_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_plasmadisruptor_hardpoint_glow.png",
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[105,255,155,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[2, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":21.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":9.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.135,
+					   "particleCount":12,
+					   "particleColor":[105,255,155,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"istl_plasmadisruptor_shot",  # projectile that will be fired
+	"fireSoundOne":"istl_energy_charge_small",
+	"fireSoundTwo":"istl_plasmadisruptorfire",
+}

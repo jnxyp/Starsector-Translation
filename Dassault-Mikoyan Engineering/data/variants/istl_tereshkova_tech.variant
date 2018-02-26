@@ -1,0 +1,41 @@
+{
+    "displayName": "Tech Mining",
+    "fluxCapacitors": 5,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "istl_tereshkova",
+    "hullMods": ["autorepair"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_tereshkova_tech",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0007": "istl_perforator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_howler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_autolaser",
+                "WS0003": "istl_erpulsebeam",
+                "WS0004": "istl_erpulsebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_pdlaser",
+                "WS0006": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": ["istl_dard_wing"]
+}

@@ -1,0 +1,33 @@
+{
+    "displayName": "Blaze",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "istl_stoat_c",
+    "hullMods": [
+        "augmentedengines",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_stoat_c_blaze",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_blazegun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_impaler",
+                "WS0004": "istl_impaler"
+            }
+        }
+    ]
+}

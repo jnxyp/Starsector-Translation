@@ -1,0 +1,38 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "istl_naja",
+    "hullMods": [
+        "auxiliarythrusters",
+        "extendedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_naja_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0008": "istl_ammpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_autolaser",
+                "WS0009": "istl_linearcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_multipdnode",
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode"
+            }
+        }
+    ]
+}

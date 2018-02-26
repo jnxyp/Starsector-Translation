@@ -1,0 +1,38 @@
+{
+    "displayName": "Medium",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "istl_sevastopol",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_sevastopol_anti_ftr",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0005": "istl_marteau_esm_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_autolaser_small"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_linearmg",
+                "WS0002": "istl_linearmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_micropd",
+                "WS0004": "istl_micropd"
+            }
+        }
+    ]
+}

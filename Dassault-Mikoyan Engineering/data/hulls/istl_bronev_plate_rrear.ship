@@ -1,0 +1,44 @@
+{
+  "bounds": [
+    -22,
+    -6.5,
+    -13,
+    -10,
+    17.5,
+    -0,
+    22,
+    8.5,
+    7.5,
+    10,
+    -0.5,
+    5,
+    -10.5,
+    5,
+    -14,
+    -1.5
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "solar_shielding"
+  ],
+  "center": [
+    12,
+    23.5
+  ],
+  "collisionRadius": 27,
+  "engineSlots": [],
+  "height": 47,
+  "hullId": "istl_bronev_plate_rrear",
+  "hullName": "Armor Plate",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/ISTL/ships/istl_bronev_plate_rrear.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "width": 24
+}

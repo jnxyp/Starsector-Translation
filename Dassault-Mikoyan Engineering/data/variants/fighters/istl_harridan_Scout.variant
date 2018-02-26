@@ -1,0 +1,32 @@
+{
+  "displayName": "Scout Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_harridan",
+  "hullMods": [],
+  "variantId": "istl_harridan_Scout",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_ammftr",
+        "WS0002": "istl_ammftr"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "istl_magdisruptor"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "istl_multipdnode"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+id,type,category,frequency,habOffsetMin,habOffsetMax,habOffsetYOUNG,habOffsetAVERAGE,habOffsetOLD,tags,probOrbits,minOrbits,maxOrbits,minRadius,maxRadius,minColor,maxColor,YOUNG,AVERAGE,OLD,star_orange_giant,star_red_giant,star_red_supergiant,star_red_dwarf,star_orange,star_yellow,star_browndwarf,star_white,star_blue_giant,star_blue_supergiant,star_neutron,black_hole,binary,trinary,cat_giant,cat_frozen,cat_cryovolcanic,cat_hab1,cat_hab2,cat_hab3,cat_hab4,cat_hab5,cat_barren,cat_toxic,lagrange,in_asteroids,is_moon
+istl_aridbread,PLANET,cat_hab3,0,-1,1,,,,,0.1,1,2,130,220,240 220 230,255 255 255,,,,,,,,,,,,2,3,,,,,,,,,,,,,,,,,
+istl_sigmaworld,PLANET,cat_irradiated,0,-100,0,,,,,0,,,90,150,220 220 220,255 255 255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

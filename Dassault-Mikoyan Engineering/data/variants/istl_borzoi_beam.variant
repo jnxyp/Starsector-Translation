@@ -1,0 +1,22 @@
+{
+    "displayName": "Beam",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "istl_borzoi",
+    "hullMods": ["frontshield"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_borzoi_beam",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_ionbeamer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_micropd"}
+        }
+    ]
+}

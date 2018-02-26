@@ -1,0 +1,24 @@
+{
+  "displayName": "Defense Bit",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_goalkeeper",
+  "hullMods": [],
+  "variantId": "istl_goalkeeper_std",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "istl_linearcannonlight"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_micropd"
+      }
+    }
+  ]
+}

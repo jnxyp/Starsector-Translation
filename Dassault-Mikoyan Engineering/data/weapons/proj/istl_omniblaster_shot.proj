@@ -1,0 +1,20 @@
+{
+	"id":"istl_omniblaster_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.OmniEMPOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":32.0,
+	"width":7.5,
+	"fadeTime":0.2,
+	"fringeColor":[175,145,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[120,70,190,200],
+	"glowRadius":20,
+	"hitGlowRadius":40,	
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-96.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_hybrid_sm.png"	
+}

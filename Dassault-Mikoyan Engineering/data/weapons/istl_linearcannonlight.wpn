@@ -1,0 +1,29 @@
+{
+	"id":"istl_linearcannonlight",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_sm.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_linearcannonlight_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_linearcannonlight_turret_recoil.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_sm.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_linearcannonlight_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_linearcannonlight_hardpoint_recoil.png",
+	"visualRecoil":5,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[14, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[16, 0],
+	"hardpointAngleOffsets":[0],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":21.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.05,
+					   "particleCount":25,
+					   "particleColor":[155,225,255,255]},
+	"projectileSpecId":"istl_linearcannonlight_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_linearcannonlight_fire",
+}

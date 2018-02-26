@@ -1,0 +1,34 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 3,
+    "fluxVents": 12,
+    "hullId": "istl_chamois",
+    "hullMods": [
+        "advancedshieldemitter",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_chamois_adv",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0017": "istl_mirvtorpedo_single",
+                "WS0018": "istl_mirvtorpedo_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_6cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_twinbuzzgun"}
+        }
+    ],
+    "wings": ["istl_foil_wing"]
+}

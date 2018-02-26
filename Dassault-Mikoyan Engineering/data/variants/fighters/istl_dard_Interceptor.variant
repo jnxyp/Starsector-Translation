@@ -1,0 +1,17 @@
+{
+  "displayName": "Drone Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_dard",
+  "hullMods": [],
+  "variantId": "istl_dard_Interceptor",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_micropd"
+      }
+    }
+  ]
+}

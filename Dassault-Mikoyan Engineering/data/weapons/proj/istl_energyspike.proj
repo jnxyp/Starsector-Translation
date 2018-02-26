@@ -1,0 +1,19 @@
+{
+	"id":"istl_energyspike",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.SlapperEMPOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+    "collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":12.0,
+	"width":18.0,
+	"fadeTime":0.2,
+	"fringeColor":[200,125,50,175],
+	"coreColor":[255,175,100,255],
+	"glowColor":[225,155,75,60],
+	"glowRadius":35,
+	"hitGlowRadius":75,
+	"textureType":"MEDIUM",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0	
+}

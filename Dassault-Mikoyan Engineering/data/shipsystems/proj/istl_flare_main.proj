@@ -1,0 +1,35 @@
+{
+	"id":"istl_flare_main",
+	"specClass":"missile",	
+	"missileType":"FLARE_SEEKER",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[4,4],	
+	"center":[2,2],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	#"collisionClass":"FIGHTER",
+	"explosionColor":[100,135,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	#"maxFlightTime":3,
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	#"collisionClassAfterFlameout":"MISSILE_NO_FF",
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":300,
+					"effectChance":0.3,
+				   },	
+	"engineSpec":{"turnAcc":640,
+				  "turnRate":480,
+				  "acc":900,
+				  "dec":750},
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+				    "styleId":"DME_MainFlare",
+				    "width":4.0,
+				    "length":15.0,
+				    "angle":180.0},
+				   ]
+}

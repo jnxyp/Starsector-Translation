@@ -1,0 +1,32 @@
+{
+	"id":"istl_BBstutterdrive",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	
+	"jitterColor":[105,255,155,185],
+	#"jitterColor":[255,100,255,150],
+	"jitterCopies":12,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.3,
+	
+	"weaponGlowColor":[105,255,155,35],
+	"weaponTypes":[ENERGY],
+	
+	"engineGlowColor":[105,255,155,125],
+
+	"range":200,
+	"randomRange":20,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"istl_stutterwarp",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":200,
+		"averageSpeedIncrease":20,
+	}
+}

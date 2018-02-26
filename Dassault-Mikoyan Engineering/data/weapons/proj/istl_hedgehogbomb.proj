@@ -1,0 +1,40 @@
+{
+	"id":"istl_hedgehogbomb",
+	"specClass":"missile",
+	"missileType":"BOMB_WITH_SLOW",
+	"sprite":"graphics/ISTL/missiles/istl_proxbomb.png",
+	"size":[8,12],	
+	"center":[4,6],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[175,175,155,75],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"flameoutTime":0.05, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"fadeTime":0.05, # fadeout duration		
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":60,
+					 "coreRadius":45, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"slowToMaxSpeed":true,
+					"range":35,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":90,
+									 "coreRadius":60, # full damage within core radius
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":4.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":0.8,
+									 "particleCount":50,
+									 "particleColor":[215,215,200,225],
+									 "explosionColor":[215,150,75,125],
+									 "sound":"devastator_explosion"},
+					},
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":125,
+				  "dec":75}
+}

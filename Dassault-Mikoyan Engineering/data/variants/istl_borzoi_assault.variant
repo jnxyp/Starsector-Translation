@@ -1,0 +1,25 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "istl_borzoi",
+    "hullMods": [
+        "frontshield",
+        "advancedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_borzoi_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_ripper"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_twinbuzzgun"}
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "Export",
+    "fluxCapacitors": 1,
+    "fluxVents": 18,
+    "hullId": "istl_tereshkova_exp",
+    "hullMods": ["autorepair"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_tereshkova_export",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0007": "istl_mirvtorpedo_single"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_gravmissilelauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_heavylrpd"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "railgun",
+                "WS0004": "railgun",
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": ["istl_dard_wing"]
+}

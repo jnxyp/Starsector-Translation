@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 1,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "istl_sevastopol",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_sevastopol_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0005": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_NTKcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_linearmg",
+                "WS0002": "istl_linearmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_pdlaser",
+                "WS0004": "istl_pdlaser"
+            }
+        }
+    ]
+}

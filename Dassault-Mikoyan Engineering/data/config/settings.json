@@ -1,0 +1,19 @@
+{
+	"plugins":{
+		"DMEBlockedHullmodDisplayScript":"data.hullmods.DMEBlockedHullmodDisplayScript",
+		"DME_LightInjector":"data.scripts.plugins.istl_lightInjector",
+	},
+	"graphics":{
+		"campaignEntities":{
+			"istl_breaker_beacon":"graphics/ISTL/stations/istl_breakerbuoy00.png",
+			"istl_breaker_beacon_glow":"graphics/ISTL/stations/istl_breakerbuoy00glow.png",
+		},
+		"terrain":{
+			"istl_nebula_sigma":"graphics/ISTL/terrain/istl_sigma_cloud.png",
+			"istl_nebula_sigma_glow":"graphics/ISTL/terrain/istl_sigma_cloud_glow.png",
+			"istl_nebula_sigma_map":"graphics/ISTL/terrain/istl_sigma_cloud_map.png",
+			"istl_yod_nebula":"graphics/ISTL/terrain/istl_yod_nebula.png",
+			"istl_yod_nebula_map":"graphics/ISTL/terrain/istl_yod_nebula_map.png",
+		},
+	}
+}

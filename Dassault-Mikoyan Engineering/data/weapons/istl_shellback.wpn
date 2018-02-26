@@ -1,0 +1,31 @@
+{
+	"id":"istl_shellback",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/ISTL/weapons/istl_shellback_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_shellback_turret_recoil.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_shellback_turret_glow.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_shellback_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_shellback_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_shellback_hardpoint_glow.png",
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[100,110,255,255],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[8, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.2,
+					   "particleCount":16,
+					   "particleColor":[100,110,255,255]},
+	"projectileSpecId":"istl_shellback_shot",  # projectile that will be fired
+	"fireSoundTwo":"istl_shellback_fire",
+}

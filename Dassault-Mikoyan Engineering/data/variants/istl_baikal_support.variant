@@ -1,0 +1,40 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 1,
+    "fluxVents": 25,
+    "hullId": "istl_baikal",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_baikal_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_marteau_esm_pod",
+                "WS0009": "istl_marteau_esm_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_20cmrailgun",
+                "WS0003": "istl_ionbeamer",
+                "WS0007": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_quadlinearmg",
+                "WS0004": "istl_pdlaser",
+                "WS0005": "istl_pdlaser",
+                "WS0006": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": ["istl_damselfly_wing"]
+}

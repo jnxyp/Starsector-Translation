@@ -1,0 +1,52 @@
+{
+  "bounds": [
+    -34.5,
+    3.5,
+    -23,
+    9,
+    21.5,
+    1.5,
+    34.5,
+    -7.5,
+    16,
+    -6,
+    13,
+    -9,
+    6,
+    -8,
+    6,
+    -5,
+    -13,
+    -3,
+    -17,
+    -6,
+    -23,
+    -3,
+    -20.5,
+    0.5
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "solar_shielding"
+  ],
+  "center": [
+    10.5,
+    36.5
+  ],
+  "collisionRadius": 40,
+  "engineSlots": [],
+  "height": 73,
+  "hullId": "istl_mouflon_plating_left",
+  "hullName": "Armor",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 39,
+  "spriteName": "graphics/ISTL/ships/istl_mouflon_plating_left.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "width": 21
+}

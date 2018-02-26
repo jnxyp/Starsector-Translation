@@ -1,0 +1,38 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 7,
+    "fluxVents": 20,
+    "hullId": "istl_tunguska",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_tunguska_fsup",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_hellhound",
+                "WS0004": "istl_hellhound"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_linearcannonheavy"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_ionbeamer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_pdlaser",
+                "WS0006": "istl_pdlaser"
+            }
+        }
+    ]
+}

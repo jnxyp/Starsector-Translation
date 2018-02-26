@@ -1,0 +1,60 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 15,
+    "fluxVents": 24,
+    "goalVariant": false,
+    "hullId": "istl_snowgoose",
+    "hullMods": [
+        "targetingunit",
+        "advancedshieldemitter",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_snowgoose_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "istl_ruptureasm_tube",
+                "WS0020": "istl_ruptureasm_tube",
+                "WS0021": "istl_ruptureasm_tube",
+                "WS0022": "istl_ruptureasm_tube"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "istl_hellhound",
+                "WS0016": "istl_hellhound"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_hybridblaster",
+                "WS0008": "istl_6cmrailgun",
+                "WS0009": "istl_6cmrailgun",
+                "WS0023": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode",
+                "WS0005": "istl_multipdnode",
+                "WS0006": "istl_multipdnode",
+                "WS0007": "istl_multipdnode",
+                "WS0010": "istl_multipdnode",
+                "WS0017": "istl_multipdnode",
+                "WS0018": "istl_multipdnode"
+            }
+        }
+    ]
+}

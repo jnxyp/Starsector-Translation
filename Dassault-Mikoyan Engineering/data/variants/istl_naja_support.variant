@@ -1,0 +1,42 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "istl_naja",
+    "hullMods": [
+        "auxiliarythrusters",
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_naja_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "istl_omniblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "istl_ionbeamer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_multipdnode",
+                "WS0002": "istl_multipdnode",
+                "WS0003": "istl_multipdnode",
+                "WS0004": "istl_multipdnode"
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+	"shipRoles":{
+		"combatSmall":{
+			"istl_naja_mk1_brawl":4,
+			"istl_naja_mk1_std":2,
+		},
+		
+		"combatFreighterSmall":{
+			"istl_samoyed_export":7,
+		},
+		
+		"combatFreighterMedium":{
+	    	"istl_lodestar_export":2,
+	    	"istl_tereshkova_export":2,
+		},
+		
+		"carrierSmall":{
+			"istl_sevastopol_mk1_std":1,
+		},
+		
+		"personnelSmall":{
+			"istl_flatmouse_export":8,
+		},
+	},
+},	

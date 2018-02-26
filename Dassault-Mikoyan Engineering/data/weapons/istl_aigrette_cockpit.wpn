@@ -1,0 +1,16 @@
+{
+ "id":"istl_aigrette_cockpit",
+ "type":"DECORATIVE",
+ "specClass":"projectile",
+ "size":"LARGE",
+ "showDamageWhenDecorative":true,
+ "turretSprite":"graphics/ISTL/ships/deco/istl_aigrette_cockpitpod.png",
+ "hardpointSprite":"graphics/ISTL/ships/deco/istl_aigrette_cockpitpod.png",
+ "turretOffsets":[0, 0],
+ "turretAngleOffsets":[0],
+ "hardpointOffsets":[0, 0],
+ "hardpointAngleOffsets":[0],
+ "barrelMode":"ALTERNATING",
+ "animationType":"NONE",
+ "projectileSpecId":"vulcan_shot",
+}

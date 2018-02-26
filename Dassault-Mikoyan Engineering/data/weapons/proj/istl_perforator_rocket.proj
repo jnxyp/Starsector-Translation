@@ -1,0 +1,50 @@
+{
+	"id":"istl_perforator_rocket",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/ISTL/missiles/istl_perforator.png",
+	"size":[5,15],	
+	"center":[2.5,7.5],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,175,125,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":25,
+					 "coreRadius":15, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":1.2,
+					 "particleCount":135,
+					 "particleColor":[215,215,155,225]},
+	"flameoutTime":1.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.3, # time spent without the engine glow being rendered
+	"fadeTime":0.3, # fadeout duration	
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":1000,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[215,215,200,255],
+						"contrailDuration":1.0,
+						"contrailWidthMult":4.5,
+						"contrailWidthAddedFractionAtEnd":-.05,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[175,175,155,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":2.5,
+				    "length":40.0,
+				    "angle":180.0},
+				    ]
+}

@@ -1,0 +1,20 @@
+{
+	"id":"istl_howler_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.HowlerOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":75.0,
+	"hitGlowRadius":40,
+	"width":9.0,
+	"fadeTime":0.2,
+	"fringeColor":[200,100,0,255],
+	"coreColor":[255,225,200,255],
+	#"glowColor":[155,60,0,45],
+	#"glowRadius":20,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-24.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_howlerslug.png"
+}

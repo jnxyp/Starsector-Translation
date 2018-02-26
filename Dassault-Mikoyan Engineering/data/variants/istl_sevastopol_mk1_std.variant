@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "istl_sevastopol_mk1",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_sevastopol_mk1_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_NTKautogun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0005": "istl_perforator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_blazegun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_buzzgun",
+                "WS0002": "istl_buzzgun",
+                "WS0004": "istl_impaler"
+            }
+        }
+    ],
+    "wings": ["istl_pup_wing"]
+}

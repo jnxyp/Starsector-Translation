@@ -1,0 +1,51 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 1,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "istl_stormkestrel",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_stormkestrel_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_lens_hdem_rack",
+                "WS0004": "istl_lens_hdem_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_pulseripper",
+                "WS0002": "istl_jackal",
+                "WS0005": "istl_plasmadisruptor",
+                "WS0006": "istl_plasmadisruptor",
+                "WS0009": "istl_proxbomb_rack",
+                "WS0010": "istl_proxbomb_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_plasbeamer",
+                "WS0008": "istl_plasbeamer",
+                "WS0011": "istl_impulsor",
+                "WS0012": "istl_impulsor",
+                "WS0013": "istl_impulsor",
+                "WS0014": "istl_impulsor",
+                "WS0015": "istl_impulsor",
+                "WS0016": "istl_impulsor"
+            }
+        }
+    ],
+    "wings": [
+        "istl_firespray_wing",
+        "istl_firespray_wing"
+    ]
+}

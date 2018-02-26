@@ -1,0 +1,22 @@
+{
+	"id":"istl_6cmrailgunshot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.RailSparks6cm",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	#"spawnType":"BALLISTIC_AS_BEAM",
+	#"collisionClass":"RAY",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+	"length":90.0,
+	"width":6.0,
+	"fadeTime":0.15,
+	"fringeColor":[125,175,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[25,175,255,35],
+	"glowRadius":30,
+	"hitGlowRadius":30,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_railslug.png"	
+}

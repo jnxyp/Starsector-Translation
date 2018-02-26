@@ -1,0 +1,86 @@
+id,trigger,conditions,script,text,options,notes
+beaconOpenDialogLenze,OpenInteractionDialog,"$tag:warning_beacon
+$istl_lenzewarn","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This autonomous warning beacon emits a looping message. The static crackle underlying the heavily distorted voice is sharp and unsettling.
+
+""This world is interdicted by the Blade Breakers under the rightful authority of the Council of Five. Your presence here is unwelcome.
+
+All unauthorized vermin are instructed to avoid landing on pain of death.""",beaconLeave:Leave,
+istl_researchOpenDialog,OpenInteractionDialog,$tag:istl_researchBase,"PrintDescription 1
+AddText ""The landing bay is sparsely populated - mostly tour groups, a few grad students in xenological studies, looking lost next to their piled belongings. A cheerful-looking receptionist subtly guides you towards the station map and hands you a guidebook for the areas open to visitors.""
+ShowDefaultVisual
+FireBest istl_researchMainOptions",,,Landing Dialogue
+istl_researchMainOptions,istl_researchMainOptions,,"SetShortcut istl_researchLeave ""ESCAPE""",,"0:istl_researchVisit:Visit exhibits
+10:istl_researchLeave:Leave","Menu Options, starting with 0"
+istl_researchVisit,DialogOptionSelected,$option == istl_researchVisit,"SetShortcut istl_researchLeave ""ESCAPE""","The main section of Cousteau Base’s ring is a massive promenade; and you stroll aimlessly through the exhibits on theoretical models of herd-cetacean intelligence and sociology, the dusty, grandiose old plans for an agricultural colony floating on the Odessan ocean.
+
+Small kiosks around the ring sell flash-fried fish- and squidlike creatures, native to Odessa but tank-grown on station, with an assortment of spicy-sweet sauces. You wonder, as you suck the last greasy traces off your fingers, what the aboriginal cetaceans would make of this canned overview of their existence.
+
+All in all, though, not a bad way to spend some time and a few spare credits, you think as you return to your ship.",istl_researchLeave:Leave,Visit Dialogue
+istl_researchLeave,DialogOptionSelected,$option == istl_researchLeave,DismissDialog,,,Leave Dialogue
+,,,,,,
+,,,,,,
+Greeting DMEFriendly,OpenCommLink,"$faction.id == dassault_mikoyan
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Good to see you, commander. Business before pleasure, please; one tries to keep a schedule.""
+OR
+The screen flickers, and $personName smiles at you broadly as the comm channel stabilizes.
+
+""I don't suppose you'd have time to pull alongside and help me down the rest of this bottle - it's an excellent vintage.""
+OR
+""An unexpected pleasure, certainly, commander, but I have business. Is there something you need?""
+OR
+The channel stabilizes and $personName breaks into a sly grin. 
+""My, my, commander, you do look rather... dashing, but I'm afraid I'm on company time right now.""",,
+GreetingDMEHostileWeaker,OpenCommLink,"$faction.id == dassault_mikoyan
+$entity.isHostile
+$entity.relativeStrength <0","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""I recommend you find easier prey, commander - I have no intention of giving in without a fight.""
+OR
+""The longer you push other spacers around, the more likely you'll find someone who pushes back.""
+OR
+""I have no doubt your fleet could destroy mine, but I promise you, commander- you'll know you've been in a fight.""",cutCommLink:Cut the comm link,
+GreetingDMEHostileWeakerDefiant,OpenCommLink,"$faction.id == dassault_mikoyan
+$entity.isHostile
+$entity.relativeStrength <0
+$entity.weakerThanPlayerbutHolding",$ignorePlayerCommRequests = true 1,"""So it has come to this. Very well - the High Guard may die; but it does not surrender.""
+
+The comm channel closes.
+OR
+""So be it. May the victory go to the better strategist.""
+
+The comm link cuts out.
+OR
+""I expect one of us will live to regret this. Forgive me for hoping that it won't be you.""
+
+The channel snaps off abruptly.",cutCommLink:Cut the comm link,
+GreetingDMEHostileStronger,OpenCommLink,"$faction.id == dassault_mikoyan
+$entity.isHostile
+$entity.relativeStrength >=0",$ignorePlayerCommRequests = true 1,"""You have been identified as an enemy of the Dassault-Mikoyan corporation. No quarter is expected, and certainly none will be given.""
+OR
+""There are only two powers in the sector - the sword, and the mind.""
+
+The enemy $personRank pauses theatrically.
+
+""And in the long run, the sword always falls to the mind. You've been living by the sword for... quite some time, commander. Time we put an end to that.""
+OR
+""You didn't think this through, commander; you and your crew will pay a terrible price for that.""",cutCommLink:Cut the comm link,
+GreetingDMENeutral,OpenCommLink,"$faction.id == dassault_mikoyan
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You're speaking to a representative of Dassault-Mikoyan Engineering.""
+OR
+""Greetings from Dassault-Mikoyan Engineering.""",,
+,,,,,,
+flavorTextMarketDMEStd,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == dassault_mikoyan","AddText ""Smartly-uniformed men and women in regulation DME blue patrol the market district with high-powered shock batons - holstered, for now. Incoming crews are thoroughly searched; the protests of the unlucky few who fail a scan drowned out by background noise of official video broadcasts."" textGrayColor",,,
+flavorTextMarketDMEPeremohy,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == dassault_mikoyan
+$market.id == peremohy_market
+$id == peremohy","AddText ""The cavernous marketplace is an ocean of crowd noise, underlaid by traffic direction and the bass roar of landing thrusters. Security is uniformed, armed, and unpleasantly alert, but no one else seems to be taking any notice. Even the poorest beggars and hawkers are licensed; they display their up-to-date credentials prominently."" textGrayColor",,,
+aiCores_turnInOptionSelDMEPeremohy,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == dassault_mikoyan
+$market.id == peremohy_market",FireAll PopulateCoresTurnInOptions,"""You trade in dangerous goods. I should have expected as much, from an explorer of your… boldness. You must know where these come from, why they can’t be allowed to float around on the open market. I’m sure my colleagues in the Sixth Bureau will be overjoyed, however. And of course, it’s tremendously valuable to us.""",,
+aiCores_turnInOptionSelDMENotPeremohy,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == dassault_mikoyan
+$market.id != peremohy_market",FireAll PopulateCoresTurnInOptions,"""You trade in dangerous goods. I should have expected as much, from an explorer of your… boldness. You’ll be compensated amply for the risks you took, of course.""",,
+,,,,,,

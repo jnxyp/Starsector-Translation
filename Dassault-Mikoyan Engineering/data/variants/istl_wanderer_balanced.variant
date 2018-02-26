@@ -1,0 +1,46 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "istl_wanderer",
+    "hullMods": [
+        "converted_hangar",
+        "advancedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_wanderer_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "istl_hellhound",
+                "WS0003": "istl_hellhound"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_magpulser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_linearcannontwin",
+                "WS0004": "istl_ionbeamer",
+                "WS0005": "istl_ionbeamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_pdlaser",
+                "WS0008": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": ["istl_harridan_wing"]
+}

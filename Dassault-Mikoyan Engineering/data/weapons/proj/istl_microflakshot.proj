@@ -1,0 +1,40 @@
+{
+	"id":"istl_microflak_shot",
+	"specClass":"missile",
+	"missileType":"BOMB_WITH_SLOW",
+	"sprite":"graphics/ISTL/missiles/istl_slapper.png",
+	"size":[7,10],	
+	"center":[3.5,5],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[215,150,75,125],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"flameoutTime":0.05, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"fadeTime":0.05, # fadeout duration		
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":60,
+					 "coreRadius":45, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"slowToMaxSpeed":true,
+					"range":35,
+					"explosionSpec":{"duration":0.12f,
+									 "radius":50,
+									 "coreRadius":35, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":4.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":0.75,
+									 "particleCount":35,
+									 "particleColor":[215,215,200,225],
+									 "explosionColor":[215,150,75,125],
+									 "sound":"explosion_flak"}
+					},
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":10,
+				  "acc":150,
+				  "dec":100}
+}

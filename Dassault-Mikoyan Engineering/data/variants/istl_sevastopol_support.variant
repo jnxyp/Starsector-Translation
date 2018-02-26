@@ -1,0 +1,39 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "istl_sevastopol",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_sevastopol_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0005": "istl_ruptureasm_sm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_erpulsebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_linearmg",
+                "WS0002": "istl_linearmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_micropd",
+                "WS0004": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": ["istl_dard_wing"]
+}

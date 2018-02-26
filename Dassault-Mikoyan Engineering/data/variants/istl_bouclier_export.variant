@@ -1,0 +1,37 @@
+{
+    "displayName": "Export",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "hullId": "istl_bouclier",
+    "hullMods": [
+        "eccm",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_bouclier_export",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_heavylrpd",
+                "WS0002": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_linearvulcan",
+                "WS0005": "istl_linearvulcan",
+                "WS0006": "istl_linearvulcan"
+            }
+        }
+    ]
+}

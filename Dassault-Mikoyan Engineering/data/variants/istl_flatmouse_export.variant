@@ -1,0 +1,25 @@
+{
+    "displayName": "Export",
+    "fluxCapacitors": 1,
+    "fluxVents": 6,
+    "hullId": "istl_flatmouse",
+    "hullMods": ["advancedshieldemitter"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_flatmouse_export",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_impaler_rapid"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_linearvulcan",
+                "WS0005": "istl_linearvulcan"
+            }
+        }
+    ]
+}

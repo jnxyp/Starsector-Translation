@@ -1,0 +1,40 @@
+{
+    "displayName": "Battle Line",
+    "fluxCapacitors": 8,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "istl_baikal",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_baikal_cqb",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_perforatorpod",
+                "WS0008": "istl_chasseurLRMlauncher",
+                "WS0009": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_linearcannonheavy",
+                "WS0002": "istl_howler",
+                "WS0007": "istl_linearcannonlight"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_pdlaser",
+                "WS0005": "istl_pdlaser",
+                "WS0006": "istl_pdlaser"
+            }
+        }
+    ]
+}

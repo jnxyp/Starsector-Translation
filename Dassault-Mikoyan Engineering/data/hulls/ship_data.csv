@@ -1,0 +1,81 @@
+name,id,designation,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,breakProb,minPieces,maxPieces,number
+Zone,istl_zonedefbit,,,,75,30,600,,50,,,300,450,450,240,250,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
+Foil,istl_funnel,,,,200,60,750,,80,,,350,500,500,240,500,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
+Oryol,istl_oryol_scanbit,,,,225,75,750,,80,,,250,300,300,210,225,7,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,0,,,
+Goalkeeper,istl_goalkeeper,,,,225,50,900,,140,,,250,300,300,180,225,10,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,0,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dard,istl_dard,,istl_pulsejets_ftr,,100,15,500,,90,0,,300,450,400,150,300,12,NONE,,0,0,0,,,0,0,,,,,11,,10,6,,,0.25,0.75,,0,,,105
+Spirale,istl_flare,,istl_pulsejets_ftr,,600,90,300,,50,0,,240,300,300,120,180,30,NONE,,0,0,0,,,1,1,,,,,10,,4.5,3,,,1,2,,0,,,100
+Mystère,istl_mystere,,istl_decoyflares_fighter,,682,180,400,,90,0,,180,180,150,75,180,35,NONE,,0,0,0,,,2,2,,,,,9,,3,5,,,2,2,,0,,,103
+Harridan,istl_harridan,,istl_pulsejets_ftr,,450,75,750,,100,0,,300,300,240,90,150,30,NONE,,0,0,0,,,1,1,,,,,11,,5,7,,,2,2,,0,,,101
+Aigrette,istl_egret,,istl_decoyflares_fighter,,450,60,1000,,160,0,,200,150,95,105,180,30,OMNI,,90,0,1,,,2,2,,,,,10,,5,6,,,2,1.5,,0,,,102
+Damselfly,istl_damselfly,,istl_decoyflares_fighter,,900,120,500,,50,0,,180,120,60,60,150,45,NONE,,0,0,0,,,3,3,,,,,9,,3,5,,,1.5,1.5,,0,,,103
+Rafale,istl_rafale,,istl_decoyflares_fighter,,300,50,250,,60,0,,200,350,250,90,180,10,OMNI,,180,0,1,,,1,1,,,,,,,,,,,,,,0,,,101
+Icax,istl_icax,,istl_mirage_ftr,,500,60,800,,200,0,,300,240,200,120,180,40,OMNI,,90,0,1.2,,,2,2,,,,,10,,4,9,,,3,3,,0,,,104
+Pup,istl_pup,,istl_decoyflares_low_fighter,,450,150,750,,100,0,,150,120,60,100,180,50,NONE,,0,0,0,,,2,2,,,,,9,,2,4,,,1,1.5,,0,,,103
+Hummingbird,istl_hummingbird,,istl_decoyflares_low_fighter,,450,50,600,,75,0,,300,160,100,120,240,15,NONE,,0,0,0,,,1,1,,,,,11,,0.5,4,,,0.5,1, HIDE_IN_CODEX,0,,,105
+Fletcher,istl_fletcher,,,,500,75,200,,100,0,,150,200,200,40,120,30,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,HIDE_IN_CODEX,0,,,105
+Thunderhead,istl_thunderbolt,,flarelauncher_fighter,,550,90,750,,160,0,,150,120,50,105,150,50,FRONT,,90,0,1.2,,,2,2,,,,,10,,1,5,,,1,1.5, HIDE_IN_CODEX,0,,,106
+Hellion,istl_hellion,,istl_BBdecoyflare,,600,120,900,,180,0,,200,150,95,105,180,30,PHASE,istl_BBphasecloak,,,,0.05,0.05,1,1,,,,,10,,5,6,,,3,2,HIDE_IN_CODEX,0,,,102
+Firespray,istl_firespray,,,,500,150,300,,60,0,,200,400,320,120,210,10,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,HIDE_IN_CODEX,0,,,101
+Iridium,istl_iridium,,,,450,75,450,,75,0,,210,350,350,100,240,30,OMNI,,150,0,1,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,0,,,115
+Lycosid,istl_lycosid,,,,120,20,500,,75,0,,350,500,400,180,350,9,NONE,,0,0,0,,,0,0,,,,,12,,10,6,,,0.2,0.6,HIDE_IN_CODEX,0,,,105
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flatmouse,istl_flatmouse,Transit Shuttle,istl_dockjets,2,1250,200,1100,1000,60,15,,150,95,75,90,105,150,OMNI,,120,0.4,0.8,,,3,60,40,40,1,30,11,4800,5,20,180,0.25,2,2,"CIVILIAN, LINER",0.4,2,2,200
+Puddle Jumper,istl_puddlejumper,Free Trader,istl_jetinjector,4,2500,300,1350,1900,120,30,1,120,100,75,65,120,300,FRONT,,90,0.2,0.8,,,16,40,120,60,1,80,10,13200,10,15,240,0.25,2.5,2.5,"CIVILIAN, FREIGHTER",0.4,2,2,201
+Puddle Jumper Mk.1,istl_puddlejumper_mk1,Free Trader,burndrive,4,2800,325,1100,1900,100,25,,110,95,60,60,100,300,FRONT,,90,0.2,0.8,,,16,40,120,60,1,80,9,12500,20,15,240,0.25,2.5,2.5,,0.4,2,2,202
+Bouclier,istl_bouclier,Armored Courier,istl_jetinjector,5,3000,450,1350,1875,150,40,,100,90,70,50,105,360,NONE,,0,0,0,,,20,50,100,40,1,40,10,14000,8,10,240,0.25,4.5,4.5,FREIGHTER,0.3,2,2,203
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Carabao,istl_carabao,Tanker,istl_decoyflares_main,5,3600,100,2000,1200,80,30,,50,30,30,25,15,420,FRONT,,240,0.2,1,,,8,16,50,450,1.8,320,8,20000,5,15,300,0.25,3,3,"CIVILIAN, TANKER",0.4,2,3,300
+Feeder,istl_feeder,Light Carrier,istl_decoyflares_low_main,8,4000,200,2700,1200,140,55,2,50,25,25,30,15,420,OMNI,,150,0.4,0.8,,,20,40,120,80,1.8,50,8,21000,5,15,480,0.2,3,3,"CARRIER, HIDE_IN_CODEX",0.4,2,3,301
+Sevastopol Mk.5,istl_sevastopol,Secure Freighter,istl_jetinjector,7,4400,320,2000,2160,120,40,,60,45,25,30,15,480,OMNI,,150,0.2,1,,,25,75,300,100,2,60,9,18000,5,20,450,0.25,3,3,"CIVILIAN, FREIGHTER",0.4,2,3,302
+Sevastopol Mk.1,istl_sevastopol_mk1,Secure Freighter,burndrive,6,4400,360,2000,2160,100,40,,60,45,25,30,15,480,OMNI,,120,0.2,1,,,25,75,300,100,2,60,8,18000,5,20,450,0.25,3,3,,0.4,2,3,303
+Chamois,istl_chamois,Utility Rig,istl_dockjets,4,5200,450,1000,2500,80,45,,55,30,15,18,15,450,FRONT,,90,0.4,1,,,40,60,80,25,2,60,8,20000,2,30,270,0.3,9,6,CIVILIAN,0.5,2,3,304
+Lodestar,istl_lodestar,Armed Freighter,istl_decoyflares_main,9,4800,300,2400,2500,140,75,1,75,50,25,25,20,400,OMNI,,150,0.4,1,,,30,80,240,80,2,75,9,24500,2.5,10,360,0.2,9,6,,0.4,2,4,304
+Mouflon,istl_mouflon,Assault Lander,istl_jetinjector,6,4000,600,4000,1900,300,50,,60,40,30,24,18,650,NONE,,0,0,0,,,20,240,50,80,2,40,9,21000,5,15,360,0.25,3,3,"SHIP_WITH_MODULES, LINER",0.5,2,3,307
+Kentaurus,istl_centaur,Armed Transport,istl_dockjets,8,8400,750,3200,2750,160,80,,45,30,15,15,15,900,OMNI,,150,0.4,1,,,60,150,750,150,3.6,90,8,36000,5,10,420,0.25,7,7,"CIVILIAN, FREIGHTER",0.4,2,4,305
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shalaika,istl_samoyed,Scout-Courier,istl_pulsejets_ftr,3,1500,180,1250,1350,120,25,,170,150,90,90,150,160,OMNI,,120,0.3,0.7,,,10,30,60,60,0.9,60,11,9200,4,8,180,0.25,4,2,,0.3,2,2,400
+Borzoi,istl_borzoi,Corvette,istl_pulsejets_ftr,5,2100,400,1400,1400,100,35,,160,200,120,105,180,180,NONE,,0,0,0,,,8,20,45,30,0.9,60,11,8400,4,8,240,0.25,3,3,,0.3,2,2,400
+Husky,istl_stoat,Picket Ship,istl_decoyflares_main,4,1800,160,2000,2400,150,40,1,145,160,120,90,150,190,FRONT,,240,0.4,0.8,,,10,21,40,30,1,50,10,12500,4,8,240,0.2,4,4,,0.3,2,2,401
+Husky (E),istl_stoat_c,Picket Ship,istl_decoyflares_low_main,4,1900,225,2000,2400,150,40,,140,150,110,85,135,195,FRONT,,240,0.4,0.8,,,12,21,40,30,1,50,10,12000,4,8,240,0.2,4,4,HIDE_IN_CODEX,0.3,2,2,402
+Ifrit,istl_ifrit,Missile Frigate,plasmajets,5,1500,200,2000,1000,120,35,,135,150,75,60,90,120,OMNI,,90,0.2,0.8,,,0,0,30,15,1,15,10,96000,5,20,240,0.25,2,2,"UNBOARDABLE, HIDE_IN_CODEX",0.6,2,2,217
+Imp,istl_imp,Drone Frigate,istl_sigmajaunt,3,1000,250,2500,1000,150,35,,160,240,120,90,120,90,FRONT,,120,0.2,0.8,,,0,0,30,15,1,15,10,92000,5,20,180,0.25,2,2,"UNBOARDABLE, HIDE_IN_CODEX",0.45,2,2,217
+Kobra Mk.3,istl_naja,Gunboat,istl_damper,5,2500,300,2500,3800,200,45,,120,215,120,75,125,240,FRONT,,210,0.2,1,,,18,28,75,25,0.9,45,10,15000,6,8,270,0.25,5,5,,0.3,2,2,404
+Kobra Mk.1,istl_naja_mk1,Gunboat,burndrive,5,2500,300,2400,3600,160,45,,120,200,105,60,125,240,FRONT,,180,0.2,1,,,16,25,70,25,0.95,45,9,14500,6,8,270,0.2,5,5,,0.3,2,2,405
+Vesper,istl_vesper,Tactical Frigate,istl_pulsejets,7,2000,250,3000,3200,200,55,,160,150,120,85,150,225,FRONT,,240,0.2,1,,,15,30,40,20,1,20,10,40000,10,15,240,0.2,6,6,,0.3,2,2,406
+Star Sylph,istl_starsylph,Combat Courier,istl_mirage_sm,8,1500,150,2400,2750,210,50,,150,150,105,75,145,210,OMNI,,120,0.3,0.9,,,15,20,60,40,0.9,40,11,45000,10,15,210,0.2,8,8,,0.3,2,2,403
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+d'Erlon,istl_leyte,Escort Carrier,istl_precision,9,3600,250,3000,2905,180,64,2,90,75,40,25,20,480,OMNI,,120,0.4,0.8,,,32,108,225,80,2,75,9,21000,4,8,360,0.25,9,9,"CARRIER, COMBAT",0.3,2,3,500
+Garpike,istl_grand_union,Destroyer,burndrive,12,4000,550,4800,3500,200,100,,60,50,35,30,25,550,FRONT,,240,0.2,1.2,,,52,96,60,50,2.5,50,8,22500,5,12,420,0.25,10,10,HIDE_IN_CODEX,0.3,2,3,501
+Devil Ray,istl_devilray,Phase Destroyer,istl_sigmadisruptor,18,3000,600,8000,10000,600,105,,90,60,40,60,40,450,PHASE,istl_BBphasecloak,,,,0.05,0.04,30,60,50,100,2,50,9,120000,5,20,300,0.25,25,25,"UNBOARDABLE, HIDE_IN_CODEX",0.5,2,3,314
+Tunguska,istl_tunguska,Gun Destroyer,istl_pulsejets,9,3600,300,6000,8333,360,95,,80,60,50,20,20,350,FRONT,,240,0.3,1.1,,,45,50,75,40,2,40,9,25000,5,15,300,0.2,12,12,,0.3,2,4,505
+Wanderer,istl_wanderer,Combat Clipper,istl_hyperfocus,10,6000,500,6400,4350,320,100,,90,60,40,30,40,480,OMNI,,120,0.4,0.8,,,40,80,135,80,2,75,9,28000,8,10,450,0.2,10,10,,0.3,2,3,502
+Tereshkova,istl_tereshkova,Explorer,istl_decoyflares_main,12,5600,400,7200,4350,360,85,1,75,60,40,25,30,520,FRONT,,360,0.2,1,,,48,96,160,180,1.5,120,9,32000,8,10,400,0.25,12,12,,0.3,2,3,504
+Snow Goose,istl_snowgoose,Fast Attack Ship,istl_mirage,20,5400,350,8400,4000,360,90,,140,180,100,60,75,380,FRONT,,270,0.2,1,,,48,108,60,60,2.5,50,10,60000,10,20,270,0.2,20,20,,0.3,2,3,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Normandie,istl_mindanao,Command Carrier,istl_precision,15,6000,800,7200,6000,280,114,4,70,50,30,15,20,1200,OMNI,,150,0.4,0.8,,,125,245,160,120,2.8,80,8,54000,4,12,480,0.25,25,25,"CARRIER, COMBAT",0.3,2,4,600
+Sparrowhawk,istl_stormkestrel,Escort Cruiser,istl_BBstutterdrive,24,7200,700,12000,7000,600,155,2,70,64,48,20,30,900,OMNI,,150,0.2,0.8,,,100,180,120,100,3,33,9,280000,3,15,450,0.25,28,28,"UNBOARDABLE, HIDE_IN_CODEX",0.5,3,5,400
+Baikal,istl_baikal,Universal Cruiser,istl_jetinjector,16,10600,1200,12000,10000,400,140,,40,35,27,28,25,1500,OMNI,,150,0.4,1,,,135,400,300,180,3.6,120,8,60000,4,15,540,0.25,25,25,,0.25,2,4,601
+Baikal (Brone),istl_baikal_brone,Universal Cruiser,istl_ramdrive,28,10600,1200,11000,10000,360,146,,30,30,24,21,18,1500,FRONT,,120,0.3,1.5,,,150,400,250,160,4,100,7,76000,3,20,480,0.25,28,28,"SHIP_WITH_MODULES, HIDE_IN_CODEX",0.2,2,3,601
+Kormoran,istl_kormoran,Guard-Cruiser,istl_pulsejets,16,8000,800,13500,12000,600,180,,70,60,40,24,30,1800,OMNI,,120,0.4,1,,,150,225,100,90,3,90,8,80000,4,20,480,0.25,30,30,,0.3,2,4,602
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zelenograd,istl_zelenograd,Research Platform,istl_damper,25,12000,1000,15000,25000,960,275,3,65,45,25,8,8,2400,OMNI,,180,0.4,1,,,420,720,450,600,10,60,8,240000,4,20,720,0.25,40,50,,0.4,2,4,700
+Jeanne d'Arc,istl_jeannedarc,Fleet Carrier,istl_recall,30,16000,1200,21000,15000,720,300,6,40,20,12,6,6,3200,OMNI,,240,0.4,0.8,,,480,960,200,240,12,20,8,350000,3,15,680,0.2,50,50,"CARRIER, COMBAT",0.5,2,4,701
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Verdun,istl_defstation,Defense Station,,30,10000,1500,6000,,500,0,,30,200,200,5,5,5000,NONE,,0,0,0,,,100,500,1000,1000,20,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE",0,,,2010
+,istl_gun_platform,Weapons Platform,,8,8000,1000,7500,,600,100,,0,0,0,10,10,300,FRONT,,64,0.2,0.6,,,30,50,0,0,1,0,,800000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",0.5,2,2,2011
+,istl_fighter_platform,Weapons Platform,reservewing,8,8000,1000,9000,,600,100,2,0,0,0,10,10,300,FRONT,,64,0.2,0.6,,,30,50,0,0,1,0,,800000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",0.5,2,2,2012
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Guardian,istl_guardian_turret,Bastion,istl_sigmajaunt_slow,20,8000,2000,12000,,500,100,,0,0,0,0,0,4000,NONE,,0,0,0,,,0,0,500,300,20,0,0,500000,10,10,,,30,30,"SHIP_WITH_MODULES, UNBOARDABLE",0,,,2010
+,istl_guardian_tplate,Plating,,2,4000,1000,5000,,500,30,,0,0,0,10,10,200,FRONT,,100,0.1,0.6,,,0,0,0,0,1,0,,800000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,4,2011
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,istl_bronev_plate_bow,Plating,,1,2500,600,0,2500,100,0,,0,0,0,10,10,200,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2310
+,istl_bronev_plate_left,Plating,,1,3000,600,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2311
+,istl_bronev_plate_right,Plating,,1,3000,600,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2312
+,istl_bronev_plate_lrear,Plating,,1,2000,450,0,2500,100,0,,0,0,0,10,10,150,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2311
+,istl_bronev_plate_rrear,Plating,,1,2000,450,0,2500,100,0,,0,0,0,10,10,150,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2312
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,istl_mouflon_plating_bow,Plating,,1,2400,500,0,2500,100,0,,0,0,0,10,10,200,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2311
+,istl_mouflon_plating_left,Plating,,1,2400,500,0,2500,100,0,,0,0,0,10,10,200,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2311
+,istl_mouflon_plating_right,Plating,,1,2400,500,0,2500,100,0,,0,0,0,10,10,200,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",1,2,3,2312

@@ -1,0 +1,53 @@
+{
+	"starSystem":"martinique",
+	"markets":[
+		{
+			"entities":["valjean"],
+			"faction":"independent",
+			"size":4,
+			"startingConditions":[
+				"frontier",
+				"farmland_poor",
+				"dissident",
+				"large_refugee_population",
+				"habitable",
+				"spaceport",
+				"population_4",
+			],
+
+		},
+		{
+			"entities":["martinique_ind"],
+			"faction":"dassault_mikoyan",
+			"size":5,
+			"tariff":0.12,
+			"startingConditions":[
+				"free_market",
+				"ore_complex",
+				"ore_refining_complex",
+                "vice_demand",
+                "antimatter_fuel_production",
+                "shipbreaking_center",
+				"orbital_station",
+				"population_5",
+			],
+		},
+		{
+			"entities":["antilles_port"],
+			"faction":"pirates",
+			"size":3,
+			"tariff":0.3,
+			"startingConditions":[
+				"free_market",
+				"organized_crime",
+				"orbital_station",
+				"population_3",
+			],
+		},
+
+	],
+
+}
+
+
+

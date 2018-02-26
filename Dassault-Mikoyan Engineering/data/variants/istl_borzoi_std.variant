@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_borzoi",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_borzoi_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_autolaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_pdlaser"}
+        }
+    ]
+}

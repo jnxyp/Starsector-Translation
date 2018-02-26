@@ -1,0 +1,26 @@
+{
+    "displayName": "Beam Boat",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "istl_flatmouse",
+    "hullMods": ["turretgyros"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_flatmouse_beamboat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_erpulsebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_linearvulcan",
+                "WS0005": "istl_linearvulcan"
+            }
+        }
+    ]
+}

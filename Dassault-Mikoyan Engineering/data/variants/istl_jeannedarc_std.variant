@@ -1,0 +1,69 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "istl_jeannedarc",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_jeannedarc_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_marteau_esm_pod",
+                "WS0007": "istl_marteau_esm_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "istl_clusterlauncher",
+                "WS0023": "istl_gravmissiletube",
+                "WS0024": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_autohybridblaster",
+                "WS0002": "istl_linearcannontwin",
+                "WS0003": "istl_linearcannontwin",
+                "WS0004": "istl_linearcannontwin",
+                "WS0015": "istl_linearcannon",
+                "WS0016": "istl_linearcannon",
+                "WS0021": "istl_linearcannon",
+                "WS0022": "istl_linearcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_quadlinearmg",
+                "WS0009": "istl_micropd",
+                "WS0010": "istl_micropd",
+                "WS0011": "istl_pdlaser",
+                "WS0012": "istl_pdlaser",
+                "WS0013": "istl_pdlaser",
+                "WS0014": "istl_pdlaser",
+                "WS0017": "istl_pdlaser",
+                "WS0018": "istl_pdlaser",
+                "WS0019": "istl_micropd",
+                "WS0020": "istl_micropd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_rafale1_wing",
+        "istl_rafale1_wing",
+        "istl_rafale1_wing",
+        "istl_mystere_wing",
+        "istl_flare_wing",
+        "istl_flare_wing"
+    ]
+}

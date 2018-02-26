@@ -1,0 +1,34 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "hullId": "istl_stoat",
+    "hullMods": [
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_stoat_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_ruptureasm_sm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_linearcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_magpulser",
+                "WS0004": "istl_magpulser"
+            }
+        }
+    ],
+    "wings": []
+}

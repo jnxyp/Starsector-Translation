@@ -1,0 +1,55 @@
+{
+	"starSystem":"nikolaev",
+	"markets":[
+		{
+			"entities":["peremohy", "nikolaev_port"],
+			"faction":"dassault_mikoyan",
+			"size":6,
+			"tariff":0.12,
+			"startingConditions":[
+				"habitable",
+				"farmland_adequate",
+				"ore_moderate",
+				"rare_ore_sparse",
+				"urbanized_polity",
+				"regional_capital",
+				"orbital_station",
+				"military_base",
+				"autofac_heavy_industry",
+				"organics_complex",
+				"terran",
+				"population_6",
+			],
+		},
+		{
+			"entities":["nikolaev_lab"],
+			"faction":"dassault_mikoyan",
+			"size":4,
+			"tariff":0.12,
+			"startingConditions":[
+				"free_market",
+				"light_industrial_complex",
+				"outpost",
+				"orbital_station",
+				"population_4",
+			],
+		},
+		{
+			"entities":["brightheaven"],
+			"faction":"pirates",
+			"size":4,
+			"tariff":0.3,
+			"startingConditions":[
+				"free_market",
+				"stealth_minefields",
+				"organized_crime",
+				"orbital_station",
+				"population_4",
+			],
+		},
+	],
+
+}
+
+
+

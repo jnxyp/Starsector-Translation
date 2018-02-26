@@ -1,0 +1,247 @@
+{
+  "bounds": [
+    35,
+    -6.5,
+    35,
+    -19.5,
+    8.5,
+    -21.5,
+    -3,
+    -31,
+    -10,
+    -33,
+    -20.5,
+    -27.5,
+    -20.5,
+    -24.5,
+    -14,
+    -22,
+    -33.5,
+    -17.5,
+    -33.5,
+    -9,
+    -13,
+    -4.5,
+    -45,
+    -0,
+    -13,
+    4.5,
+    -33.5,
+    9,
+    -33.5,
+    17.5,
+    -14,
+    22,
+    -20.5,
+    24.5,
+    -20.5,
+    27.5,
+    -10,
+    33,
+    -3,
+    31,
+    21.5,
+    7,
+    49.5,
+    5.5,
+    55.5,
+    -0,
+    49.5,
+    -5.5
+  ],
+  "builtInMods": [
+    "istl_monobloc"
+  ],
+  "builtInWeapons": {
+    "WS0003": "istl_blinkerB_blue",
+    "WS0004": "istl_blinkerB_blue",
+    "WS0005": "istl_blinkerB_blue",
+    "WS0006": "istl_blinkerA_blue",
+    "WS0007": "istl_blinkerA_blue",
+    "WS0008": "istl_blinkerA_blue"
+  },
+  "center": [
+    35,
+    47
+  ],
+  "collisionRadius": 64,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 60.5,
+      "location": [
+        -35,
+        13
+      ],
+      "style": "DMEFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 60.5,
+      "location": [
+        -35,
+        -13
+      ],
+      "style": "DMEFlare",
+      "width": 12
+    },
+    {
+      "angle": 177.5,
+      "contrailSize": 128,
+      "length": 25.5,
+      "location": [
+        -22,
+        26
+      ],
+      "style": "DMEFlare",
+      "width": 4
+    },
+    {
+      "angle": -177.5,
+      "contrailSize": 128,
+      "length": 25.5,
+      "location": [
+        -22,
+        -26
+      ],
+      "style": "DMEFlare",
+      "width": 4
+    },
+    {
+      "angle": 135,
+      "contrailSize": 128,
+      "length": 12.5,
+      "location": [
+        44.5,
+        7
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    },
+    {
+      "angle": -135,
+      "contrailSize": 128,
+      "length": 12.5,
+      "location": [
+        44.5,
+        -7
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    }
+  ],
+  "height": 104,
+  "hullId": "istl_borzoi",
+  "hullName": "Borzoi",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    3,
+    -0
+  ],
+  "shieldRadius": 65,
+  "spriteName": "graphics/ISTL/ships/istl_borzoi.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        29,
+        -12
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -10,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -10,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        56.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -46,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        0.5,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        0.5,
+        -13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 70
+}

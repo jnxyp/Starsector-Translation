@@ -1,0 +1,39 @@
+{
+    "displayName": "Mad Animal",
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
+    "hullId": "istl_lodestar",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_lodestar_mas",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0002": "istl_ammpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "istl_marteau_esm_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_erpulsebeam",
+                "WS0004": "istl_erpulsebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_quadlinearmg",
+                "WS0005": "istl_linearmg"
+            }
+        }
+    ],
+    "wings": []
+}

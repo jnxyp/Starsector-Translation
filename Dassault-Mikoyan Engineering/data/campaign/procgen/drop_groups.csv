@@ -1,0 +1,14 @@
+commodity,group,freq
+nothing,breaker_weapons1,355
+"wpn_:{tags:[bladebreakers], weaponSize:SMALL, weaponType:BALLISTIC}",breaker_weapons1,100
+"wpn_:{tags:[bladebreakers], weaponSize:SMALL, weaponType:MISSILE}",breaker_weapons1,100
+"wpn_:{tags:[bladebreakers], weaponSize:SMALL, weaponType:ENERGY}",breaker_weapons1,100
+ftr_:{tags:[high]},breaker_weapons1,50
+ftr_:{tags:[bladebreakers]},breaker_weapons1,5
+,,
+nothing,breaker_weapons2,410
+"wpn_:{tags:[bladebreakers], weaponType:BALLISTIC}",breaker_weapons2,100
+"wpn_:{tags:[bladebreakers], weaponType:MISSILE}",breaker_weapons2,100
+"wpn_:{tags:[bladebreakers], weaponType:ENERGY}",breaker_weapons2,100
+ftr_:{tags:[high]},breaker_weapons2,100
+ftr_:{tags:[bladebreakers]},breaker_weapons2,10

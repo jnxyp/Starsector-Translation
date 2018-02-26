@@ -1,0 +1,28 @@
+{
+    "displayName": "Export",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "istl_puddlejumper_exp",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_puddlejumper_export",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_ammlight"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_blazegun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_impaler"}
+        }
+    ],
+    "wings": []
+}

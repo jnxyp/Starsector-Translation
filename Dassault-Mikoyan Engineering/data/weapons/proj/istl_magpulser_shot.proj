@@ -1,0 +1,20 @@
+{
+	"id":"istl_magpulser_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.PulserEMPOnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":15.0,
+	"width":6.0,
+	"fadeTime":0.125,
+	"fringeColor":[145,115,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[85,55,175,195],
+	"glowRadius":15,
+	"hitGlowRadius":16,	
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-96.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_hybrid_med.png"	
+}

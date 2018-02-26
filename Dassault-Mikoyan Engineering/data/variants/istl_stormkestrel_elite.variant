@@ -1,0 +1,57 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 1,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "istl_stormkestrel",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_stormkestrel_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_lens_hdem_rack",
+                "WS0004": "istl_lens_hdem_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_proxbomb_rack",
+                "WS0006": "istl_proxbomb_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_shellhead",
+                "WS0007": "istl_shellback",
+                "WS0008": "istl_shellback"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_thermalheavy",
+                "WS0009": "istl_thermalpd",
+                "WS0010": "istl_thermalpd",
+                "WS0011": "istl_impulsor",
+                "WS0012": "istl_impulsor",
+                "WS0013": "istl_impulsor",
+                "WS0014": "istl_impulsor",
+                "WS0015": "istl_impulsor",
+                "WS0016": "istl_impulsor"
+            }
+        }
+    ],
+    "wings": [
+        "istl_iridium_wing",
+        "istl_iridium_wing"
+    ]
+}

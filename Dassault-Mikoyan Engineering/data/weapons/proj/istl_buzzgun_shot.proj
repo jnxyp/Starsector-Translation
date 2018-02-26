@@ -1,0 +1,20 @@
+{
+	"id":"istl_buzzgun_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"hitGlowRadius":10,
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":80.0,
+	"width":2.0,
+	"fadeTime":0.12,
+	"fringeColor":[225,160,75,225],
+	"coreColor":[225,160,75,180],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-48.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_miniblaster_bolt.png"
+}

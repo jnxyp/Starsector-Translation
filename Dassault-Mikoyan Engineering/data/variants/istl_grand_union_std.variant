@@ -1,0 +1,44 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "hullId": "istl_grand_union",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_grand_union_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "istl_ammpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_whistler",
+                "WS0003": "istl_NTKcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_heavylrpd",
+                "WS0006": "istl_linearcannonlight",
+                "WS0007": "istl_linearcannonlight",
+                "WS0008": "istl_linearcannonlight",
+                "WS0009": "istl_linearcannonlight"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_micropd",
+                "WS0005": "istl_micropd"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 2,
+    "fluxVents": 24,
+    "goalVariant": true,
+    "hullId": "istl_jeannedarc",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_jeannedarc_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0008": "istl_perforatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_gravmissilelauncher",
+                "WS0007": "istl_gravmissilelauncher",
+                "WS0023": "istl_gravmissiletube",
+                "WS0024": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_hellspear",
+                "WS0002": "istl_12cmrailgun",
+                "WS0003": "istl_12cmrailgun",
+                "WS0004": "istl_12cmrailgun",
+                "WS0015": "istl_linearcannonlight",
+                "WS0016": "istl_linearcannonlight",
+                "WS0021": "istl_6cmrailgun",
+                "WS0022": "istl_6cmrailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "istl_linearflak",
+                "WS0009": "istl_micropd",
+                "WS0010": "istl_micropd",
+                "WS0011": "istl_pdlaser",
+                "WS0012": "istl_pdlaser",
+                "WS0013": "istl_pdlaser",
+                "WS0014": "istl_pdlaser",
+                "WS0017": "istl_pdlaser",
+                "WS0018": "istl_pdlaser",
+                "WS0019": "istl_micropd",
+                "WS0020": "istl_micropd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_damselfly_wing",
+        "istl_damselfly_wing",
+        "istl_damselfly_wing",
+        "istl_damselfly_wing",
+        "istl_harridan_wing",
+        "istl_harridan_wing"
+    ]
+}

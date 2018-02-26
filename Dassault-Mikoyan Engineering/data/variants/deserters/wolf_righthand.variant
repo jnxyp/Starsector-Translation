@@ -1,0 +1,39 @@
+{
+    "displayName": "Right Hand",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "wolf",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "quality": 0.75,
+    "variantId": "wolf_righthand",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "heavyblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "harpoon",
+                "WS 006": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "istl_micropd",
+                "WS 003": "istl_micropd"
+            }
+        }
+    ]
+}

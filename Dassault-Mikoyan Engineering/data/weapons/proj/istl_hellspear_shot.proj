@@ -1,0 +1,20 @@
+{
+	"id":"istl_hellspear_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.HellspearOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":170.0,
+	"hitGlowRadius":60,
+	"width":11.0,
+	"fadeTime":0.2,
+	"fringeColor":[200,100,0,255],
+	"coreColor":[255,225,200,255],
+	#"glowColor":[155,60,0,45],
+	#"glowRadius":30,
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-32.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_howlerslug.png"
+}

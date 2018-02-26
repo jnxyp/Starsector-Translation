@@ -1,0 +1,36 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 1,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "istl_fighter_platform",
+    "hullMods": ["hardenedshieldemitter"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_fighter_platform_bomber",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "istl_autolaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_linearflak",
+                "WS0004": "istl_micropd",
+                "WS0005": "istl_micropd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_rafale1_wing",
+        "istl_mystere_wing"
+    ]
+}

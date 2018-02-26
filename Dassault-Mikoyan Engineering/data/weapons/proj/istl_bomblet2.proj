@@ -1,0 +1,17 @@
+{
+	"id":"istl_bomblet2",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.SlapperEMPOnHit",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":75.0,
+	"hitGlowRadius":20,
+	"width":7.0,
+	"fadeTime":0.25,
+	"fringeColor":[215,215,200,75],
+	"coreColor":[255,255,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_slapper.png",
+}

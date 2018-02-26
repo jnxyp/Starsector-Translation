@@ -1,0 +1,25 @@
+{
+    "displayName": "Anti-Fighter",
+    "fluxCapacitors": 1,
+    "fluxVents": 6,
+    "hullId": "istl_flatmouse",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_flatmouse_antifighter",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_magpulser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_linearvulcan",
+                "WS0005": "istl_linearvulcan"
+            }
+        }
+    ]
+}

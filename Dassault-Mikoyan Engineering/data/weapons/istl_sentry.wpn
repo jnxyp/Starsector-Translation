@@ -1,0 +1,30 @@
+{
+	"id":"istl_sentry",
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_sm.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_sentry_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_sentry_turret_recoil.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_sm.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_sentry_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_sentry_hardpoint_recoil.png",	
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"hardpointOffsets":[8, 5, 8, -5],
+	"turretOffsets":[8, 5, 8, -5],
+	"hardpointAngleOffsets":[0, -0],
+	"turretAngleOffsets":[0, -0],
+	"barrelMode":"ALTERNATING_BURST",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":16.0,
+					   "particleDuration":0.08,
+					   "particleCount":16,
+					   "particleColor":[120,110,255,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"istl_sentry_shot",
+	"fireSoundOne":"istl_energy_charge_small",
+	"fireSoundTwo":"istl_sentry_fire",
+}

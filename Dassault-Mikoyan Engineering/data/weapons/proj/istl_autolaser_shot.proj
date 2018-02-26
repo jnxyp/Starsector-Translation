@@ -1,0 +1,18 @@
+{
+	"id":"istl_autolaser_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.AutolaserMedSparks",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":150.0,
+	"width":13.5,
+	"fadeTime":0.2,
+	"fringeColor":[75,105,255,115],
+	"coreColor":[125,155,255,255],
+	"hitGlowRadius":30,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-96.0,
+	"pixelsPerTexel":1.0	
+}

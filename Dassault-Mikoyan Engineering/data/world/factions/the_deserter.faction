@@ -1,0 +1,279 @@
+{
+	id:"the_deserter",
+	"color":[216,255,216,255],
+	"displayName":"Deserters",
+	"displayNameWithArticle":"Deserters",
+	"displayNameLong":"Blade Breaker Deserters",
+	"displayNameLongWithArticle":"Deserters",
+	"entityNamePrefix":"deserters",
+	"personNamePrefix":"deserter",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"are",
+	"logo":"graphics/ISTL/factions/deserter.png",
+	"crest":"graphics/ISTL/factions/crest_deserter.png",
+	"shipNamePrefix":"FSS",
+	"shipNameSources":{
+		"DASSAULT_MIKOYAN_SILLY":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"modern":3,
+		"future":2,
+		"slammers":1,
+	},
+	"hullMods":[
+		"turretgyros",
+		"armoredweapons",
+		"autorepair",
+		"auxiliarythrusters",
+		"blast_doors",
+		"dedicated_targeting_core",
+		"eccm",
+		"magazines",
+		"missleracks",
+		"fluxcoil",
+		"fluxdistributor",
+		"hardened_subsystems",
+		"insulatedengine",
+		"reinforcedhull",
+		"fluxbreakers",
+		"surveying_equipment",
+		"unstable_injector",
+		"expanded_deck_crew",
+		"recovery_shuttles",
+		"operations_center",
+		"nav_relay",
+		"ecm",
+	],
+	"illegalCommodities":[
+	],
+	"showInIntelTab":false,
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_hegemony02.png",
+			"graphics/portraits/portrait_hegemony06.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_hegemony02.png",
+			"graphics/portraits/portrait_hegemony06.png",
+		],
+	},
+	"custom":{
+		"ignoreTradeWithEnemiesForReputation":true,
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":false,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":1.5,
+		"AICoreRepMult":1.5,
+		"buysSurveyData":true,
+	},
+	"shipRoles":{
+		"fastAttack":{
+			"wolf_righthand":10,	
+			"omen_lefthand":6,
+			"tempest_righthand":3,
+			"shade_lefthand":6,
+			"fallback":{"combatSmall":1},
+		},
+	
+		"escortSmall":{
+			"wolf_CS":10,
+			"wolf_PD":10,
+			"omen_PD":10,
+			"afflictor_Strike":10,
+			"shade_Assault":10,
+			"fallback":{"combatSmall":1},
+		},
+		"escortMedium":{
+			"hammerhead_Balanced":10,
+			"hammerhead_Elite":10,
+			"medusa_PD":10,
+			"harbinger_Strike":1,
+			"fallback":{"combatMedium":1},
+		},
+		"combatSmall":{
+			"wolf_righthand":15,	
+			"tempest_Attack":10,
+			"tempest_righthand":3,
+			"hyperion_Strike":1,
+			"fallback":{"escortSmall":1},
+		},
+		"combatMedium":{
+			"sunder_CS":10,
+			"sunder_Assault":10,
+			"medusa_Attack":10,
+			"medusa_CS":10,
+			"harbinger_Strike":4,
+			"fallback":{"combatSmall":2},
+		},
+		"combatLarge":{
+			"apogee_Balanced":10,
+			"aurora_Assault":4,
+			"aurora_Escort":4,
+			"aurora_Strike":4,
+			"doom_righthand":10,
+			"fallback":{"combatMedium":2},
+		},
+		"combatCapital":{
+			"paragon_Raider":4,
+			"odyssey_Balanced":10,
+			"fallback":{"combatLarge":2},
+		},
+		
+		# hybrid ships with good combat and cargo capacity
+		"combatFreighterSmall":{
+			"shepherd_Frontier":4,
+			"cerberus_Standard":10,
+			"wayfarer_Standard":12,
+			"fallback":{"freighterSmall":1},
+		},
+		"combatFreighterMedium":{
+			"mule_Standard":10,
+			"gemini_Standard":10,
+			"fallback":{"combatFreighterSmall":2},
+		},
+		"combatFreighterLarge":{
+			"venture_Balanced":4,
+			"fallback":{"combatFreighterMedium":2},
+		},
+		
+		"civilianRandom":{
+			"mercury_d_Standard":8,
+			"nebula_Standard":10,
+			"mercury_Attack":3,
+			"mercury_PD":3,
+			"mercury_FS":3,
+			"mercury_Standard":3,
+			"kite_Stock":2,
+			"colossus_Standard":1,
+			"fallback":{"freighterSmall":1},
+		},
+	
+		# carriers
+		"carrierSmall":{
+			"gemini_Standard":10,
+			"drover_Strike":10,
+			"fallback":{"carrierMedium":0.5},
+		},
+		"carrierMedium":{
+			"heron_Strike":10,
+			"heron_Attack":10,
+			"fallback":{"carrierSmall":2},
+		},
+		"carrierLarge":{
+			"astral_Strike":10,
+			"astral_Attack":5,
+			"fallback":{"carrierMedium":2},
+		},
+	
+		# freighters and such
+		"freighterSmall":{
+			"mercury_Standard":10,
+			"fallback":{"freighterMedium":0.5},
+		},
+		"freighterMedium":{
+			"tarsus_Standard":10,
+			"buffalo_Standard":10,
+			"fallback":{"freighterSmall":2},
+		},
+		"freighterLarge":{
+			"colossus_Standard":10,
+			"atlas_Standard":5,
+			"fallback":{"freighterMedium":2},
+		},
+		
+		"tankerSmall":{
+			"dram_Light":10,
+			"fallback":{"tankerMedium":0.5},
+		},
+		"tankerMedium":{
+			"phaeton_Standard":10,
+			"fallback":{"tankerSmall":2},
+		},
+		"tankerLarge":{
+			"prometheus_Super":10,
+			"fallback":{"tankerMedium":2},
+		},
+		
+		"personnelSmall":{
+			"mercury_d_Standard":8,
+			"mercury_Attack":3,
+			"mercury_PD":3,
+			"mercury_Standard":3,
+			"mercury_FS":3,
+			"kite_Stock":10,
+			"fallback":{"personnelMedium":0.5},
+		},
+		"personnelMedium":{
+			"nebula_Standard":10,
+			"fallback":{"personnelSmall":2},
+		},
+		"personnelLarge":{
+			"fallback":{"personnelMedium":2},
+		},
+		
+		# utility ships
+		"tug":{
+			"ox_Standard":10,
+			"fallback":{"utility":1},
+		},
+		"crig":{
+			"crig_Standard":10,
+			"fallback":{"utility":1},
+		},
+		"utility":{
+			"crig_Standard":10,
+			"ox_Standard":10,
+		},
+	},
+	"traits":{
+		"captain":{
+			"timid":1,
+			"cautious":2,
+			"steady":7,
+			"aggressive":10,
+			"reckless":3,
+		},
+	},
+	"doctrine":{
+		# ship distribution
+		"small":8,
+		"fast":10,
+		"medium":10,
+		"large":5,
+		"capital":1,
+		
+		# as fraction of combat ships of same size
+		"escortSmallFraction":1,
+		"escortMediumFraction":1,
+		
+		# freighters tend not to be combat-oriented
+		"combatFreighterProbability":0.15,
+			
+		# tend toward larger ships
+		"minPointsForCombatCapital":17,
+		"minPointsForLargeCarrier":15,
+		
+		# increased preference for carriers
+		"smallCarrierProbability":0.4,
+		"mediumCarrierProbability":0.4,
+		"largeCarrierProbability":0.4,
+			
+		# officers ; somewhat elite
+		"officersPerPoint":0.45,
+		"officerLevelPerPoint":0.4,
+		"officerLevelBase":7,
+		"officerLevelVariance":0.35,
+		
+		"commanderSkillsPerLevel":0.2,
+		"commanderSkillChance":0.5,
+		"commanderSkillLevelPerLevel":0.3,
+		"commanderSkills":{
+			"officer_management":2,
+			"coordinated_maneuvers":7,
+			"fighter_doctrine":10,
+			"electronic_warfare":10,
+		},
+	},
+},

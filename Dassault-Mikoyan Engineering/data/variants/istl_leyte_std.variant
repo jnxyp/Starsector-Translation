@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "istl_leyte",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_leyte_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0005": "istl_gravmissiletube"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_linearcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_linearmgdual",
+                "WS0003": "istl_pdlaser",
+                "WS0004": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "istl_rafale1_wing",
+        "istl_flare_wing"
+    ]
+}

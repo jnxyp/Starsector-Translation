@@ -1,0 +1,38 @@
+{
+    "displayName": "Vanilla",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "hullId": "istl_wanderer",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_wanderer_vanilla",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "heavyblaster",
+                "WS0005": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyneedler",
+                "WS0002": "railgun",
+                "WS0003": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "pdburst",
+                "WS0007": "pdburst",
+                "WS0008": "pdburst"
+            }
+        }
+    ]
+}

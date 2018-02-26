@@ -1,0 +1,44 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "istl_baikal",
+    "hullMods": ["advancedshieldemitter"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_baikal_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "istl_chasseurLRMlauncher",
+                "WS0009": "istl_ammpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_basilisk"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_whistler",
+                "WS0003": "istl_linearcannontwin",
+                "WS0007": "istl_tacbeamer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_micropd",
+                "WS0005": "istl_micropd",
+                "WS0006": "istl_pdlaser"
+            }
+        }
+    ]
+}

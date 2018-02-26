@@ -1,0 +1,281 @@
+{
+  "bounds": [
+    38,
+    -6.5,
+    32,
+    -13.5,
+    35,
+    -17,
+    0,
+    -51,
+    -8.5,
+    -51,
+    -14.5,
+    -45.5,
+    -14.5,
+    -28,
+    -22,
+    -20,
+    -22,
+    -7.5,
+    -16,
+    -2.5,
+    -16,
+    2.5,
+    -22,
+    7.5,
+    -22,
+    20,
+    -14.5,
+    28,
+    -14.5,
+    45.5,
+    -8.5,
+    51,
+    0,
+    51,
+    35,
+    17,
+    32,
+    13.5,
+    38,
+    6.5
+  ],
+  "builtInMods": [
+    "istl_monobloc"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_multipdnode",
+    "WS0002": "istl_multipdnode",
+    "WS0003": "istl_multipdnode",
+    "WS0004": "istl_multipdnode",
+    "WS0006": "istl_blinkerA_blue",
+    "WS0007": "istl_blinkerA_blue",
+    "WS0010": "istl_blinkerB_blue",
+    "WS0011": "istl_blinkerB_blue",
+    "WS0012": "istl_blinkerB_blue",
+    "WS0013": "istl_blinkerA_blue"
+  },
+  "center": [
+    53,
+    25
+  ],
+  "collisionRadius": 68,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -24,
+        13
+      ],
+      "style": "DMEFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -24,
+        -13
+      ],
+      "style": "DMEFlare",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 17.5,
+      "location": [
+        -21,
+        31
+      ],
+      "style": "DMEFlare",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 17.5,
+      "location": [
+        -21,
+        -31
+      ],
+      "style": "DMEFlare",
+      "width": 4
+    }
+  ],
+  "height": 68,
+  "hullId": "istl_naja",
+  "hullName": "Naja Mk. 3",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 72,
+  "spriteName": "graphics/ISTL/ships/istl_naja.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 75,
+      "id": "WS0001",
+      "locations": [
+        3,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 75,
+      "id": "WS0002",
+      "locations": [
+        3,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 150,
+      "arc": 75,
+      "id": "WS0003",
+      "locations": [
+        -6,
+        32
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -150,
+      "arc": 75,
+      "id": "WS0004",
+      "locations": [
+        -6,
+        -32
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 75,
+      "id": "WS0005",
+      "locations": [
+        6,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 7.5,
+      "id": "WS0008",
+      "locations": [
+        21,
+        29
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 7.5,
+      "id": "WS0009",
+      "locations": [
+        21,
+        -29
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        3.5,
+        48.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        3.5,
+        -48.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -11.5,
+        48.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        -11.5,
+        -48.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        41.5,
+        -5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -17,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 106
+}

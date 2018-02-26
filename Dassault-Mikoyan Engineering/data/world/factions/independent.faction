@@ -1,0 +1,36 @@
+{
+	"shipRoles":{
+	    
+	    "escortSmall":{
+	    	"istl_naja_export":5,
+	    },
+	    "escortMedium":{
+	    	"istl_tereshkova_export":2,
+	    },
+	    
+	    "combatSmall":{
+			"istl_naja_export":10,
+		},
+	    
+		"combatFreighterSmall":{
+			"istl_samoyed_export":5,
+			"istl_bouclier_export":2,
+			"istl_starsylph_pulsebeam":1,
+		},
+	    "combatFreighterMedium":{
+	    	"istl_lodestar_export":5,
+	    	"istl_tereshkova_export":3,
+	    },
+	    
+		"freighterSmall":{
+			"istl_puddlejumper_export":8,
+		},
+		"freighterLarge":{
+			"istl_centaur_export":4,
+		},
+			    
+	    "personnelSmall":{
+			"istl_flatmouse_export":10,
+	    },
+	},
+},	

@@ -1,0 +1,44 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "istl_mindanao",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_mindanao_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_gravmissiletube",
+                "WS0007": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_linearcannontwin",
+                "WS0002": "istl_NTKcannon",
+                "WS0003": "istl_NTKcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "istl_pdlaser",
+                "WS0005": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "istl_rafale1_wing",
+        "istl_rafale1_wing",
+        "istl_mystere_wing",
+        "istl_flare_wing"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	"id":"istl_linearcannonlight_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.LinearCannonSparks",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":25.0,
+	"hitGlowRadius":12,
+	"width":3.5,
+	"fadeTime":0.2,
+	"fringeColor":[125,175,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[25,175,255,30],
+	"glowRadius":14,
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_linearslug.png"
+}

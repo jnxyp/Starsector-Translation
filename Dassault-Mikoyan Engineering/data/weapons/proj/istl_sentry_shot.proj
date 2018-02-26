@@ -1,0 +1,32 @@
+{
+	"id":"istl_sentry_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":7.5,
+	"width":7.5,
+	"fadeTime":0.1,
+	"fringeColor":[135,110,255,225],
+	"coreColor":[255,255,255,255],
+	"hitGlowRadius":20,	
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-96.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_sentry_bolt.png",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":25,
+					"explosionSpec":{"duration":0.03f,
+									 "radius":30,
+									 "coreRadius":25, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":10.0,
+									 "particleSizeRange":5.0,
+									 "particleDuration":1.6,
+									 "particleCount":8,
+									 "particleColor":[135,110,255,225]},
+									 "sound":"istl_energy_crit"},
+					}
+					
+}

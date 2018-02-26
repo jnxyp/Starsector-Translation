@@ -1,0 +1,54 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "istl_zelenograd",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_zelenograd_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "istl_marteau_esm_pod",
+                "WS0016": "istl_marteau_esm_pod",
+                "WS0017": "istl_marteau_esm_pod",
+                "WS0018": "istl_marteau_esm_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_autohybridblaster",
+                "WS0002": "istl_autohybridblaster",
+                "WS0006": "istl_linearcannon",
+                "WS0007": "istl_linearcannon",
+                "WS0008": "istl_linearcannon",
+                "WS0009": "istl_linearcannon",
+                "WS0010": "istl_linearcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_tribeamer",
+                "WS0004": "istl_tribeamer",
+                "WS0005": "istl_tribeamer",
+                "WS0011": "istl_micropd",
+                "WS0012": "istl_micropd",
+                "WS0013": "istl_micropd",
+                "WS0014": "istl_micropd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_mystere_wing",
+        "istl_mystere_wing",
+        "istl_foil_wing"
+    ]
+}

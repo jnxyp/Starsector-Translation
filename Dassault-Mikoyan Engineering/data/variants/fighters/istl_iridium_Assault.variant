@@ -1,0 +1,25 @@
+{
+  "displayName": "Assault Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_iridium",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "istl_iridium_Assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "istl_proxbomb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_thermalpd"
+      }
+    }
+  ]
+}

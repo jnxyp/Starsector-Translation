@@ -1,0 +1,55 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 1,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "istl_stormkestrel",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_stormkestrel_command",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "istl_marteau_esm_rack",
+                "WS0004": "istl_marteau_esm_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_shellhead"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_autolaser",
+                "WS0005": "istl_erpulsebeam",
+                "WS0006": "istl_erpulsebeam",
+                "WS0007": "istl_shellback",
+                "WS0008": "istl_shellback",
+                "WS0009": "istl_autolaser_small",
+                "WS0010": "istl_autolaser_small"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "istl_impulsor",
+                "WS0012": "istl_impulsor",
+                "WS0013": "istl_impulsor",
+                "WS0014": "istl_impulsor",
+                "WS0015": "istl_impulsor",
+                "WS0016": "istl_impulsor"
+            }
+        }
+    ],
+    "wings": [
+        "istl_hellion_wing",
+        "istl_hellion_wing"
+    ]
+}

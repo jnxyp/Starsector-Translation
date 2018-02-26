@@ -1,0 +1,38 @@
+{
+	"id":"istl_mirvtorpedo",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/ISTL/missiles/istl_mirvtorpedo.png",
+	"size":[10,22],	
+	"center":[5,11],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[85,115,225,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":1.8,
+					 "particleCount":160,
+					 "particleColor":[115,145,255,255]},
+	"flameoutTime":1.8, # total time from flameout to full fadeout
+	"armingTime":0.3,
+	"noEngineGlowTime":0.4, # time spent without the engine glow being rendered
+	"fadeTime":0.4, # fadeout duration	
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":600,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"DMETorpedo",
+				    "width":4.0,
+				    "length":32.0,
+				    "angle":180.0},
+					]				    
+}

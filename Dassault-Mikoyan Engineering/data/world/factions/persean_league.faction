@@ -1,0 +1,35 @@
+{
+	"shipRoles":{
+	
+		"escortSmall":{
+	    	"istl_naja_std":5,
+		},
+		
+		"combatSmall":{
+	    	"istl_naja_std":5,
+		},
+		
+		"combatFreighterSmall":{
+			"istl_samoyed_std":5,
+			"istl_bouclier_std":3,
+		},
+		"combatFreighterMedium":{
+	    	"istl_lodestar_std":5,
+		},
+
+		"freighterSmall":{
+			"istl_puddlejumper_std":5,
+			"istl_bouclier_std":1,
+		},
+		"freighterMedium":{
+			"istl_sevastopol_std":3,
+		},
+		"freighterLarge":{
+			"istl_centaur_std":2,
+		},
+		
+		"personnelSmall":{
+			"istl_flatmouse_std":7,
+		},
+	},
+},

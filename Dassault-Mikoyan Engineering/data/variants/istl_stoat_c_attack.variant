@@ -1,0 +1,34 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "hullId": "istl_stoat_c",
+    "hullMods": [
+        "insulatedengine",
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_stoat_c_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_mirvtorpedo_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_linearcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_impaler_rapid",
+                "WS0004": "istl_impaler_rapid"
+            }
+        }
+    ]
+}

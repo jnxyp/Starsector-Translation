@@ -1,0 +1,35 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "istl_stoat",
+    "hullMods": [
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_stoat_escort",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "istl_mirvtorpedo_rack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "istl_6cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_tacbeamer",
+                "WS0004": "istl_tacbeamer"
+            }
+        }
+    ],
+    "wings": []
+}

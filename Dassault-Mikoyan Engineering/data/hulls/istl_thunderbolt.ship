@@ -1,0 +1,163 @@
+{
+  "bounds": [
+    8.5,
+    -1.5,
+    1.5,
+    -6,
+    9.5,
+    -9.5,
+    9.5,
+    -16.5,
+    -6,
+    -22,
+    -14.5,
+    -16.5,
+    -14.5,
+    -9.5,
+    -10.5,
+    -8.5,
+    -12.5,
+    -0,
+    -10.5,
+    8.5,
+    -14.5,
+    9.5,
+    -14.5,
+    16.5,
+    -6,
+    22,
+    9.5,
+    16.5,
+    9.5,
+    9.5,
+    1.5,
+    6,
+    8.5,
+    1.5
+  ],
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0003": "istl_slapper",
+    "WS0004": "istl_blinkerB_blue",
+    "WS0005": "istl_blinkerB_blue",
+    "WS0006": "istl_blinkerA_blue"
+  },
+  "center": [
+    24,
+    16
+  ],
+  "collisionRadius": 32,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 22.5,
+      "location": [
+        -16,
+        13
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 22.5,
+      "location": [
+        -16,
+        -13
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 32,
+  "hullId": "istl_thunderbolt",
+  "hullName": "Thunderbolt",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 40,
+  "spriteName": "graphics/ISTL/ships/istl_thunderbolt.png",
+  "style": "DMELowtech",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -1,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        6,
+        13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 1,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        6,
+        -13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -9,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -6,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -6,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        9,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 48
+}

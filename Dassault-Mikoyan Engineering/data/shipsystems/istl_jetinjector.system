@@ -1,0 +1,30 @@
+{
+	"id":"istl_jetinjector",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.SkipjetInjectorStats",
+	
+	"engineGlowColor":[145,175,255,255],
+	"engineGlowContrailColor":[75,105,155,25],
+	"engineGlowLengthMult":2.4,
+	"engineGlowWidthMult":0.8,
+	"engineGlowGlowMult":1.8,
+	
+	"flameoutOnImpactChance":0.3,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"istl_jetinjector_activate",
+	"loopSound":"istl_jetinjector_loop",
+	"deactivateSound":"istl_jetinjector_deactivate",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		"activeSpeedIncrease":150,
+		"burstMovementPotential":50,
+		"averageSpeedIncrease":150,
+	}
+}

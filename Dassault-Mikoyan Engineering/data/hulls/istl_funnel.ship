@@ -1,0 +1,78 @@
+{
+  "bounds": [
+    0.5,
+    -4.5,
+    -5.5,
+    -2,
+    -5.5,
+    2,
+    0.5,
+    4.5,
+    12.5,
+    -0
+  ],
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_tacbeamerftr",
+    "WS0002": "istl_blinkerC_green"
+  },
+  "center": [
+    6,
+    7.5
+  ],
+  "collisionRadius": 15,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 12.5,
+      "location": [
+        -5.5,
+        -0
+      ],
+      "style": "DMEFlare",
+      "width": 4
+    }
+  ],
+  "height": 22,
+  "hullId": "istl_funnel",
+  "hullName": "Foil Attack Bit",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    3.5,
+    0
+  ],
+  "shieldRadius": 13.5,
+  "spriteName": "graphics/ISTL/ships/drones/istl_funnel.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        6.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 12
+}

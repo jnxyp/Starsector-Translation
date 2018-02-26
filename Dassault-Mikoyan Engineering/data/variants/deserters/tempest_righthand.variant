@@ -1,0 +1,32 @@
+{
+    "displayName": "Right Hand",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "tempest",
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "tempest_righthand",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "harpoon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "istl_tribeamer"}
+        }
+    ],
+    "wings": []
+}

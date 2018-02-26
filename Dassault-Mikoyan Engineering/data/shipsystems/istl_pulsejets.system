@@ -1,0 +1,27 @@
+{
+	"id":"istl_pulsejets",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.PulsedSkipjetsStats",
+	
+	"engineGlowColor":[145,175,255,255],
+	"engineGlowContrailColor":[75,105,155,25],
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":0.8,
+	"engineGlowGlowMult":1.5,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"istl_pulsejets",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":300,
+		"averageSpeedIncrease":35,
+	}
+}

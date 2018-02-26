@@ -1,0 +1,39 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 1,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "istl_wanderer",
+    "hullMods": ["blast_doors"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "istl_wanderer_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_gravmissiletube",
+                "WS0003": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_12cmrailgun",
+                "WS0004": "istl_ionbeamer",
+                "WS0005": "istl_ionbeamer",
+                "WS0006": "istl_linearcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "istl_pdlaser",
+                "WS0008": "istl_pdlaser"
+            }
+        }
+    ]
+}

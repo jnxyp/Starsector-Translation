@@ -1,0 +1,23 @@
+{
+	"baseHullId":"istl_tunguska",
+	"skinHullId":"istl_tunguska_6e",
+	"hullName":"Tunguska (6B)",
+	"descriptionId":"istl_tunguska",
+	"descriptionPrefix":"Heavily-upgraded and stylishly marked, this ship is employed by the fearsome, shadowy Sixth Bureau to hunt down the enemies of the Dassault-Mikoyan corporation.",
+    "fleetPoints":11,
+    "ordnancePoints":109,
+    "baseValueMult":1.5,
+	"spriteName":"graphics/ISTL/ships/6e/istl_tunguska_6e.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS0002":{
+      		"type": "HYBRID",
+    	},
+    },
+	"builtInMods":["istl_6eme_upgr"],
+	"builtInWeapons":{
+    },
+}

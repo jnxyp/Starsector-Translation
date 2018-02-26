@@ -1,0 +1,18 @@
+{
+  "displayName": "Interceptor",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "istl_lycosid",
+  "hullMods": [],
+  "quality": 0,
+  "variantId": "istl_lycosid_Int",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "istl_plasvulcan"
+      }
+    }
+  ]
+}

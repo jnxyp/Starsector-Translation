@@ -1,0 +1,234 @@
+{
+  "bounds": [
+    18.5,
+    -3.5,
+    9,
+    -4.5,
+    4.5,
+    -10.5,
+    -8,
+    -14,
+    -7,
+    -9,
+    -13.5,
+    -8.5,
+    -13.5,
+    -3.5,
+    -18.5,
+    -0,
+    -13.5,
+    3.5,
+    -13.5,
+    8.5,
+    -7,
+    9,
+    -8,
+    14,
+    4.5,
+    10.5,
+    9,
+    4.5,
+    18.5,
+    3.5,
+    22.5,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_ammftr",
+    "WS0002": "istl_ammftr",
+    "WS0003": "istl_magdisruptor",
+    "WS0004": "istl_multipdnode",
+    "WS0005": "istl_blinkerA_blue",
+    "WS0006": "istl_blinkerA_blue",
+    "WS0007": "istl_blinkerB_blue",
+    "WS0008": "istl_blinkerB_blue",
+    "WS0009": "istl_blinkerA_blue",
+    "WS0010": "istl_blinkerB_blue"
+  },
+  "center": [
+    16,
+    20
+  ],
+  "collisionRadius": 24,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 24,
+      "location": [
+        -13,
+        6
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 24,
+      "location": [
+        -13,
+        -6
+      ],
+      "style": "DMEFlare",
+      "width": 7
+    },
+    {
+      "angle": 157.5,
+      "contrailSize": 128,
+      "length": 13.5,
+      "location": [
+        -10,
+        10.5
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    },
+    {
+      "angle": -157.5,
+      "contrailSize": 128,
+      "length": 13.5,
+      "location": [
+        -10,
+        -10.5
+      ],
+      "style": "DMEFlare",
+      "width": 3
+    }
+  ],
+  "height": 44,
+  "hullId": "istl_harridan",
+  "hullName": "Harridan",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/ISTL/ships/istl_harridan.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 60,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        2,
+        8
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -60,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        2,
+        -8
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 150,
+      "id": "WS0003",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -1,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -1,
+        -12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 135,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -8,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -135,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -8,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -19,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        23,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 32
+}

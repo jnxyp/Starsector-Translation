@@ -1,0 +1,54 @@
+{
+    "displayName": "Improved",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "odyssey",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "odyssey_improved",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "istl_hellhoundlauncher",
+                "WS 006": "istl_hellhoundlauncher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "istl_autohybridblaster",
+                "WS 003": "istl_autohybridblaster",
+                "WS 008": "istl_magpulser",
+                "WS 011": "istl_magpulser",
+                "WS 012": "istl_magpulser",
+                "WS 013": "istl_magpulser",
+                "WS 015": "istl_magpulser",
+                "WS 016": "istl_magpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "istl_gravmissilelauncher"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "istl_tribeamer",
+                "WS 007": "istl_pdlaser",
+                "WS 009": "istl_pdlaser",
+                "WS 010": "istl_pdlaser",
+                "WS 014": "istl_pdlaser",
+                "WS 017": "istl_pdlaser",
+                "WS 018": "istl_pdlaser"
+            }
+        }
+    ],
+    "wings": ["istl_damselfly_wing"]
+}

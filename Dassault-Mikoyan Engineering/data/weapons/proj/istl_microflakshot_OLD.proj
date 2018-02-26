@@ -1,0 +1,33 @@
+{
+	"id":"istl_microflak_shot_OLD",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":21.0,
+	"hitGlowRadius":20,
+	"width":7.0,
+	"fadeTime":0.2,
+	"fringeColor":[175,175,155,75],
+	"coreColor":[255,255,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_slapper.png",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.2,
+					"range":25,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":40,
+									 "coreRadius":25, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":4.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":0.6,
+									 "particleCount":25,
+									 "particleColor":[215,215,200,225],
+									 "explosionColor":[215,150,75,125],
+									 "sound":"explosion_flak"},
+					}
+					
+}

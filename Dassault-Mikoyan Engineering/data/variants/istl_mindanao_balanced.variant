@@ -1,0 +1,41 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 12,
+    "fluxVents": 24,
+    "hullId": "istl_mindanao",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_mindanao_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "istl_gravmissiletube",
+                "WS0007": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "istl_12cmrailgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_micropd",
+                "WS0003": "istl_micropd",
+                "WS0004": "istl_micropd",
+                "WS0005": "istl_micropd"
+            }
+        }
+    ],
+    "wings": [
+        "istl_egret_wing",
+        "istl_egret_wing",
+        "istl_flare_wing",
+        "istl_dard_wing"
+    ]
+}

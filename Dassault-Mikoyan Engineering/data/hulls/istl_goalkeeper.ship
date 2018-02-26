@@ -1,0 +1,143 @@
+{
+  "bounds": [
+    13.5,
+    -6,
+    -3.5,
+    -8.5,
+    -11.5,
+    -2.5,
+    -11.5,
+    2.5,
+    -3.5,
+    8.5,
+    11.5,
+    2.5,
+    11.5,
+    -2.5
+  ],
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "istl_micropd",
+    "WS0002": "istl_linearcannonlight",
+    "WS0003": "istl_blinkerA_blue",
+    "WS0004": "istl_blinkerB_blue",
+    "WS0005": "istl_blinkerB_blue"
+  },
+  "center": [
+    16,
+    13
+  ],
+  "collisionRadius": 24,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 10,
+      "location": [
+        -12,
+        -0
+      ],
+      "style": "DMEFlare",
+      "width": 4
+    },
+    {
+      "angle": 170,
+      "contrailSize": 2,
+      "length": 7.5,
+      "location": [
+        -8,
+        5
+      ],
+      "style": "DMEFlare",
+      "width": 2
+    },
+    {
+      "angle": -170,
+      "contrailSize": 2,
+      "length": 7.5,
+      "location": [
+        -8,
+        -5
+      ],
+      "style": "DMEFlare",
+      "width": 2
+    }
+  ],
+  "height": 29,
+  "hullId": "istl_goalkeeper",
+  "hullName": "Goalkeeper",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 22,
+  "spriteName": "graphics/ISTL/ships/drones/istl_goalkeeper.png",
+  "style": "DMEMain",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        1.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        8,
+        -5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        15.5,
+        2.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -2,
+        -9
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -2,
+        7
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 32
+}

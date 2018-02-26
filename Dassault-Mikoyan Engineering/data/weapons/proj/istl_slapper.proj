@@ -1,0 +1,38 @@
+{
+	"id":"istl_slapperSRM",
+	"specClass":"missile",
+	"onHitEffect":"data.scripts.weapons.SlapperEMPOnHit",
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/ISTL/missiles/istl_slapper.png",
+	"size":[7,10],	
+	"center":[3.5,5],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[215,215,200,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":30, # purely visual,
+	"engineSpec":{"turnAcc":1200,
+				  "turnRate":480,
+				  "acc":6400,
+				  "dec":4800},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[215,215,200,255],
+						"contrailDuration":2.0,
+						"contrailWidthMult":1.0,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[175,175,155,75],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":2.0,
+				    "length":10.0,
+				    "angle":180.0},
+				    ]
+}

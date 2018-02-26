@@ -1,0 +1,33 @@
+{
+	"id":"istl_NTKautogun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretUnderSprite":"graphics/ISTL/weapons/istl_socket_turret_sm.png",
+	"turretSprite":"graphics/ISTL/weapons/istl_NTKautogun_turret_base.png",
+	"turretGunSprite":"graphics/ISTL/weapons/istl_NTKautogun_turret_recoil.png",
+	"turretGlowSprite":"graphics/ISTL/weapons/istl_NTKautogun_turret_glow.png",
+	"hardpointUnderSprite":"graphics/ISTL/weapons/istl_socket_hardpoint_sm.png",
+	"hardpointSprite":"graphics/ISTL/weapons/istl_NTKautogun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ISTL/weapons/istl_NTKautogun_hardpoint_recoil.png",	
+	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_NTKautogun_hardpoint_glow.png",	
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[255,200,125,225],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[13, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[13, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":7.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":120.0,
+					   "particleSizeMin":2.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.07,
+					   "particleCount":24,
+					   "particleColor":[255,155,75,225]},	
+	"projectileSpecId":"istl_NTKautogun_shot",  # projectile that will be fired	
+	"fireSoundTwo":"istl_NTKautogun_fire",
+}

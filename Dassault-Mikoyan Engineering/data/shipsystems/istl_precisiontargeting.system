@@ -1,0 +1,19 @@
+{
+	"id":"istl_precision",
+	"type":"STAT_MOD",
+	"aiType":"TARGETING_FEED",
+	
+	"statsScript":"data.shipsystems.scripts.PrecisionTargetingStats",
+	
+	"useSound":"istl_system_powerup",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"istl_system_powerdown",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

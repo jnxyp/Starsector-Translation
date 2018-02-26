@@ -1,0 +1,17 @@
+{
+	"id":"istl_plasvulcan_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":70.0,
+	"width":3.0,
+	"fadeTime":0.1,
+	"fringeColor":[105,255,155,255],
+	"coreColor":[105,255,155,255],
+	"hitGlowRadius":5,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-450.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/ISTL/missiles/istl_miniblaster_bolt.png"	
+}

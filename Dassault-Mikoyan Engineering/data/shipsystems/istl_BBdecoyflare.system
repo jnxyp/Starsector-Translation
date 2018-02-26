@@ -1,0 +1,7 @@
+{
+	"id":"istl_BBdecoyflare",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"istl_BBflarelauncher",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
