@@ -1,13 +1,21 @@
-## 远行星号模组中文化
+# Starsector Mod Translation 远行星号模组中文化
 
-### 目前正在进行的项目 Now Working On
-* **达索-米高扬工程集团 Dassault-Mikoyan Engineering v.0.9.8b**
-【1 / 100 - 刚刚开坑 Just Started】
+## What is Starsector? 远行星号是啥？
 
-### 已经完成的项目 Finished
-* **开发日志翻译 Development Blog Post Translation**
-  * 蓝图系统，势力设置以及舰船订购 Blueprints, Doctrine, and Production
-  【100 / 100 完成 Completed】
+**Starsector** (formerly “Starfarer”) is an in-development open-world single-player space-combat, roleplaying, exploration, and economic game. You take the role of a space captain seeking fortune and glory however you choose.
 
-### 将要进行的项目 Planned
-（还没有）
+**超好玩**的开发中单机开放世界太空探索真实社保跑商小游戏。
+
+[>>> Click Here to Download 点此立刻社保 <<<](http://fractalsoftworks.com/)
+
+## Now Working On 目前正在进行的项目 
+* **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
+【1 / 100 - Just Started 刚刚开坑】
+
+## Finished 已经完成的项目
+* **Development Blog Post Translation 开发日志翻译**
+  * [Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购](Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md)
+  【100 / 100 Completed 完成】
+
+## Planned 将要进行的项目
+（ Not yet.. 并没有）
