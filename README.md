@@ -19,3 +19,18 @@
 
 ## Planned 将要进行的项目
 （ Not yet.. 并没有）
+
+## License 许可协议
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starsector Mod Translation 远行星号模组翻译</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
+
+您可以自由地：
+
+    - 共享 — 在任何媒介以任何形式复制、发行本作品
+	
+    - 演绎 — 修改、转换或以本作品为基础进行创作
+
+惟须遵守下列条件：
+
+    - 署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+
+    - 非商业性使用 — 您不得将本作品用于商业目的。
