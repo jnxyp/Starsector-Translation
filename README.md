@@ -6,7 +6,7 @@
 
 **超好玩**的开发中单机开放世界太空探索真实社保跑商小游戏。
 
-# [>>> PLAY NOW! 点此立刻社保！ <<<](http://fractalsoftworks.com/){:target="_blank"}
+# <a href = "http://fractalsoftworks.com/" target = "_blank">→ PLAY NOW! 点此立刻社保！←</a>
 
 ## Now Working On 目前正在进行的项目 
 * **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
