@@ -6,7 +6,7 @@
 
 ### 已经完成的项目 Finished
 * **开发日志翻译 Development Blog Post Translation**
-  * 蓝图系统，势力设置以及舰船订购 Blueprints, Doctrine, and Production
+  * 蓝图系统，势力设置以及舰船订购 Blueprints, Doctrine, and Production
   【100 / 100 完成 Completed】
 
 ### 将要进行的项目 Planned
