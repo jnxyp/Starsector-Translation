@@ -15,7 +15,7 @@
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
      - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
-  【100 / 100 Completed 完成】
+  【100 / 100 - Completed 完成】
 
 ## Planned 将要进行的项目
 （ Not yet.. 并没有）
