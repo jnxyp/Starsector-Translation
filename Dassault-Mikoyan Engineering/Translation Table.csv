@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Original,Translation 1,Trnslation 2,Translation 3,Status
 # Fractions,,,,
 Dassault-Mikoyan Engineering,´ïË÷-Ã×¸ßÑï¹¤³Ì¼¯ÍÅ,´ïË÷-Ã×¸ßÑï¹¤³Ì,,Tentative
@@ -21,3 +22,8 @@ Cruiser,Ñ²Ñó½¢,,,Confirmed
 Battleship,Õ½ÁÐ½¢,Õ½½¢,,Confirmed
 Carrier,º½¿ÕÄ¸½¢,º½Ä¸,,Confirmed
 refit time,Õû±¸Ê±¼ä,,,Confirmed
+=======
+Original,Translation 1,Trnslation 2
+Dassault-Mikoyan Engineering,è¾¾ç´¢-ç±³é«˜æ‰¬å·¥ç¨‹é›†å›¢,
+Fraction(s),åŠ¿åŠ›,
+>>>>>>> c0e4b17f5caeca7014f021bbbd4503aa4f7fa592
