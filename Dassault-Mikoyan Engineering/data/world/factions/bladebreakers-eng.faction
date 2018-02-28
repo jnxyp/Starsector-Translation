@@ -1,9 +1,9 @@
 {
 	id:"blade_breakers",
 	"displayName":"Blade Breakers",
-	"displayNameWithArticle":"破刃者 (the Breakers)",
-	"displayNameLong":"破刃者 (Blade Breakers)",
-	"displayNameLongWithArticle":"破刃者 (the Blade Breakers)",
+	"displayNameWithArticle":"the Breakers",
+	"displayNameLong":"Blade Breakers",
+	"displayNameLongWithArticle":"the Blade Breakers",
 	"entityNamePrefix":"",
 	"personNamePrefix":"",
 	"personNamePrefixAOrAn":"a",

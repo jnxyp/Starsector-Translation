@@ -1,23 +1,35 @@
 Original,Translation 1,Trnslation 2,Translation 3,Status
+æ³¨æ„ï¼šæ‰€æœ‰ç‰¹æ®Šè¯æ±‡åå¿…é¡»ç”¨è‹±æ–‡æ‹¬å·æ³¨æ˜è‹±æ–‡åŸæ–‡,,,,
 # Fractions,,,,
-Dassault-Mikoyan Engineering,´ïË÷-Ã×¸ßÑï¹¤³Ì¼¯ÍÅ,´ïË÷-Ã×¸ßÑï¹¤³Ì,,Tentative
-Dassault-Mikoyan governing board,´ïË÷-Ã×¸ßÑï¶­ÊÂ»á,´ïË÷-Ã×¸ßÑïÍ³ÖÎÎ¯Ô±»á,,Tentative
-Sixth Bureau,µÚÁù²¿¶Ó,ÌØÇÚÁù´¦,µÚÁù¾Ö,Tentative
-United Securities,ÁªºÏ°²±£,ÁªºÏ°²È«,,Tentative
-Blade Breakers,ÆÆÈĞÕß,,,Tentative
-Nikolaev System Authority,Äá¹ÅÀ­Ò®·òĞÇÏµ¹ÜÀí¾Ö,,,Tentative
+Dassault-Mikoyan Engineering,è¾¾ç´¢-ç±³é«˜æ‰¬å·¥ç¨‹é›†å›¢,è¾¾ç´¢-ç±³é«˜æ‰¬å·¥ç¨‹,,Tentative
+Dassault-Mikoyan governing board,è¾¾ç´¢-ç±³é«˜æ‰¬è‘£äº‹ä¼š,è¾¾ç´¢-ç±³é«˜æ‰¬ç»Ÿæ²»å§”å‘˜ä¼š,,Tentative
+Sixth Bureau,ç¬¬å…­éƒ¨é˜Ÿ,ç‰¹å‹¤å…­å¤„,ç¬¬å…­å±€,Tentative
+United Securities,è”åˆå®‰ä¿,è”åˆå®‰å…¨,,Tentative
+Blade Breakers,ç ´åˆƒè€…,,,Tentative
+Nikolaev System Authority,å°¼å¤æ‹‰è€¶å¤«æ˜Ÿç³»ç®¡ç†å±€,,,Tentative
+,,,,
 # Systems,,,,
-Nikolaev ,Äá¹ÅÀ­Ò®·ò,,,Confirmed
+Nikolaev ,å°¼å¤æ‹‰è€¶å¤«,,,Confirmed
+martinique,é©¬æå°¼å…‹,,,Confirmed
+kostroma,ç§‘æ–¯ç‰¹ç½—é©¬,,,Confirmed
+besson,è´æ¾,,,Tentative
+aleph,é˜¿åˆ—å¤«,,,Tentative
+dalet,,,,
+kaf,,,,
+yod,,,,
+,,,,
+# Stations,,,,
+Peremohy Highport,èƒœåˆ©è‡ªç”±æ¸¯,,,Tentative
 ,,,,
 # Vocabularies,,,,
-Fraction,ÊÆÁ¦,,,Confirmed
-Shield,»¤¶Ü,,,Confirmed
-Thruster,ÍÆ½øÆ÷,,,Confirmed
-Gantry,ÁúÃÅ¼Ü,,,Confirmed
-Salvage,´òÀÌ,¾ÈÔ®,,Confirmed
-Frigate,»¤ÎÀ½¢,,,Confirmed
-Destroyer,ÇıÖğ½¢,,,Confirmed
-Cruiser,Ñ²Ñó½¢,,,Confirmed
-Battleship,Õ½ÁĞ½¢,Õ½½¢,,Confirmed
-Carrier,º½¿ÕÄ¸½¢,º½Ä¸,,Confirmed
-refit time,Õû±¸Ê±¼ä,,,Confirmed
+Fraction,åŠ¿åŠ›,æ´¾ç³»,,Confirmed
+Shield,æŠ¤ç›¾,,,Confirmed
+Thruster,æ¨è¿›å™¨,,,Confirmed
+Gantry,é¾™é—¨æ¶,,,Confirmed
+Salvage,æ‰“æ,æ•‘æ´,,Confirmed
+Frigate,æŠ¤å«èˆ°,,,Confirmed
+Destroyer,é©±é€èˆ°,,,Confirmed
+Cruiser,å·¡æ´‹èˆ°,,,Confirmed
+Battleship,æˆ˜åˆ—èˆ°,æˆ˜èˆ°,,Confirmed
+Carrier,èˆªç©ºæ¯èˆ°,èˆªæ¯,,Confirmed
+refit time,æ•´å¤‡æ—¶é—´,,,Confirmed
