@@ -1,9 +1,9 @@
 Original,Translation 1,Trnslation 2,Translation 3,Status
-注意：所有特殊词汇后必须用英文括号注明英文原文,,,,
+注意：所有地名和音译后必须用英文括号注明英文原文,,,,
 # Fractions,,,,
 Dassault-Mikoyan Engineering,达索-米高扬工程集团,达索-米高扬工程,,Tentative
 Dassault-Mikoyan governing board,达索-米高扬董事会,达索-米高扬统治委员会,,Tentative
-Sixth Bureau,第六部队,特勤六处,第六局,Tentative
+Sixth Bureau,第六部队,特勤六处,第六特勤局,Tentative
 United Securities,联合安保,联合安全,,Tentative
 Blade Breakers,破刃者,,,Tentative
 Nikolaev System Authority,尼古拉耶夫星系管理局,,,Tentative
@@ -18,10 +18,14 @@ dalet,,,,
 kaf,,,,
 yod,,,,
 ,,,,
-# Stations,,,,
-Peremohy Highport,胜利自由港,,,Tentative
+# Stations & Planets,,,,
+Peremohy,胜利,胜利星,,Tentative
+Peremohy Highport,胜利自由港,凯旋自由港,,Tentative
+Valjean,瓦吉安,,,Tentative
+Antilles ,安提列斯,,,Tentative
+Antilles Starport,安提列斯星港,,,Tentative
 ,,,,
-# Vocabularies,,,,
+# Common Vocabularies,,,,
 Fraction,势力,派系,,Confirmed
 Shield,护盾,,,Confirmed
 Thruster,推进器,,,Confirmed
@@ -33,3 +37,12 @@ Cruiser,巡洋舰,,,Confirmed
 Battleship,战列舰,战舰,,Confirmed
 Carrier,航空母舰,航母,,Confirmed
 refit time,整备时间,,,Confirmed
+Terraforming,地球化,,,Confirmed
+,,,,
+# Special Vocabularies,,,,
+the Collapse,大崩溃,,,Confirmed
+sporeship,孢子舰,孢子船,,Tentative
+,,,,
+,,,,
+,,,,
+,,,,

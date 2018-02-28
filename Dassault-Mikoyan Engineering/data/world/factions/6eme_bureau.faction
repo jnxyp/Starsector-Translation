@@ -1,10 +1,10 @@
 {
 	id:"6eme_bureau",
 	"color":[46,83,145,255],
-	"displayName":"第六部队 (Sixth Bureau)",
+	"displayName":"第六特勤局 (Sixth Bureau)",
 	"logo":"graphics/ISTL/factions/6eme_bureau.png",
    	"crest":"graphics/ISTL/factions/crest_6eme.png",
-	"displayNameWithArticle":"第六部队 (the Sixth Bureau)",
+	"displayNameWithArticle":"第六特勤局 (the Sixth Bureau)",
 	"shipNamePrefix":"SBS",
 	"showInIntelTab":false,
 	"shipNameSources":{
