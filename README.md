@@ -36,3 +36,9 @@
 - 非商业性使用 — 您不得将本作品用于商业目的。
 
 [Full license 完整许可协议](LICENSE.txt)
+
+## Suggestions 建议和意见
+
+Limited by my English understanding and expression, there must be many problems in my translation. Everyone is welcomed to point out my mistakes and make suggestions. Feel free to post issues and leave comments!
+
+受本人英语读写水平所限，翻译中必然会存在不少疏漏和错误，欢迎对本项目提出修改意见和建议。
