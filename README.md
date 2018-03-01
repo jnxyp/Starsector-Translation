@@ -2,7 +2,7 @@
 
 ## What is Starsector? 远行星号是啥？
 
-**Starsector** (formerly “Starfarer”) is an in-development open-world single-player space-combat, roleplaying, exploration, and economic game. You take the role of a space captain seeking fortune and glory however you choose.
+>**Starsector** (formerly “Starfarer”) is an in-development open-world single-player space-combat, roleplaying, exploration, and economic game. You take the role of a space captain seeking fortune and glory however you choose.
 
 **超好玩**的开发中单机开放世界太空探索真实社保跑商小游戏。
 
