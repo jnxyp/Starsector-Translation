@@ -22,7 +22,7 @@ yod,,,,
 Magec,麦吉克 (Magec),,,Tentative
 ,,,,
 # Stations & Planets,,,,
-Peremohy,胜利 (Peremohy),胜利星,,Tentative
+Peremohy,胜利星 (Peremohy),胜利,,Tentative
 Peremohy Highport,胜利自由港 (Peremohy Highport),凯旋自由港,,Tentative
 Valjean,瓦吉安 (Valjean),,,Tentative
 Antilles ,安提列斯 (Antilles),,,Tentative
@@ -31,6 +31,9 @@ Marie-Galante,玛丽-格兰特 (Marie-Galante),,,Tentative
 Odessa,奥德萨 (Odessa),,,Tentative
 Astalon,阿斯塔龙 (Astalon),,,Tentative
 Kazeron,卡扎隆 (Kazeron),,,Tentative
+Terran ,泰任 (Terran),泰仁,,Tentative
+Tenacity ,雪韧城 (Tenacity),韧雪城,特纳城,Tentative
+Cayenne,卡焰 (Cayenne),卡宴,,Tentative
 ,,,,
 # Common Vocabularies,,,,
 Fraction,势力,派系,,Confirmed
@@ -44,7 +47,7 @@ Cruiser,巡洋舰,,,Confirmed
 Battleship,战列舰,战舰,,Confirmed
 Carrier,航空母舰,航母,,Confirmed
 refit time,整备时间,,,Confirmed
-Terraforming,地球化,,,Confirmed
+Terraforming,地球化,地形改造,,Confirmed
 ,,,,
 # Special Vocabularies,,,,
 the Collapse,大崩溃,,,Confirmed
