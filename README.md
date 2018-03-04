@@ -10,7 +10,7 @@
 
 ## Now Working On 目前正在进行的项目 
 * **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
-【1 / 100 - Just Started 刚刚开坑】
+【2 / 100 - Translating Planets & Stations Description 正在翻空间站和行星描述】
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
