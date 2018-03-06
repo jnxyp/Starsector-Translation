@@ -34,6 +34,11 @@ Kazeron,卡扎隆 (Kazeron),,,Tentative
 Terran ,泰任 (Terran),泰仁,,Tentative
 Tenacity ,雪韧城 (Tenacity),韧雪城,特纳城,Tentative
 Cayenne,卡焰 (Cayenne),卡宴,,Tentative
+Cosette ,科赛特 (Cosette),,,
+Davout ,达沃特 (Davout),,,
+Gironde,吉伦特 (Gironde),,,
+La Reole,拉雷奥尔 (La Reole),,,
+Stendhal,斯丹达尔 (Stendhal),,,
 ,,,,
 # Common Vocabularies,,,,
 Fraction,势力,派系,,Confirmed
@@ -48,6 +53,8 @@ Battleship,战列舰,战舰,,Confirmed
 Carrier,航空母舰,航母,,Confirmed
 refit time,整备时间,,,Confirmed
 Terraforming,地球化,地形改造,,Confirmed
+Volatiles ,挥发物,气体,,
+,,,,
 ,,,,
 # Special Vocabularies,,,,
 the Collapse,大崩溃,,,Confirmed
