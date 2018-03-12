@@ -23,7 +23,7 @@
 （ Not yet.. 并没有）
 
 ## License 许可协议
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starsector Mod Translation 远行星号模组翻译</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starsector Mod Translation 远行星号模组翻译</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a> & Zhiyuan Huang 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
 
 您可以自由地：
 
