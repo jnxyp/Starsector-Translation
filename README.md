@@ -11,13 +11,13 @@
 ## Now Working On 目前正在进行的项目 
 * **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
 【2 / 100 - Translating Planets & Stations Description 正在翻空间站和行星描述】
-* <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
-【1 / 100 - Just Started 刚刚开始】
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
      - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
-  【100 / 100 - Completed 完成】
+    【100 / 100 - Completed 完成】
+     - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
+    【100 / 100 - Completed 完成】
 
 ## Planned 将要进行的项目
 （ Not yet.. 并没有）
