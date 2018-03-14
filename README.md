@@ -15,13 +15,15 @@
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
      - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
-  【100 / 100 - Completed 完成】
+    【100 / 100 - Completed 完成】
+     - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
+    【100 / 100 - Completed 完成】
 
 ## Planned 将要进行的项目
 （ Not yet.. 并没有）
 
 ## License 许可协议
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starsector Mod Translation 远行星号模组翻译</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starsector Mod Translation 远行星号模组翻译</span> 由 <b><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a> & Zhiyuan Huang</b> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
 
 您可以自由地：
 
