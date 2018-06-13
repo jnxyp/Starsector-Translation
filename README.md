@@ -9,8 +9,10 @@
 # <a href = "http://fractalsoftworks.com/" target = "_blank">→ PLAY NOW! 点此立刻社保！←</a>
 
 ## Now Working On 目前正在进行的项目 
-* **Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b**
+- Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b
 【2 / 100 - Translating Planets & Stations Description 正在翻空间站和行星描述】
+- **<a href="Blog Translation\20180601 - Starsector 0.9a (In-Dev) Patch Notes/20180601-chs.md">Starsector 0.9a (In-Dev) Patch Notes 远行星号0.9a（开发中）更新日志</a>**
+【80 / 100 - Working on API changes & bug fixing 正在翻译API修正和已修复bug】
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
