@@ -20,7 +20,7 @@
     【100 / 100 - Completed 完成】
      - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
     【100 / 100 - Completed 完成】
-	 **- <a href="Blog Translation/20180612 - ZPirate Bases, Raids, and Objectives/20180612-chs.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>**
+	 - **<a href="Blog Translation/20180612 - ZPirate Bases, Raids, and Objectives/20180612-chs.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>**
     【100 / 100 - Completed 完成】
 
 ## Planned 将要进行的项目
