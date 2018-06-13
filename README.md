@@ -1,4 +1,4 @@
-# Starsector Mod Translation 远行星号模组中文化
+# Starsector Translation 远行星号翻译内容
 
 ## What is Starsector? 远行星号是啥？
 
