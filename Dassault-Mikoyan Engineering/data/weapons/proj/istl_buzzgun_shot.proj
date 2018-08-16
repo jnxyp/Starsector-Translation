@@ -8,11 +8,11 @@
 	#"spawnType":"BALLISTIC",
 	#"collisionClass":"PROJECTILE_FF",
 	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"length":80.0,
+	"length":150.0,
 	"width":2.0,
 	"fadeTime":0.12,
 	"fringeColor":[225,160,75,225],
-	"coreColor":[225,160,75,180],
+	"coreColor":[225,160,75,200],
 	"textureType":"ROUGH",  # only needed for BEAM spawnType
 	"textureScrollSpeed":-48.0,
 	"pixelsPerTexel":1.0,

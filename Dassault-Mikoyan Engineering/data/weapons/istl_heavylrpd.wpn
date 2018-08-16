@@ -23,5 +23,5 @@
 	"pixelsPerTexel":3.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
 	"fireSoundOne":"istl_medpulsedbeam_fire",
-	"fireSoundTwo":"istl_defbeamer_loop",
+	"fireSoundTwo":"istl_medbeamer_loop",
 }

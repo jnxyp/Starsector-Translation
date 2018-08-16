@@ -27,11 +27,11 @@ public class LinearMGSparks implements OnHitEffectPlugin
     // color of spawned particles
     private static final Color PARTICLE_COLOR = new Color(155,225,255,255);
     // size of spawned particles (possibly in pixels?)
-    private static final float PARTICLE_SIZE = 5f;
+    private static final float PARTICLE_SIZE = 2f;
     // brightness of spawned particles (i have no idea what this ranges from)
     private static final float PARTICLE_BRIGHTNESS = 255f;
     // how long the particles last (i'm assuming this is in seconds)
-    private static final float PARTICLE_DURATION = 0.75f;
+    private static final float PARTICLE_DURATION = 0.6f;
     private static final int PARTICLE_COUNT = 1;
 
     // -- particle geometry --------------------------------------------------

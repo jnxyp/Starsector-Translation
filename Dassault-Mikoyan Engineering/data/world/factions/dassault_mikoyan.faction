@@ -1,10 +1,10 @@
 {
 	id:"dassault_mikoyan",
 	"color":[46,83,145,255],
-	"displayName":"达索-米高扬 (Dassault-Mikoyan)",
-	"displayNameWithArticle":"达索-米高扬 (Dassault-Mikoyan)",
-	"displayNameLong":"达索-米高扬工程集团 (Dassault-Mikoyan Engineering)",
-	"displayNameLongWithArticle":"达索-米高扬工程集团 (the Dassault-Mikoyan Corporation)",
+	"displayName":"Dassault-Mikoyan",
+	"displayNameWithArticle":"Dassault-Mikoyan",
+	"displayNameLong":"Dassault-Mikoyan Engineering",
+	"displayNameLongWithArticle":"the Dassault-Mikoyan Corporation",
 	"logo":"graphics/ISTL/factions/dassault_mikoyan.png",
    	"crest":"graphics/ISTL/factions/crest_dme.png",   
 	"shipNamePrefix":"DMS",
@@ -140,16 +140,15 @@
 			"istl_stoat_std":12,
 			"istl_vesper_std":9,
 			"istl_stoat_support":10,
-			"istl_naja_std":6,
+			"istl_naja_std":3,
 			"istl_samoyed_std":6,
 			"istl_vesper_assault":6,
 			"istl_vesper_overdriven":9,
 			"istl_vesper_elite":4,
 			"istl_samoyed_elite":4,
-			"istl_borzoi_assault":4,
-			"istl_borzoi_overdriven":3,
-			"istl_borzoi_elite":3,
-			"istl_borzoi_beam":2,
+			"istl_borzoi_assault":2,
+			"istl_borzoi_elite":2,
+			"istl_borzoi_beam":1,
 			"fallback":{"combatSmall":1},
 		},
 	
@@ -160,7 +159,7 @@
 			"istl_vesper_support":8,
 			"istl_vesper_assault":6,
 			"istl_samoyed_elite":5,
-			"istl_borzoi_support":4,
+			"istl_borzoi_support":2,
 			"fallback":{"combatSmall":1},
 		},
 		"escortMedium":{
@@ -172,18 +171,18 @@
 		},
 		
 		"combatSmall":{
-			"istl_naja_std":6,
+			"istl_naja_std":4,
 			"istl_stoat_std":10,
 			"istl_stoat_escort":8,
 			"istl_stoat_support":5,
-			"istl_borzoi_assault":5,
-			"istl_naja_elite":4,
-			"istl_borzoi_elite":5,
-			"istl_borzoi_beam":3,
+			"istl_naja_elite":2,
+			"istl_borzoi_assault":2,
+			"istl_borzoi_elite":2,
 			"istl_vesper_std":12,
 			"istl_vesper_support":8,
 			"istl_vesper_assault":6,
 			"istl_vesper_patrol":4,
+			"istl_vesper_6e_elite":3,
 			"fallback":{"escortSmall":1},
 		},
 		"combatMedium":{
@@ -193,12 +192,14 @@
 			"istl_tunguska_std":12,
 			"istl_tunguska_assault":6,
 			"istl_tunguska_fsup":6,
+			"istl_tunguska_6e_elite":2,
 			"fallback":{"combatSmall":2},
 		},
 		"combatLarge":{
 			"istl_kormoran_std":15,
 			"istl_kormoran_command":12,
 			"istl_kormoran_pbeam":6,
+			"istl_kormoran_6e_elite":1,
 			"istl_baikal_std":12,
 			"istl_baikal_cqb":8,
 			"istl_baikal_brone_elite":2,
@@ -215,8 +216,8 @@
 		
 		# hybrid ships with good combat and cargo capacity
 		"combatFreighterSmall":{
-			"istl_borzoi_std":4,
-			"istl_bouclier_std":14,
+			"istl_bouclier_std":16,
+			"wayfarer_Standard":12,
 			"istl_starsylph_std":2,
 			"fallback":{"freighterSmall":1},
 		},
@@ -233,7 +234,7 @@
 			"istl_centaur_balanced":10,
 			"istl_centaur_elite":8,
 			"istl_centaur_support":5,
-			"istl_baikal_support":3,
+			"istl_baikal_support":2,
 			"istl_tereshkova_tech":4,
 			"istl_tereshkova_support":2,
 			"fallback":{"combatFreighterMedium":2},
@@ -253,17 +254,19 @@
 		# carriers
 		"carrierSmall":{
 			"istl_leyte_std":12,
+			"istl_leyte_patrol":6,
 			"istl_leyte_balanced":4,
 			"fallback":{"carrierMedium":0.5},
 		},
 		"carrierMedium":{
-			"istl_leyte_patrol":6,
 			"istl_mindanao_std":12,
-			"istl_mindanao_support":9,
+			"istl_mindanao_patrol":8,
+			"istl_mindanao_support":8,
+			"istl_mindanao_balanced":8,
 			"fallback":{"carrierSmall":2},
 		},
 		"carrierLarge":{
-			"istl_jeannedarc_std":12,
+			"istl_jeannedarc_std":8,
 			"istl_jeannedarc_attack":4,
 			"fallback":{"carrierMedium":2},
 		},
@@ -358,13 +361,13 @@
 		"combatFreighterProbability":0.25,
 			
 		# tend toward larger ships
-		"minPointsForCombatCapital":25,
-		"minPointsForLargeCarrier":15,
+		"minPointsForCombatCapital":30,
+		"minPointsForLargeCarrier":20,
 		
 		# increased preference for carriers
 		"smallCarrierProbability":0.5,
-		"mediumCarrierProbability":0.7,
-		"largeCarrierProbability":0.3,
+		"mediumCarrierProbability":0.9,
+		"largeCarrierProbability":0.2,
 			
 		# officers ; DME is somewhat elite
 		"officersPerPoint":0.45,

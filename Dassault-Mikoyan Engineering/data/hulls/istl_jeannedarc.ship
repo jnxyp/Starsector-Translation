@@ -202,8 +202,7 @@
     5.5
   ],
   "builtInMods": [
-    "istl_monobloc",
-    "advancedcore"
+    "istl_monobloc"
   ],
   "builtInWeapons": {
     "WS0023": "istl_gravmissiletube",
@@ -432,7 +431,7 @@
         -0
       ],
       "mount": "HARDPOINT",
-      "size": "MEDIUM",
+      "size": "LARGE",
       "type": "MISSILE"
     },
     {

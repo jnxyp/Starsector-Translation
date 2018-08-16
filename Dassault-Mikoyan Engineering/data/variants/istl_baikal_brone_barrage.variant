@@ -1,0 +1,58 @@
+{
+    "displayName": "Barrage",
+    "fluxCapacitors": 1,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "istl_baikal_brone",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "istl_baikal_brone_barrage",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0008": "istl_mirvtorpedo_barrage"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "istl_clusterlauncher",
+                "WS0009": "istl_gravmissiletube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "istl_20cmrailgun",
+                "WS0004": "istl_tacbeamer",
+                "WS0005": "istl_tacbeamer",
+                "WS0007": "istl_microflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "istl_linearflak",
+                "WS0006": "istl_micropd"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "istl_bronev_plate_bow_std",
+                "WS0021": "istl_bronev_plate_left_std",
+                "WS0030": "istl_bronev_plate_right_std",
+                "WS0031": "istl_bronev_plate_lrear_std",
+                "WS0032": "istl_bronev_plate_rrear_std"
+            }
+        }
+    ]
+}

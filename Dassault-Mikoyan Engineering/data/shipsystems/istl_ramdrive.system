@@ -5,20 +5,20 @@
 	
 	"statsScript":"data.shipsystems.scripts.istl_RamDriveStats",
 	
-	"engineGlowColor":[145,175,255,255],
-	"engineGlowContrailColor":[75,105,155,25],
+	"engineGlowColor":[255,90,75,255],
+	"engineGlowContrailColor":[155,45,35,25],
 	"engineGlowLengthMult":1.8,
-	"engineGlowWidthMult":0.8,
-	"engineGlowGlowMult":1.5,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.8,
 	
-	"flameoutOnImpactChance":0.5,
+	"flameoutOnImpactChance":0,
 
 	"clampTurnRateAfter":true,
 	"clampMaxSpeedAfter":true,
 	"alwaysAccelerate":true,
 
-	"useSound":"istl_jetinjector_activate",
-	"loopSound":"istl_jetinjector_loop",
+	"useSound":"istl_ramdrive_activate",
+	"loopSound":"istl_ramdrive_loop",
 	"deactivateSound":"istl_jetinjector_deactivate",
 	"outOfUsesSound":"istl_system_unavailable",
 	

@@ -5,7 +5,7 @@
     "hullId": "istl_vesper",
     "hullMods": ["safetyoverrides"],
     "permaMods": [],
-    "quality": 0,
+    "quality": 0.25,
     "variantId": "istl_vesper_overdriven",
     "weaponGroups": [
         {

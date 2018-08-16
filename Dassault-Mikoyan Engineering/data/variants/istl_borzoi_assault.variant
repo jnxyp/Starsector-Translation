@@ -1,25 +1,41 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 3,
+    "fluxCapacitors": 6,
     "fluxVents": 10,
     "hullId": "istl_borzoi",
     "hullMods": [
-        "frontshield",
-        "advancedshieldemitter"
+        "fluxbreakers",
+        "magazines",
+        "targetingunit"
     ],
     "permaMods": [],
     "quality": 0.5,
     "variantId": "istl_borzoi_assault",
     "weaponGroups": [
         {
-            "autofire": true,
+            "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0001": "istl_ripper"}
+            "weapons": {
+                "WS0010": "istl_AMMblistertube",
+                "WS0011": "istl_AMMblistertube"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0002": "istl_twinbuzzgun"}
+            "weapons": {
+                "WS0001": "istl_linearcannonlight",
+                "WS0002": "istl_NTKautogun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "istl_multipdnode",
+                "WS0012": "istl_multipdnode",
+                "WS0013": "istl_multipdnode"
+            }
         }
     ]
 }

@@ -58,7 +58,7 @@ public class ISTLGen implements SectorGeneratorPlugin
         //FactionAPI thi = sector.getFaction("tiandong");
 
 
-        dassault.setRelationship(hegemony.getId(), RepLevel.INHOSPITABLE);
+        dassault.setRelationship(hegemony.getId(), RepLevel.WELCOMING);
         dassault.setRelationship(tritachyon.getId(), RepLevel.INHOSPITABLE);
         dassault.setRelationship(pirates.getId(), RepLevel.VENGEFUL);
         dassault.setRelationship(independent.getId(), RepLevel.FAVORABLE);
@@ -66,7 +66,7 @@ public class ISTLGen implements SectorGeneratorPlugin
         dassault.setRelationship(church.getId(), RepLevel.HOSTILE);
         dassault.setRelationship(path.getId(), RepLevel.VENGEFUL);
         dassault.setRelationship(diktat.getId(), RepLevel.HOSTILE);
-        dassault.setRelationship(league.getId(), RepLevel.WELCOMING);
+        dassault.setRelationship(league.getId(), RepLevel.INHOSPITABLE);
         dassault.setRelationship(remnants.getId(), RepLevel.HOSTILE);
         
         dassault.setRelationship("blade_breakers", RepLevel.HOSTILE);

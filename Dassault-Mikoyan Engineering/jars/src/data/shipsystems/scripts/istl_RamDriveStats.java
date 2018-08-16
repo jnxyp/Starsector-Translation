@@ -19,29 +19,29 @@ public class istl_RamDriveStats extends BaseShipSystemScript
     private static final float PARTICLE_BASE_SIZE = 3f;
     // -- Base duration of particles -----------------------------------------
     // This increases slightly as the effect level spools up.
-    private static final float PARTICLE_BASE_DURATION = 0.4f;
+    private static final float PARTICLE_BASE_DURATION = 0.9f;
     // -- Base chance to spawn particles this frame --------------------------
     // This chance is checked per engine every frame. It's modified based on
     // the skipjet system's current effect level.
-    private static final float PARTICLE_BASE_CHANCE = 0.4f;
+    private static final float PARTICLE_BASE_CHANCE = 1.0f;
     // -- Base brightness of particles -----------------------------------------
     // This increases slightly as the effect level spools up.
-    private static final float PARTICLE_BASE_BRIGHTNESS = 1.0f;
+    private static final float PARTICLE_BASE_BRIGHTNESS = 9.0f;
     // -- Multiplier for particle velocity -----------------------------------
     // The particle velocity is based on the ship's current velocity,
     // multiplied by this value.
-    private static final float PARTICLE_VELOCITY_MULT = 0.01f;
+    private static final float PARTICLE_VELOCITY_MULT = 0.4f;
 
     // -- Maximum angle from the engine vector for particle velocity ----------
     // Particles will be spawned with velocity vectors up to this many degrees
     // from either side of the engine's vector.
-    private static final float CONE_ANGLE = 45f;
+    private static final float CONE_ANGLE = 50f;
     // -- Color of skipjets when fully spooled up ----------------------------
     // This should be the color that the skipjet system fades the engines
     // toward.
     // Particle color fades from the engine's base color to this as the effect
     // level increases.
-    private static final Color COLOR_FULL = new Color(145, 175, 255, 255);
+    private static final Color COLOR_FULL = new Color(255, 90, 75, 255);
 
     // an instance of SkipjetParticleFX customized for this system
     private static final SkipjetParticleFX myParticleFX = new SkipjetParticleFX(

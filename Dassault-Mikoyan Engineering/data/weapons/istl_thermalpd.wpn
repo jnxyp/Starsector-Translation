@@ -20,9 +20,9 @@
 	"animationType":"GLOW_AND_FLASH",
 	"muzzleFlashSpec":{"length":11.0,   # only used if animationType = MUZZLE_FLASH
 					   "spread":2.0,
-					   "particleSizeMin":11.0,
+					   "particleSizeMin":17.0,
 					   "particleSizeRange":15.0,
-					   "particleDuration":0.1,
+					   "particleDuration":0.05,
 					   "particleCount":7,
 					   "particleColor":[255,90,75,255]},
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held

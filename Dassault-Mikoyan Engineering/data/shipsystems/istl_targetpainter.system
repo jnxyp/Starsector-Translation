@@ -1,0 +1,24 @@
+{
+	"id":"istl_targetpainter",
+	"type":"STAT_MOD",
+	#"aiType":"ENTROPY_AMPLIFIER",
+	"aiType":"TARGETING_FEED",
+	
+	"statsScript":"data.shipsystems.scripts.TargetPainterStats",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"istl_system_targetpainter_up",
+	"loopSound":"istl_system_targetpainter_loop",
+	"deactivateSound":"istl_system_targetpainter_down",
+	"outOfUsesSound":"istl_system_unavailable",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

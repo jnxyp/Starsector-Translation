@@ -1,5 +1,5 @@
 {
-	"id":"istl_linearflak_shot",
+	"id":"istl_linearflakshot",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",

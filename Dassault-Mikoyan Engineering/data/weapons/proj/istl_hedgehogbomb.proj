@@ -10,6 +10,7 @@
 	"explosionColor":[175,175,155,75],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":35, # purely visual
 	"flameoutTime":0.05, # total time from flameout to full fadeout
+	"armingTime":0.3,
 	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
 	"fadeTime":0.05, # fadeout duration		
 	"explosionSpec":{"duration":0.1f, # not visual

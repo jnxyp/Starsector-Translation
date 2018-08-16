@@ -479,7 +479,7 @@ public class Besson {
                 
                 // Procgen makes you strong.
                 float radiusAfter = StarSystemGenerator.addOrbitingEntities(system, besson_star, StarAge.AVERAGE,
-                        2, 5, // min/max entities to add
+                        3, 6, // min/max entities to add
                         21600, // radius to start adding at 
                         4, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
                         true); // whether to use custom or system-name based names

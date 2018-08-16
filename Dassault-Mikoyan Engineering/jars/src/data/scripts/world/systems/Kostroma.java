@@ -83,14 +83,14 @@ public class Kostroma {
                 kostroma_field1.setCircularOrbit(kostroma_star, 0, 0, 120);
                     
                 // Astalon, a fiercely independent Persean outpost ---------------
-                PlanetAPI astalon = system.addPlanet("istl_planet_astalon", kostroma_star, "Astalon", "toxic", 30, 75, 1400, 80);
+                PlanetAPI astalon = system.addPlanet("istl_planet_astalon", kostroma_star, "Astalon", "toxic", 30, 75, 1540, 80);
 		astalon.getSpec().setPitch(-15f);
 		astalon.getSpec().setTilt(12f);
 		astalon.applySpecChanges();
                 astalon.setInteractionImage("illustrations", "desert_moons_ruins");
                 
                 // add the marketplace to Astalon ---------------
-                MarketAPI astalonMarket = addMarketplace("persean", astalon, null,
+                MarketAPI astalonMarket = addMarketplace("independent", astalon, null,
                         "Astalon", // name of the market
                         3, // size of the market (from the JSON)
                         new ArrayList<>(
@@ -109,9 +109,9 @@ public class Kostroma {
                 astalon.setCustomDescriptionId("planet_astalon");
                 
                 // add first asteroid belt of the disk ---------------
-                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 1720, 98f);
-                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 1760, 102f);
-		system.addAsteroidBelt(kostroma_star, 120, 1740, 300, 200, 300, Terrain.ASTEROID_BELT, "Astalon Necklace");
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 1760, 98f);
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 1800, 102f);
+		system.addAsteroidBelt(kostroma_star, 120, 1780, 300, 200, 300, Terrain.ASTEROID_BELT, "Astalon Necklace");
                 
                 // Another magnetic field, just outside the inner ring.
                 SectorEntityToken kostroma_field2 = system.addTerrain(Terrain.MAGNETIC_FIELD,
@@ -206,6 +206,13 @@ public class Kostroma {
 		jumpPoint1.setCircularOrbit( system.getEntityById("kostroma"), 330, 2700, 135);
 		jumpPoint1.setRelatedPlanet(mariegalante);
 		system.addEntity(jumpPoint1);
+                
+                // Marie-Galante Relay ---------------
+                SectorEntityToken mariegalante_relay = system.addCustomEntity("marie_galante_relay", // unique id
+                        "Marie-Galante Relay", // name - if null, defaultName from custom_entities.json will be used
+                        "comm_relay", // type of object, defined in custom_entities.json
+                        "pirates"); // faction
+                mariegalante_relay.setCircularOrbitPointingDown(system.getEntityById("kostroma"), 210, 2400, 135);
                 
                 // Middle asteroid belts; should be really thick, really impenetrable ---------------
                 system.addAsteroidBelt(kostroma_star, 100, 3100, 256, 150, 250, Terrain.ASTEROID_BELT, null);
@@ -312,6 +319,17 @@ public class Kostroma {
                 debrisMeridian4.setCircularOrbit(kostroma_star, 315f, 4200, 210f);
                 debrisMeridian4.setId("kostroma_debrisMeridian4");
                 
+                //Two small pirate stations, pirate when market perf improves.
+                SectorEntityToken derelictPatrol = system.addCustomEntity("patrol_station", "Patrol Station", "station_side05", "neutral");
+                derelictPatrol.setCircularOrbitWithSpin(system.getEntityById("kostroma"), 225, 4400, 210, 9, 27);
+                derelictPatrol.setInteractionImage("illustrations", "space_wreckage");
+                derelictPatrol.setCustomDescriptionId("station_pirate1");
+                
+                SectorEntityToken derelictCustoms = system.addCustomEntity("customs_station", "Customs Port", "station_side05", "neutral");
+                derelictCustoms.setCircularOrbitWithSpin(system.getEntityById("kostroma"), 345, 4400, 210, 6, 18);
+                derelictCustoms.setInteractionImage("illustrations", "space_wreckage");
+                derelictCustoms.setCustomDescriptionId("station_pirate2");
+
                 // Meridian Station, a wretched hive of s/cum and fetishry ---------------
                 SectorEntityToken meridianStation = system.addCustomEntity("meridian_station", "Meridian Station", "station_side06", "pirates");
                 meridianStation.setCircularOrbitPointingDown(system.getEntityById("kostroma"), 105, 4400, 210);
@@ -355,6 +373,8 @@ public class Kostroma {
                     ring = system.addTerrain(Terrain.RING, new RingParams(300 + 256, 5575, null, "Kostroma Meridian Disk"));
                     ring.setCircularOrbit(kostroma_star, 0, 0, 100);
                     
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 5800, 235f);
+                    
                 // And debris fields for outer rings ---------------
                 DebrisFieldTerrainPlugin.DebrisFieldParams params5 = new DebrisFieldTerrainPlugin.DebrisFieldParams(
                     240f, // field radius - should not go above 1000 for performance reasons
@@ -382,8 +402,11 @@ public class Kostroma {
                 debrisOuter2.setCircularOrbit(kostroma_star, 15f, 5500, 240f);
                 debrisOuter2.setId("kostroma_debrisOuter2");
                 
+                //More dust!
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 5900, 240f);
+                
                 // Gironde and magnetic fields ---------------
-                PlanetAPI gironde = system.addPlanet("istl_planet_gironde", kostroma_star, "Gironde", "gas_giant", 300, 360, 7500, 240);
+                PlanetAPI gironde = system.addPlanet("istl_planet_gironde", kostroma_star, "Gironde", "gas_giant", 300, 360, 8000, 240);
 		gironde.getSpec().setPitch(35f);
 		gironde.getSpec().setPlanetColor(new Color(200,235,245,255));
 		gironde.getSpec().setAtmosphereColor(new Color(210,240,250,250));
@@ -457,8 +480,8 @@ public class Kostroma {
                                 18f, // max asteroid radius
                                 "Gironde L5 Trojans")); // null for default name
 
-                        girondeL4.setCircularOrbit(kostroma_star, 360f, 7500, 240);
-                        girondeL5.setCircularOrbit(kostroma_star, 240f, 7500, 240);
+                        girondeL4.setCircularOrbit(kostroma_star, 360f, 8000, 240);
+                        girondeL5.setCircularOrbit(kostroma_star, 240f, 8000, 240);
                 
                         // Pyla, an inner moon where nutcases death-race. ---------------
                         PlanetAPI pyla = system.addPlanet("istl_planet_pyla", gironde, "Pyla", "arid", 150, 40, 760, 60);
@@ -494,6 +517,9 @@ public class Kostroma {
 					));
 			pyla_field.setCircularOrbit(pyla, 0, 0, 100);
                         
+                        //Light dust ring.
+                        system.addRingBand(gironde, "misc", "rings_dust0", 256f, 0, Color.gray, 128f, 850, 60f);
+                        
                         // La Réole, a lovely little water moon ---------------
                         PlanetAPI lareole = system.addPlanet("istl_planet_lareole", gironde, "La Réole", "water", 40, 120, 1280, 105);
                         lareole.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "volturn"));
@@ -504,7 +530,7 @@ public class Kostroma {
                 
                         //La Réole Polis, its station ---------------
                         SectorEntityToken lareolePolis = system.addCustomEntity("kostroma_port", "La Réole Polis", "station_dme_outpost", "dassault_mikoyan");
-                        lareolePolis.setCircularOrbitPointingDown(system.getEntityById("istl_planet_lareole"), 90, 300, 75);
+                        lareolePolis.setCircularOrbitPointingDown(system.getEntityById("istl_planet_lareole"), 90, 250, 75);
                         lareolePolis.setInteractionImage("illustrations", "space_bar");
 
                         
@@ -535,12 +561,28 @@ public class Kostroma {
                 lareole.setCustomDescriptionId("planet_lareole");
                 lareolePolis.setCustomDescriptionId("station_lareole_polis");
                 
-                // Going to try adding the Sixth Bureau fleet script
+                // Adding the Sixth Bureau fleet script.
                 system.addScript(new SixthBureauFleetManager(lareoleMarket));
+                
+                //Another dust ring.
+                system.addRingBand(gironde, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 1720, 120f);
+                system.addAsteroidBelt(gironde, 120, 1720, 135, 200, 300, Terrain.ASTEROID_BELT, "Gironde Belt");
+
+
+                //A small outer moon, Chantilly.
+                PlanetAPI chantilly = system.addPlanet("istl_planet_chantilly", gironde, "Chantilly", "barren", 300, 50, 1920, 135);
+                chantilly.setCustomDescriptionId("planet_chantilly");
+
+                    //Add fixed conditions to Chantilly.
+                    Misc.initConditionMarket(chantilly);
+                            chantilly.getMarket().addCondition(Conditions.THIN_ATMOSPHERE);
+                            chantilly.getMarket().addCondition(Conditions.LOW_GRAVITY);
+                            chantilly.getMarket().addCondition(Conditions.VOLATILES_TRACE);
+                            chantilly.getMarket().getFirstCondition(Conditions.VOLATILES_TRACE).setSurveyed(true);
                 
                 // Gironde jump point in L5 ---------------
                 JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint("kostroma_outer_jump", "Gironde Bridge");
-		jumpPoint2.setCircularOrbit( system.getEntityById("kostroma"), 240, 7500, 240);
+		jumpPoint2.setCircularOrbit( system.getEntityById("kostroma"), 240, 8000, 240);
 		jumpPoint2.setRelatedPlanet(lareole);
 		system.addEntity(jumpPoint2);
                 
@@ -555,30 +597,30 @@ public class Kostroma {
                 SectorEntityToken debrisL4 = Misc.addDebrisField(system, params7, StarSystemGenerator.random);
                 debrisL4.setSensorProfile(1000f);
                 debrisL4.setDiscoverable(true);
-                debrisL4.setCircularOrbit(kostroma_star, 360f, 7500, 240f);
+                debrisL4.setCircularOrbit(kostroma_star, 360f, 8000, 240f);
                 debrisL4.setId("kostroma_debrisL4");
                 
-                // Kostroma Relay ---------------
+                // Kostroma Relay at L3 ---------------
                 SectorEntityToken kostroma_relay = system.addCustomEntity("kostroma_relay", // unique id
                         "Kostroma Relay", // name - if null, defaultName from custom_entities.json will be used
                         "comm_relay", // type of object, defined in custom_entities.json
                         "dassault_mikoyan"); // faction
-                kostroma_relay.setCircularOrbitPointingDown(system.getEntityById("kostroma"), 45, 6300, 240);
+                kostroma_relay.setCircularOrbitPointingDown(system.getEntityById("kostroma"), 120, 8000, 240);
                 
                 // Mid-outer asteroid belt ---------------
 		system.addAsteroidBelt(kostroma_star, 100, 10350, 188, 200, 300, Terrain.ASTEROID_BELT, null);
                 
-                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 3, Color.white, 256f, 10200, 220f);
-		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 10300, 260f);
-		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 10400, 300f);
-                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 3, Color.white, 256f, 10550, 340f);
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 3, Color.white, 256f, 10400, 220f);
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 10500, 260f);
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 10600, 300f);
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 3, Color.white, 256f, 10750, 340f);
 		
                     // add one ring that covers all of the above
-                    ring = system.addTerrain(Terrain.RING, new RingParams(200 + 256, 10375, null, "Kostroma's Tears"));
+                    ring = system.addTerrain(Terrain.RING, new RingParams(200 + 256, 10575, null, "Kostroma's Tears"));
                     ring.setCircularOrbit(kostroma_star, 0, 0, 120);
                     
                 // Tenacity, a Luddic tundra world ---------------
-                PlanetAPI tenacity = system.addPlanet("istl_planet_tenacity", kostroma_star, "Tenacity", "tundra", 150, 135, 11200, 300);
+                PlanetAPI tenacity = system.addPlanet("istl_planet_tenacity", kostroma_star, "Tenacity", "tundra", 150, 135, 11350, 300);
 		tenacity.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "asharu"));
 		tenacity.getSpec().setGlowColor( new Color(255,160,30,255) );
 		tenacity.getSpec().setUseReverseLightForGlow(true);
@@ -601,7 +643,7 @@ public class Kostroma {
 
                 
                 // add the marketplace to Tenacity ---------------
-                MarketAPI tenacityMarket = addMarketplace("luddic_church", tenacity, null,
+                MarketAPI tenacityMarket = addMarketplace("luddic_church", tenacity, new ArrayList<>(Arrays.asList(tenacity_mirror1, tenacity_mirror2, tenacity_mirror3)),
                         "Tenacity", // name of the market
                         5, // size of the market (from the JSON)
                         new ArrayList<>(
@@ -622,6 +664,15 @@ public class Kostroma {
 
                 tenacity.setCustomDescriptionId("planet_tenacity");
                 
+                //More dust.
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 11800, 360f);
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 12000, 360f);
+		system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 12200, 360f);
+                
+                    // Add a ring to cover the above.
+                    ring = system.addTerrain(Terrain.RING, new RingParams(200 + 256, 12000, null, "Kostroma's Tears"));
+                    ring.setCircularOrbit(kostroma_star, 0, 0, 360);
+                
                 // Kostroma Gate ---------------
                 SectorEntityToken gate = system.addCustomEntity("kostroma_gate", // unique id
 				 "Kostroma Gate", // name - if null, defaultName from custom_entities.json will be used
@@ -629,6 +680,41 @@ public class Kostroma {
 				 null); // faction
 
                     gate.setCircularOrbit(system.getEntityById("kostroma"), 180+60, 12800, 400);
+                
+                //Yet more dust.
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 13000, 390f);
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 13200, 420f);
+                system.addRingBand(kostroma_star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 13400, 400f);
+                    
+                ring = system.addTerrain(Terrain.RING, new RingParams(200 + 256, 13200, null, "Kostroma Fringe Belt"));
+                    ring.setCircularOrbit(kostroma_star, 0, 0, 400);
+                    
+                //Some salvage.
+                DebrisFieldTerrainPlugin.DebrisFieldParams params8 = new DebrisFieldTerrainPlugin.DebrisFieldParams(
+                    360f, // field radius - should not go above 1000 for performance reasons
+                    1.2f, // density, visual - affects number of debris pieces
+                    10000000f, // duration in days 
+                    0f); // days the field will keep generating glowing pieces
+                params8.source = DebrisFieldTerrainPlugin.DebrisFieldSource.MIXED;
+                params8.baseSalvageXP = 500; // base XP for scavenging in field
+                SectorEntityToken debrisOuter3 = Misc.addDebrisField(system, params8, StarSystemGenerator.random);
+                debrisOuter3.setSensorProfile(1000f);
+                debrisOuter3.setDiscoverable(true);
+                debrisOuter3.setCircularOrbit(kostroma_star, 360*(float)Math.random(), 13200, 400f);
+                debrisOuter3.setId("kostroma_debrisOuter3");
+                
+                DebrisFieldTerrainPlugin.DebrisFieldParams params9 = new DebrisFieldTerrainPlugin.DebrisFieldParams(
+                    450f, // field radius - should not go above 1000 for performance reasons
+                    1.5f, // density, visual - affects number of debris pieces
+                    10000000f, // duration in days 
+                    0f); // days the field will keep generating glowing pieces
+                params9.source = DebrisFieldTerrainPlugin.DebrisFieldSource.MIXED;
+                params9.baseSalvageXP = 500; // base XP for scavenging in field
+                SectorEntityToken debrisOuter4 = Misc.addDebrisField(system, params9, StarSystemGenerator.random);
+                debrisOuter4.setSensorProfile(1000f);
+                debrisOuter4.setDiscoverable(true);
+                debrisOuter4.setCircularOrbit(kostroma_star, 360*(float)Math.random(), 13200, 400f);
+                debrisOuter4.setId("kostroma_debrisOuter4");
                 
                 // Davout, a frozen shithole ---------------
                 PlanetAPI davout = system.addPlanet("istl_planet_davout", kostroma_star, "Davout", "frozen", 180, 90, 14000, 360);
@@ -662,7 +748,7 @@ public class Kostroma {
 		BaseSalvageSpecial.setExtraSalvage(extraStationSalvage, stationDerelict.getMemoryWithoutUpdate(), -1);
                 
                 float radiusAfter = StarSystemGenerator.addOrbitingEntities(system, kostroma_star, StarAge.AVERAGE,
-				1, 2, // min/max entities to add
+				1, 3, // min/max entities to add
 				16000, // radius to start adding at 
 				6, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
 				true); // whether to use custom or system-name based names

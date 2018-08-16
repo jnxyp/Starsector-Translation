@@ -6,7 +6,7 @@
     "hullId": "istl_samoyed",
     "hullMods": ["targetingunit"],
     "permaMods": [],
-    "quality": 0.5,
+    "quality": 0.75,
     "variantId": "istl_samoyed_elite",
     "weaponGroups": [
         {

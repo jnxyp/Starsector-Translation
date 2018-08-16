@@ -2,6 +2,8 @@
 	"plugins":{
 		"DMEBlockedHullmodDisplayScript":"data.hullmods.DMEBlockedHullmodDisplayScript",
 		"DME_LightInjector":"data.scripts.plugins.istl_lightInjector",
+		"DME_ShotgunBehavior":"data.scripts.plugins.istl_ShotgunSpecialBehavior",
+
 	},
 	"graphics":{
 		"campaignEntities":{

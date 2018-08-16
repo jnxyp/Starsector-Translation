@@ -54,7 +54,8 @@
     0
   ],
   "builtInMods": [
-    "istl_reactionfurnace"
+    "istl_reactionfurnace",
+    "delicate"
   ],
   "builtInWeapons": {
     "WS0002": "istl_multipdnode",

@@ -62,7 +62,7 @@ public class OmniEMPOnHit implements OnHitEffectPlugin
     // multiplied by this constant.
     private static final float ARC_DAMAGE_MULT = 0.2f;
     // multiplier for weapon EMP damage dealt by arcs
-    private static final float ARC_EMP_MULT = 5.0f;
+    private static final float ARC_EMP_MULT = 10.0f;
 
     // -- arc FX -------------------------------------------------------------
     // sound effect to play when an EMP arc happens

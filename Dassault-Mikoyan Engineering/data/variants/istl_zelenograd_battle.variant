@@ -1,11 +1,11 @@
 {
     "displayName": "Battle",
-    "fluxCapacitors": 0,
-    "fluxVents": 30,
+    "fluxCapacitors": 2,
+    "fluxVents": 32,
     "hullId": "istl_zelenograd",
     "hullMods": ["targetingunit"],
     "permaMods": [],
-    "quality": 0,
+    "quality": 0.75,
     "variantId": "istl_zelenograd_battle",
     "weaponGroups": [
         {
@@ -53,7 +53,6 @@
     ],
     "wings": [
         "istl_rafale1_wing",
-        "istl_dard_wing",
         "istl_dard_wing"
     ]
 }

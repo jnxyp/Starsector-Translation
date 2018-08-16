@@ -25,6 +25,6 @@
 					   "particleDuration":0.12,
 					   "particleCount":30,
 					   "particleColor":[255,155,75,225]},
-	"projectileSpecId":"istl_linearflak_shot",  # projectile that will be fired	
+	"projectileSpecId":"istl_linearflakshot",  # projectile that will be fired	
 	"fireSoundTwo":"istl_linearflak_fire",
 }

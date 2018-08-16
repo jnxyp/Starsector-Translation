@@ -1,6 +1,6 @@
 {
     "displayName": "Support",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 2,
     "fluxVents": 24,
     "goalVariant": true,
     "hullId": "istl_mindanao",
@@ -36,7 +36,7 @@
         }
     ],
     "wings": [
-        "istl_damselfly_wing",
+        "istl_rafale2_wing",
         "istl_damselfly_wing",
         "istl_damselfly_wing",
         "istl_dard_wing"

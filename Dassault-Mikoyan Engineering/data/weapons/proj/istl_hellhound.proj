@@ -39,7 +39,7 @@
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":0f, # how far away from engine it starts
 						"contrailColor":[115,145,255,75],
-						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":4.0,
 				    "length":25.0,
@@ -59,7 +59,7 @@
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":0f, # how far away from engine it starts
 						"contrailColor":[115,145,255,75],
-						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":2.0,
 				    "length":8.0,
@@ -79,7 +79,7 @@
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":0f, # how far away from engine it starts
 						"contrailColor":[115,145,255,75],
-						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":2.0,
 				    "length":8.0,
