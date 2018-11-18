@@ -53,7 +53,7 @@ public class HybridEMPOnHit implements OnHitEffectPlugin
     // EMP arcs are randomly triggered based on the ARC_CHANCE constant
     // chance to create an EMP arc
     // this should range from 0 to 1, where 0 is "never" and 1 is "always"
-    private static final float ARC_CHANCE = 0.15f;
+    private static final float ARC_CHANCE = 0.3f;
     // EMP arc maximum range
     private static final float ARC_RANGE = 100000f;
 

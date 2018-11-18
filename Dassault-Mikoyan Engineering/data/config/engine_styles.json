@@ -22,13 +22,13 @@
 	},
 	#Missile Engines
 	"DMETorpedo":{
-		"engineColor":[255,175,125,255],
-		"contrailParticleSizeMult":6,
-		"contrailParticleDuration":2.0,
+		"engineColor":[115,145,255,255],
+		"contrailParticleSizeMult":7.5,
+		"contrailParticleDuration":1.0,
 		"contrailParticleFinalSizeMult":0.25,
-		"contrailMaxSpeedMult":0.1,
-		"contrailAngularVelocityMult":0,
-		"contrailColor":[100,100,100,155],
+		"contrailMaxSpeedMult":0.25,
+		"contrailAngularVelocityMult":0.05f,
+		"contrailColor":[115,145,255,175],
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 	"BBTorpedo":{
@@ -51,7 +51,7 @@
 		"contrailMaxSpeedMult":0.75,
 		"contrailAngularVelocityMult":0,
 		"contrailColor":[155,125,110,25],
-		"contrailCampaignColor":[175,145,120,25],
+		"contrailCampaignColor":[175,145,120,15],
 		"type":"GLOW" # GLOW or SMOKE
 	},
 	"DMEAdvFlare":{
@@ -62,7 +62,7 @@
 		"contrailMaxSpeedMult":0.5f,
 		"contrailAngularVelocityMult":0f,
 		"contrailColor":[45,75,255,25],
-		"contrailCampaignColor":[125,155,255,25],
+		"contrailCampaignColor":[125,155,255,15],
 		"type":"GLOW" # GLOW or SMOKE
 	},	
 	"DMEAdvFlare1":{
@@ -73,7 +73,7 @@
 		"contrailMaxSpeedMult":0.33,
 		"contrailAngularVelocityMult":0.33,
 		"contrailColor":[45,75,255,25],
-		"contrailCampaignColor":[95,135,255,55],
+		"contrailCampaignColor":[95,135,255,20],
 		"type":"GLOW" # GLOW or SMOKE
 	},
 	"DMEAdvFlare2":{
@@ -84,7 +84,7 @@
 		"contrailMaxSpeedMult":0.5f,
 		"contrailAngularVelocityMult":0f,
 		"contrailColor":[145,70,225,35],
-		"contrailCampaignColor":[95,75,225,35],
+		"contrailCampaignColor":[95,75,225,15],
 		"type":"GLOW" # GLOW or SMOKE
 	},	
 	"DMEPirFlare":{
@@ -95,7 +95,7 @@
 		"contrailMaxSpeedMult":0.75,
 		"contrailAngularVelocityMult":0,
 		"contrailColor":[75,50,155,25],
-		"contrailCampaignColor":[155,100,255,25],
+		"contrailCampaignColor":[155,100,255,15],
 		"type":"GLOW" # GLOW or SMOKE
 	},	
 }

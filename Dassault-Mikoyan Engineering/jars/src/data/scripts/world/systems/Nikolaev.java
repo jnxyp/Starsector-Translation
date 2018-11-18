@@ -220,7 +220,7 @@ public class Nikolaev
                 odessaBase.addTag("istl_researchBase");
         
         // Peremohy, where a loathesome Putinoid met his end.
-        PlanetAPI peremohy = system.addPlanet("istl_planet_peremohy", star, "Peremohy", "terran-eccentric", 0, 160, 4500, 100);
+        PlanetAPI peremohy = system.addPlanet("istl_planet_peremohy", star, "Peremohy", "terran-eccentric", 0, 160, 5200, 100);
         peremohy.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
         peremohy.getSpec().setGlowColor(new Color(255, 255, 255, 255));
         peremohy.getSpec().setUseReverseLightForGlow(true);
@@ -270,7 +270,7 @@ public class Nikolaev
         jumpPoint1.setOrbit(orbit);
         jumpPoint1.setRelatedPlanet(peremohy);
         jumpPoint1.setStandardWormholeToHyperspaceVisual();
-        jumpPoint1.setCircularOrbit(system.getEntityById("nikolaev"), 60, 3600, 100);
+        jumpPoint1.setCircularOrbit(system.getEntityById("nikolaev"), 60, 5200, 100);
         system.addEntity(jumpPoint1);
 
         // Add a comm relay to the system.
@@ -278,7 +278,7 @@ public class Nikolaev
                 "Nikolaev Relay", // name - if null, defaultName from custom_entities.json will be used
                 "comm_relay", // type of object, defined in custom_entities.json
                 "dassault_mikoyan"); // faction
-        nikolaev_relay.setCircularOrbitPointingDown(system.getEntityById("nikolaev"), -60, 4500, 100);
+        nikolaev_relay.setCircularOrbitPointingDown(system.getEntityById("nikolaev"), -60, 5200, 100);
 
         // And now, the outer system.
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.gray, 256f, 6280, 203f, null, null);
@@ -614,7 +614,7 @@ public class Nikolaev
         
         //procgen body in outer system.
         float radiusAfter = StarSystemGenerator.addOrbitingEntities(system, star, StarAge.AVERAGE,
-                1, 2, // min/max entities to add
+                1, 3, // min/max entities to add
                 16800, // radius to start adding at 
                 5, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
                 true); // whether to use custom or system-name based names

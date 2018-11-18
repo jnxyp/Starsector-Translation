@@ -62,7 +62,7 @@ public class AutoHybridEMPOnHit implements OnHitEffectPlugin
     // multiplied by this constant.
     private static final float ARC_DAMAGE_MULT = 0.1f;
     // multiplier for weapon EMP damage dealt by arcs
-    private static final float ARC_EMP_MULT = 4.0f;
+    private static final float ARC_EMP_MULT = 7.5f;
 
     // -- arc FX -------------------------------------------------------------
     // sound effect to play when an EMP arc happens

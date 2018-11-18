@@ -28,8 +28,7 @@
     -0
   ],
   "builtInMods": [
-    "istl_monobloc",
-    "civgrade"
+    "istl_monobloc"
   ],
   "builtInWeapons": {
     "WS0003": "istl_blinkerA_blue",

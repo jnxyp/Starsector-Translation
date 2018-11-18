@@ -10,19 +10,19 @@
 	"hardpointSprite":"graphics/ISTL/weapons/istl_omniblaster_hardpoint_base.png",
 	"hardpointGlowSprite":"graphics/ISTL/weapons/istl_omniblaster_hardpoint_glow.png",
 	"glowColor":[150,125,255,255],
-	"turretOffsets":[14, 0],
-	"turretAngleOffsets":[0],
-	"hardpointOffsets":[14, 0],
-	"hardpointAngleOffsets":[0],
-	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"turretOffsets":[8, 0, 20, 0.5, 20, -0.5],
+	"turretAngleOffsets":[0, 3, -3],
+	"hardpointOffsets":[8, 0, 20, 0.5, 20, -0.5],
+	"hardpointAngleOffsets":[0, 3, -3],
+	"barrelMode":"LINKED", # or ALTERNATING.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",
-	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":3.0,
-					   "particleSizeMin":9.0,
+	"muzzleFlashSpec":{"length":28.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":2.0,
+					   "particleSizeMin":13.0,
 					   "particleSizeRange":18.0,
 					   "particleDuration":0.2,
-					   "particleCount":36,
-					   "particleColor":[120,110,255,255]},
+					   "particleCount":15,
+					   "particleColor":[120,110,255,175]},
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"projectileSpecId":"istl_omniblaster_shot",  # projectile that will be fired
 	"fireSoundOne":"istl_energy_charge",

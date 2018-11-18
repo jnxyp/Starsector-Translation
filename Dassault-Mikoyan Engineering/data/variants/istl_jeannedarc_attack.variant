@@ -1,18 +1,18 @@
 {
     "displayName": "Attack",
-    "fluxCapacitors": 2,
-    "fluxVents": 24,
+    "fluxCapacitors": 1,
+    "fluxVents": 20,
     "goalVariant": true,
     "hullId": "istl_jeannedarc",
-    "hullMods": [],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
-    "quality": 0,
+    "quality": 0.5,
     "variantId": "istl_jeannedarc_attack",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "ALTERNATING",
-            "weapons": {"WS0008": "istl_perforatorpod"}
+            "weapons": {"WS0008": "istl_mirvtorpedo_barrage"}
         },
         {
             "autofire": true,
@@ -30,10 +30,8 @@
             "weapons": {
                 "WS0001": "istl_hellspear",
                 "WS0002": "istl_12cmrailgun",
-                "WS0003": "istl_12cmrailgun",
-                "WS0004": "istl_12cmrailgun",
-                "WS0015": "istl_linearcannonlight",
-                "WS0016": "istl_linearcannonlight",
+                "WS0003": "istl_heavylinear_autogun",
+                "WS0004": "istl_heavylinear_autogun",
                 "WS0021": "istl_6cmrailgun",
                 "WS0022": "istl_6cmrailgun"
             }
@@ -45,12 +43,14 @@
                 "WS0005": "istl_linearflak",
                 "WS0009": "istl_micropd",
                 "WS0010": "istl_micropd",
-                "WS0011": "istl_pdlaser",
-                "WS0012": "istl_pdlaser",
-                "WS0013": "istl_pdlaser",
-                "WS0014": "istl_pdlaser",
-                "WS0017": "istl_pdlaser",
-                "WS0018": "istl_pdlaser",
+                "WS0011": "istl_micropd",
+                "WS0012": "istl_micropd",
+                "WS0013": "istl_micropd",
+                "WS0014": "istl_micropd",
+                "WS0015": "istl_microflak",
+                "WS0016": "istl_microflak",
+                "WS0017": "istl_micropd",
+                "WS0018": "istl_micropd",
                 "WS0019": "istl_micropd",
                 "WS0020": "istl_micropd"
             }

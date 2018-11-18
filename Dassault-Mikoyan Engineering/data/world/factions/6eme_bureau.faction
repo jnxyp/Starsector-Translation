@@ -1,10 +1,10 @@
 {
 	id:"6eme_bureau",
 	"color":[46,83,145,255],
-	"displayName":"第六特勤局 (Sixth Bureau)",
+	"displayName":"Sixth Bureau",
 	"logo":"graphics/ISTL/factions/6eme_bureau.png",
    	"crest":"graphics/ISTL/factions/crest_6eme.png",
-	"displayNameWithArticle":"第六特勤局 (the Sixth Bureau)",
+	"displayNameWithArticle":"the Sixth Bureau",
 	"shipNamePrefix":"SBS",
 	"showInIntelTab":false,
 	"shipNameSources":{
@@ -125,6 +125,7 @@
 		"fastAttack":{
 			"istl_vesper_6e_elite":20,
 			"afflictor_patrol":10,
+			"istl_borzoi_elite":5,
 			"istl_starsylph_elite":5,
 			"fallback":{"combatSmall":1},
 		},

@@ -1,12 +1,12 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 0,
+    "fluxCapacitors": 8,
     "fluxVents": 24,
     "goalVariant": true,
     "hullId": "istl_jeannedarc",
     "hullMods": [],
     "permaMods": [],
-    "quality": 0,
+    "quality": 0.5,
     "variantId": "istl_jeannedarc_std",
     "weaponGroups": [
         {
@@ -14,14 +14,14 @@
             "mode": "LINKED",
             "weapons": {
                 "WS0006": "istl_marteau_esm_pod",
-                "WS0007": "istl_marteau_esm_pod"
+                "WS0007": "istl_marteau_esm_pod",
+                "WS0008": "istl_chasseurLRMlauncher"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0008": "istl_clusterlauncher",
                 "WS0023": "istl_gravmissiletube",
                 "WS0024": "istl_gravmissiletube"
             }
@@ -33,11 +33,7 @@
                 "WS0001": "istl_autohybridblaster",
                 "WS0002": "istl_linearcannontwin",
                 "WS0003": "istl_linearcannontwin",
-                "WS0004": "istl_linearcannontwin",
-                "WS0015": "istl_linearcannon",
-                "WS0016": "istl_linearcannon",
-                "WS0021": "istl_linearcannon",
-                "WS0022": "istl_linearcannon"
+                "WS0004": "istl_linearcannontwin"
             }
         },
         {
@@ -51,10 +47,14 @@
                 "WS0012": "istl_pdlaser",
                 "WS0013": "istl_pdlaser",
                 "WS0014": "istl_pdlaser",
+                "WS0015": "istl_linearmg",
+                "WS0016": "istl_linearmg",
                 "WS0017": "istl_pdlaser",
                 "WS0018": "istl_pdlaser",
                 "WS0019": "istl_micropd",
-                "WS0020": "istl_micropd"
+                "WS0020": "istl_micropd",
+                "WS0021": "istl_linearmg",
+                "WS0022": "istl_linearmg"
             }
         }
     ],

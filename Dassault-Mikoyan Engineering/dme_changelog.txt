@@ -1,7 +1,72 @@
+0.9.8f - Balance, minor content.
+
+Content:
+- Made Hedgehog Pod purchasable, because why not. Enjoy taking a big, explosive dump on things.
+- Added Frappeur Torpedo Launcher, a 20OP large missile.
+- Added new Frappeur launch sound, fiddled with visuals.
+
+Balance:
+- Reduced Rafale II OP cost to 20.
+- Borzoi PPT reduced to 180.
+- Monobloc Construction range threshold is now graduated 600/700/800/900 by hull class. Less brutal for capitals and cruisers. Rewrote description.
+- Zelenograd speed increased to 70 from 65.
+- Jeanne d'Arc and Baikal speed increased to 45 from 40.
+- Tunguska speed increased to 85 from 80.
+- Removed Civilian-grade hullmod on Carabao, Sevastopol Mk.1 and Puddle Jumper Mk.1.
+- Changed Goalkeeper AI type to SUPPORT.
+
+Campaign:
+- Added generous namegen list to spice up vanilla, because I can.
+- Added tips, so you can not read my advice inside the game as well as on the forum and in changelogs.
+
+0.9.8e - Content, balance adjustments. Will bork saves. Please consume space kitten mlems responsibly.
+
+Content:
+- Spirale: reduced speed, increased refit time from 10 to 12. New sprite.
+- Borzoi: total rework, now a phase ship. Built-in Tomino AMM System.
+- Added Rafale II Heavy Bomber, a 24-OP wing deploying Hedgehog cluster bombs.
+
+Balance:
+- Adjusted AMM family of weapons; AMM Blister MIRV reduced to 12 submunitions (from 16), fire interval set to 6 (from 4). Itano AMM health reduced to 35, fighter AMM reload time reduced to 0.15 from 0.2.
+- Omni Blaster now fires a tight cluster of three shots rather than a double-tap burst; should be easier to land hits with.
+- Quad Hybrid Blaster DPS reduced to 640.
+- Tweaked Perforator acceleration and top speed downwards - should hit a little less often.
+	• Damselfly: health/armor reduced to 500/90, more in line with the Khopesh. Reduced rocket volley to 7/pod. Removed flares.
+- Flak Projectors reworked as Canister Flak; now fire a spread of buckshot.
+- Autolaser family reworked as charge-based Capacitor Autolasers. More interesting this way.
+	• Aigrette: removed flares, reduced Compact Autolaser charges to 12 to match the rest of the Autolaser family.
+- Jeanne d'Arc flux dissipation/capacity reduced to 640/14000, hull points reduced to 12000, ATC removed, forward medium missile upgraded to large. Costs reduced to 55/55.
+	• Target Datalink bonus reduced to 25%, uptime/downtime increased to 15/7.5
+- Zelenograd dissipation reduced from 960 to 840, flux capacity increased to 16500. Should be a bit less of a beast.
+- Added Delicate Machinery to Snow Goose.
+- Replaced Hellrider Rafale I with Hedgehog proximity bomb version. It's a nice weird sidegrade, rather than a problem.
+- Hit a bunch of stuff with minor nerfs and a very few buffs (ammo counts, +/- 50 range, etc).
+- Changed Monobloc Construction's range penalty; instead of a flat 15% cut to ballistics, it reduces all weapon range by 50% above 600 units. Same net effect, generally cleaner implementation with fewer edge cases.
+
+Campaign:
+- Moved Yod system to avoid conflict with Metelson's Rock system.
+- Made some minor system changes, expanded a few descriptions.
+- Fixed solar mirrors orbiting Tenacity (connected to market, will now change allegiance with the planet when captured).
+- Sixth Bureau ship skins now have a small chance to show up in DME markets.
+- Tweaked faction relationships; friendly to Hegemony, cool on the League.
+
+0.9.8d - Minor balance!
+- Perforator rocket damage reduced to 150 from 240, ammo and burst counts (9 for Damselfly, 18 for Katyusha) tweaked where relevant. DPS values remain the same. Missile HP reduced to 40.
+- Jeanne d'Arc costs raised to 60/60.
+- Samoyed built-in AMMs forked from fighter AMMs (more ammo).
+
+0.9.8c - Tournament balance tweaks.
+- Reduced Hybrid Scrambler shot damage (15>10).
+- Adjusted Zelenograd deployment costs to 45/45.
+- Reduced Jeanne d'Arc flux capacity to 18000, changed system to Target Datalink.
+- Removed third fighter bay on Zelenograd, swapped system back to MIRAGE Recall.
+- Increased fire time of Med Pulsed Laser by 50% - longer burst (300>450), same total DPS.
+- Improved SFX of Raker and Ripper.
+
 0.9.8b - More little stuff, some not-so-little stuff. May break saves.
 - Cut down per-burst smart flare counts to 3 for ship, 1 for fighter versions. Mostly a visual thing, but makes fighter flares less potent.
 - Added Defense Screen, a Damper Field clone that (hopefully) fixes some of the more egregious issues with the vanilla system. Used on Zelenograd and Kobra Mk. 3.
-- Added Ram Drive system for Baikal (Brone). Slower, but allows steering, and uses charges.
+- Added Ramming Mode system for Baikal (Brone). Slower, but allows steering, and uses charges.
 - Custom sigma nebula texture for relevant systems.
 - Reduced Frappeur torpedo damage to 1350.
 - Redid Quad Hybrid Blaster a bit - now does 800 DPS in four-round bursts of 400-dmg projectiles, no more charges.

@@ -86,8 +86,7 @@
     8.5
   ],
   "builtInMods": [
-    "istl_refurbframe",
-    "civgrade"
+    "istl_refurbframe"
   ],
   "builtInWeapons": {
     "WS0001": "istl_buzzgun",

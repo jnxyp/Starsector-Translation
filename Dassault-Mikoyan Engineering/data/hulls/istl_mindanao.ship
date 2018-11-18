@@ -465,8 +465,8 @@
       "arc": 0,
       "id": "WS0012",
       "locations": [
-        26,
-        55.5
+        37,
+        60.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -477,8 +477,8 @@
       "arc": 0,
       "id": "WS0013",
       "locations": [
-        26,
-        -55.5
+        37,
+        -60.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -489,8 +489,8 @@
       "arc": 0,
       "id": "WS0014",
       "locations": [
-        4.5,
-        55.5
+        4,
+        60.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -501,8 +501,8 @@
       "arc": 0,
       "id": "WS0015",
       "locations": [
-        4.5,
-        -55.5
+        4,
+        -60.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -561,8 +561,8 @@
       "arc": 0,
       "id": "WS0020",
       "locations": [
-        -111.5,
-        13
+        -109.5,
+        12.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -573,8 +573,8 @@
       "arc": 0,
       "id": "WS0021",
       "locations": [
-        -111.5,
-        -13
+        -109.5,
+        -12.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -789,8 +789,8 @@
       "arc": 0,
       "id": "WS0039",
       "locations": [
-        15,
-        22
+        7,
+        23.5
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -801,8 +801,8 @@
       "arc": 0,
       "id": "WS0040",
       "locations": [
-        15,
-        -22
+        7,
+        -23.5
       ],
       "mount": "TURRET",
       "size": "SMALL",

@@ -1,15 +1,22 @@
 name,gender,usage,category
 Damon,m,f,unionside
+Fletcher,m,f,unionside
 Grant,m,f,unionside
-Elene,f,f,unionside
+Yanni,m,f,unionside
 Capella,f,f,unionside
+Elene,f,f,unionside
+Jane,f,f,unionside
 Signy,f,f,unionside
+Almarshad,"m, f",l,unionside
 Bok,"m, f",l,unionside
 Corain,"m, f",l,unionside
 Emory,"m, f",l,unionside
 Konstantin,"m, f",l,unionside
+Lukas,"m, f",l,unionside
 Mallory,"m, f",l,unionside
+Neihart,"m, f",l,unionside
 Nye,"m, f",l,unionside
+Strassen,"m, f",l,unionside
 ,,,
 Britten,"m, f",l,slammers
 Broglie,"m, f",l,slammers
@@ -41,6 +48,7 @@ Camille,f,f,french
 Cécile,f,f,french
 Estelle,f,f,french
 Hélène,f,f,french
+Heloise,f,f,french
 Julie,f,f,french
 Lydie,f,f,french
 Marguerite,f,f,french
@@ -52,8 +60,9 @@ Zoé,f,f,french
 ,,,
 Boulet,"m, f",l,french
 Denier,"m, f",l,french
-de Lesseps,"m, f",l,french
 du Boisrouvray,"m, f",l,french
+de Garencières,"m, f",l,french
+de Lesseps,"m, f",l,french
 Lefebvre,"m, f",l,french
 Morette,"m, f",l,french
 Perrault,"m, f",l,french
@@ -105,3 +114,4 @@ Mosolov,m,l,russian
 Navalny,"m, f",l,russian
 Pasternak,"m, f",l,russian
 Solzhenitsyn,"m, f",l,russian
+Yashin,"m, f",l,russian

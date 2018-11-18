@@ -1,0 +1,49 @@
+{
+    "displayName": "Improved",
+    "fluxCapacitors": 0,
+    "fluxVents": 24,
+    "hullId": "apogee",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.75,
+    "variantId": "apogee_improved",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "istl_omniblaster",
+                "WS 007": "istl_omniblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "istl_ruptureasm_sm",
+                "WS 009": "istl_mirvtorpedo_barrage"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "istl_basilisk"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "istl_hybridblaster",
+                "WS 002": "istl_hybridblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "istl_pdlaser",
+                "WS 004": "istl_pdlaser"
+            }
+        }
+    ]
+}

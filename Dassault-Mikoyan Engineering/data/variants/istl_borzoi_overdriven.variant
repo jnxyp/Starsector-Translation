@@ -1,7 +1,8 @@
 {
     "displayName": "Overdriven",
-    "fluxCapacitors": 0,
-    "fluxVents": 2,
+    "fluxCapacitors": 1,
+    "fluxVents": 5,
+    "goalVariant": true,
     "hullId": "istl_borzoi",
     "hullMods": ["safetyoverrides"],
     "permaMods": [],
@@ -9,14 +10,31 @@
     "variantId": "istl_borzoi_overdriven",
     "weaponGroups": [
         {
-            "autofire": true,
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0002": "istl_omniblaster"}
+        },
+        {
+            "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0001": "istl_quadlinearmg"}
+            "weapons": {
+                "WS0010": "istl_AMMblistertube",
+                "WS0011": "istl_AMMblistertube"
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0002": "istl_magpulser"}
+            "weapons": {"WS0001": "istl_linearmgdual"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "istl_multipdnode",
+                "WS0012": "istl_multipdnode",
+                "WS0013": "istl_multipdnode"
+            }
         }
     ]
 }

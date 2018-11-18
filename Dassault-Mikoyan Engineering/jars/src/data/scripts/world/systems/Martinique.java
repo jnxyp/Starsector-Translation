@@ -79,7 +79,7 @@ public class Martinique {
 			));
                 morningside_field.setCircularOrbit(morningside, 0, 0, 100);
             
-		PlanetAPI valjean = system.addPlanet("istl_planet_valjean", martinique_star, "Valjean", "istl_aridbread", 0, 120, 1920, 80);
+		PlanetAPI valjean = system.addPlanet("istl_planet_valjean", martinique_star, "Valjean", "istl_aridbread", 0, 120, 2160, 80);
 		valjean.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "asharu"));
 		valjean.getSpec().setGlowColor( new Color(255,160,30,255) );
 		valjean.getSpec().setUseReverseLightForGlow(true);
@@ -120,7 +120,7 @@ public class Martinique {
                 
 			// Valjean jump-point
 			JumpPointAPI jumpPoint1 = Global.getFactory().createJumpPoint("martinique_jump", "Pont-Martinique");
-			jumpPoint1.setCircularOrbit( system.getEntityById("martinique"), 30, 1920, 80);
+			jumpPoint1.setCircularOrbit( system.getEntityById("martinique"), 30, 2160, 80);
 			jumpPoint1.setRelatedPlanet(valjean);
 			system.addEntity(jumpPoint1);
 			
@@ -187,12 +187,12 @@ public class Martinique {
                 SectorEntityToken debrisBeta3 = Misc.addDebrisField(system, params3, StarSystemGenerator.random);
                 debrisBeta3.setSensorProfile(1000f);
                 debrisBeta3.setDiscoverable(true);
-                debrisBeta3.setCircularOrbit(martinique_star, 270f, 5400, 225f);
+                debrisBeta3.setCircularOrbit(martinique_star, 270f, 5500, 225f);
                 debrisBeta3.setId("martinique_debrisBeta3");
                 
             // Novy Mir Starforge
             SectorEntityToken indStation = system.addCustomEntity("martinique_ind", "Novy Mir Starforge", "station_dme_outpost", "dassault_mikoyan");
-            indStation.setCircularOrbitPointingDown(system.getEntityById("martinique"), 90, 4800, 225);
+            indStation.setCircularOrbitPointingDown(system.getEntityById("martinique"), 90, 4900, 225);
 
             // add the marketplace to Novy Mir Starforge ---------------
             MarketAPI novymirMarket = addMarketplace("dassault_mikoyan", indStation, null,
@@ -218,7 +218,7 @@ public class Martinique {
                 indStation.setCustomDescriptionId("novymir_starforge");
                 //indStation.setInteractionImage("illustrations", "industrial_facility");
 		
-                PlanetAPI javert = system.addPlanet("istl_planet_javert", martinique_star, "Javert", "cryovolcanic", 135, 120, 5800, 270);
+                PlanetAPI javert = system.addPlanet("istl_planet_javert", martinique_star, "Javert", "cryovolcanic", 135, 120, 6000, 270);
                 javert.setCustomDescriptionId("planet_javert");
                 
                     // Add fixed conditions to Javert.
@@ -230,9 +230,9 @@ public class Martinique {
                     javert.getMarket().addCondition(Conditions.VOLATILES_PLENTIFUL);
                     javert.getMarket().getFirstCondition(Conditions.VOLATILES_PLENTIFUL).setSurveyed(true);
                 
-		system.addAsteroidBelt(martinique_star, 90, 6360, 500, 150, 300, Terrain.ASTEROID_BELT,  "Martinique Gamma Belt");
-		system.addRingBand(martinique_star, "misc", "rings_ice0", 256f, 1, Color.white, 256f, 6300, 305f, null, null);
-		system.addRingBand(martinique_star, "misc", "rings_ice0", 256f, 3, Color.white, 256f, 6420, 285f, null, null);
+		system.addAsteroidBelt(martinique_star, 90, 6460, 500, 150, 300, Terrain.ASTEROID_BELT,  "Martinique Gamma Belt");
+		system.addRingBand(martinique_star, "misc", "rings_ice0", 256f, 1, Color.white, 256f, 6400, 305f, null, null);
+		system.addRingBand(martinique_star, "misc", "rings_ice0", 256f, 3, Color.white, 256f, 6520, 285f, null, null);
                 
                 // Salvage in Javert orbit
                 SectorEntityToken scrap1 = DerelictThemeGenerator.addSalvageEntity(system, Entities.EQUIPMENT_CACHE_SMALL, Factions.DERELICT);
@@ -252,7 +252,7 @@ public class Martinique {
                 SectorEntityToken debrisGamma1 = Misc.addDebrisField(system, params4, StarSystemGenerator.random);
                 debrisGamma1.setSensorProfile(1000f);
                 debrisGamma1.setDiscoverable(true);
-                debrisGamma1.setCircularOrbit(martinique_star, 120f, 6360, 270f);
+                debrisGamma1.setCircularOrbit(martinique_star, 120f, 6460, 270f);
                 debrisGamma1.setId("martinique_debrisGamma1");
                 
 				// Gate of Martinique
@@ -271,7 +271,7 @@ public class Martinique {
                                 
         // Antilles Starport
         SectorEntityToken pirBase = system.addCustomEntity("antilles_port", "Antilles Starport", "station_mining00", "neutral");
-        pirBase.setCircularOrbitWithSpin(system.getEntityById("martinique"), 360*(float)Math.random(), 6380, 270, 9, 27);
+        pirBase.setCircularOrbitWithSpin(system.getEntityById("martinique"), 360*(float)Math.random(), 6480, 270, 9, 27);
         pirBase.setDiscoverable(true);
         pirBase.setDiscoveryXP(2500f);
         pirBase.setSensorProfile(1.0f);

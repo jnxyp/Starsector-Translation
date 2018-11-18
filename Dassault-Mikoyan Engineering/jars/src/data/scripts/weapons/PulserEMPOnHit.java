@@ -62,7 +62,7 @@ public class PulserEMPOnHit implements OnHitEffectPlugin
     // multiplied by this constant.
     private static final float ARC_DAMAGE_MULT = 0.1f;
     // multiplier for weapon EMP damage dealt by arcs
-    private static final float ARC_EMP_MULT = 1.2f;
+    private static final float ARC_EMP_MULT = 2.5f;
 
     // -- arc FX -------------------------------------------------------------
     // sound effect to play when an EMP arc happens

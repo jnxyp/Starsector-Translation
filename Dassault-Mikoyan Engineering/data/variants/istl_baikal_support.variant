@@ -1,7 +1,8 @@
 {
     "displayName": "Support",
-    "fluxCapacitors": 1,
-    "fluxVents": 25,
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
     "hullId": "istl_baikal",
     "hullMods": ["converted_hangar"],
     "permaMods": [],
@@ -12,8 +13,8 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS0008": "istl_marteau_esm_pod",
-                "WS0009": "istl_marteau_esm_rack"
+                "WS0008": "istl_mirvtorpedo_barrage",
+                "WS0009": "istl_ruptureasm_sm"
             }
         },
         {

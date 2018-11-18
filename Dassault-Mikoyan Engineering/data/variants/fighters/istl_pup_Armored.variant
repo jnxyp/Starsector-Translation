@@ -10,7 +10,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "istl_NTKcannon"
+        "WS0001": "istl_barker"
       }
     },
     {

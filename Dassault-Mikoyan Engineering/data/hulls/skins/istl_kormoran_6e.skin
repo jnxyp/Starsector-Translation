@@ -5,7 +5,7 @@
 	"descriptionId":"istl_kormoran",
 	"descriptionPrefix":"Heavily-upgraded and stylishly marked, this ship is employed by the fearsome, shadowy Sixth Bureau to hunt down the enemies of the Dassault-Mikoyan corporation.",
     "fleetPoints":27,
-    "ordnancePoints":200,
+    "ordnancePoints":196,
     "baseValueMult":1.75,
 	"spriteName":"graphics/ISTL/ships/6e/istl_kormoran_6e.png",
 	"removeWeaponSlots":[], 		# ids

@@ -116,7 +116,7 @@ public class istl_BladeBreakerBeaconPlugin extends BaseCustomEntityPlugin {
 		boolean glowAsLayer = true;
 		if (glowAsLayer) {
 			//glow.setAngle(entity.getFacing() - 90f);
-			Color glowColor = new Color(255,200,0,255);
+			Color glowColor = new Color(75,255,175,255);
 			//Color glowColor = entity.getFaction().getBrightUIColor();
 			if (entity.getMemoryWithoutUpdate().contains(GLOW_COLOR_KEY)) {
 				glowColor = (Color) entity.getMemoryWithoutUpdate().get(GLOW_COLOR_KEY);
@@ -137,7 +137,7 @@ public class istl_BladeBreakerBeaconPlugin extends BaseCustomEntityPlugin {
 			glow.renderAtCenter(loc.x, loc.y);
 		} else {
 			glow.setAngle(entity.getFacing() - 90f);
-			glow.setColor(new Color(255,165,100));
+			glow.setColor(new Color(125,255,255));
 			float gs = w * 3;
 			glow.setSize(gs, gs);
 			glow.setAdditiveBlend();

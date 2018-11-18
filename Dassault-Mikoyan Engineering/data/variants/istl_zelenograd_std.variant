@@ -1,12 +1,12 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 0,
+    "fluxCapacitors": 2,
     "fluxVents": 45,
     "goalVariant": true,
     "hullId": "istl_zelenograd",
     "hullMods": ["targetingunit"],
     "permaMods": [],
-    "quality": 0,
+    "quality": 0.25,
     "variantId": "istl_zelenograd_std",
     "weaponGroups": [
         {
@@ -48,7 +48,6 @@
     ],
     "wings": [
         "istl_mystere_wing",
-        "istl_mystere_wing",
-        "istl_foil_wing"
+        "istl_mystere_wing"
     ]
 }

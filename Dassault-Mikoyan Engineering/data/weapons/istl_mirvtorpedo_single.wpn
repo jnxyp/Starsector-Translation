@@ -25,8 +25,8 @@
 				 "blowbackDuration":2.0,
 				 "blowbackLength":30.0,
 				 "blowbackSpread":10.0,
-				 "particleColor":[100,100,100,200]},
+				 "particleColor":[115,145,255,75]},
 	#"projectileSpecId":"istl_mirvtorpedo",
 	"projectileSpecId":"istl_mirvtorpedo_guided",
-	"fireSoundTwo":"reaper_fire",
+	"fireSoundTwo":"istl_torpedo_launch",
 }

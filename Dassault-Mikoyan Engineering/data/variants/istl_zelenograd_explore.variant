@@ -1,12 +1,12 @@
 {
     "displayName": "Exploration",
     "fluxCapacitors": 0,
-    "fluxVents": 36,
+    "fluxVents": 40,
     "goalVariant": true,
     "hullId": "istl_zelenograd",
     "hullMods": ["advancedshieldemitter"],
     "permaMods": [],
-    "quality": 0,
+    "quality": 0.5,
     "variantId": "istl_zelenograd_explore",
     "weaponGroups": [
         {
@@ -54,7 +54,6 @@
     ],
     "wings": [
         "istl_harridan_wing",
-        "istl_harridan_wing",
-        "istl_dard_wing"
+        "istl_harridan_wing"
     ]
 }

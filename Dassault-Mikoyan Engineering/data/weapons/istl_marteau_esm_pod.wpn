@@ -26,5 +26,5 @@
 				 "blowbackSpread":15.0,
 				 "particleColor":[115,145,255,75]},
 	"projectileSpecId":"istl_marteau_esm",
-	"fireSoundTwo":"istl_mirvtorpedo_launch",
+	"fireSoundTwo":"istl_jongleur_launch",
 }

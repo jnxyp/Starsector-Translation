@@ -6,7 +6,7 @@
     "hullId": "istl_centaur",
     "hullMods": ["stabilizedshieldemitter"],
     "permaMods": [],
-    "quality": 0.5,
+    "quality": 0.75,
     "variantId": "istl_centaur_elite",
     "weaponGroups": [
         {

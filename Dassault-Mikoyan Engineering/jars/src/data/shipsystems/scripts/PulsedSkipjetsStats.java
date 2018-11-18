@@ -16,17 +16,17 @@ public class PulsedSkipjetsStats extends BaseShipSystemScript
     // -- Base size for particles -------------------------------------------
     // This is modified slightly based on a random number and the current
     // effect level of the skipjet system.
-    private static final float PARTICLE_BASE_SIZE = 5f;
+    private static final float PARTICLE_BASE_SIZE = 3f;
     // -- Base duration of particles -----------------------------------------
     // This increases slightly as the effect level spools up.
-    private static final float PARTICLE_BASE_DURATION = 0.7f;
+    private static final float PARTICLE_BASE_DURATION = 0.9f;
     // -- Base chance to spawn particles this frame --------------------------
     // This chance is checked per engine every frame. It's modified based on
     // the skipjet system's current effect level.
-    private static final float PARTICLE_BASE_CHANCE = 0.25f;
+    private static final float PARTICLE_BASE_CHANCE = 0.6f;
     // -- Base brightness of particles -----------------------------------------
     // This increases slightly as the effect level spools up.
-    private static final float PARTICLE_BASE_BRIGHTNESS = 3.0f;
+    private static final float PARTICLE_BASE_BRIGHTNESS = 7.0f;
     // -- Multiplier for particle velocity -----------------------------------
     // The particle velocity is based on the ship's current velocity,
     // multiplied by this value.
@@ -35,7 +35,7 @@ public class PulsedSkipjetsStats extends BaseShipSystemScript
     // -- Maximum angle from the engine vector for particle velocity ----------
     // Particles will be spawned with velocity vectors up to this many degrees
     // from either side of the engine's vector.
-    private static final float CONE_ANGLE = 30f;
+    private static final float CONE_ANGLE = 45f;
     // -- Color of skipjets when fully spooled up ----------------------------
     // This should be the color that the skipjet system fades the engines
     // toward.

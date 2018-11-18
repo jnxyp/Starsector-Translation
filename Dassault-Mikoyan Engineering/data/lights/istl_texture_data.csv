@@ -9,6 +9,7 @@ istl_lens_hdem,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_l
 "#istl_lightbomb",missile,,,material,graphics/ISTL/shaders/material/missiles/istl_lightbomb_material.png
 istl_marteau_esm,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_marteau_material.png
 istl_mirvtorpedo,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_mirvtorpedo_material.png
+istl_multiAMM,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_multiamm_material.png
 istl_perforator_rocket,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_perforator_material.png
 istl_plasrocket,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_plasrocket_material.png
 istl_proxbomb_proj,missile,,,material,graphics/ISTL/shaders/material/missiles/istl_proxbomb_sm_material.png
@@ -73,6 +74,7 @@ istl_puddlejumper,ship,,,material,graphics/ISTL/shaders/material/ships/istl_pudd
 istl_puddlejumper_mk1,ship,,,material,graphics/ISTL/shaders/material/ships/istl_puddlejumper_mk1_material.png
 istl_pup,ship,,,material,graphics/ISTL/shaders/material/ships/istl_pup_material.png
 istl_rafale,ship,,,material,graphics/ISTL/shaders/material/ships/istl_rafale_material.png
+istl_rafale2,ship,,,material,graphics/ISTL/shaders/material/ships/istl_rafale2_material.png
 istl_samoyed,ship,,,material,graphics/ISTL/shaders/material/ships/istl_samoyed_material.png
 istl_sevastopol,ship,,,material,graphics/ISTL/shaders/material/ships/istl_sevastopol_material.png
 istl_sevastopol_mk1,ship,,,material,graphics/ISTL/shaders/material/ships/istl_sevastopol_mk1_material.png
@@ -236,6 +238,8 @@ istl_mirvtorpedo_single,hardpoint,,,material,graphics/ISTL/shaders/material/weap
 istl_mirvtorpedo_single,turret,,,material,graphics/ISTL/shaders/material/weapons/istl_missilemidtech_single_turret_base_material.png
 istl_mirvtorpedo_rack,hardpoint,,,material,graphics/ISTL/shaders/material/weapons/istl_missilemidtech_double_hardpoint_base_material.png
 istl_mirvtorpedo_rack,turret,,,material,graphics/ISTL/shaders/material/weapons/istl_missilemidtech_double_turret_base_material.png
+istl_mirvtorpedo_barrage,hardpoint,,,material,graphics/ISTL/shaders/material/weapons/istl_missilemidtech_barrage_hardpoint_base_material.png
+istl_mirvtorpedo_barrage,turret,,,material,graphics/ISTL/shaders/material/weapons/istl_missilemidtech_barrage_turret_base_material.png
 istl_multipdnode,hardpoint,,,material,graphics/ISTL/shaders/material/weapons/istl_multipdnode_hardpoint_base_material.png
 istl_multipdnode,turret,,,material,graphics/ISTL/shaders/material/weapons/istl_multipdnode_turret_base_material.png
 istl_NTKautogun,hardpoint,,,material,graphics/ISTL/shaders/material/weapons/istl_NTKautogun_hardpoint_base_material.png
@@ -329,6 +333,7 @@ istl_lens_hdem,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_lens
 "#istl_lightbomb",missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_lightbomb_normal.png
 istl_marteau_esm,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_marteau_normal.png
 istl_mirvtorpedo,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_mirvtorpedo_normal.png
+istl_multiAMM,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_multiamm_normal.png
 istl_perforator_rocket,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_perforator_normal.png
 istl_plasrocket,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_plasrocket_normal.png
 istl_proxbomb_proj,missile,,1,normal,graphics/ISTL/shaders/normal/missiles/istl_proxbomb_sm_normal.png
@@ -393,6 +398,7 @@ istl_puddlejumper_mk1,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_pud
 istl_puddlejumper,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_puddlejumper_normal.png
 istl_pup,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_pup_normal.png
 istl_rafale,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_rafale_normal.png
+istl_rafale2,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_rafale2_normal.png
 istl_samoyed,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_samoyed_normal.png
 istl_sevastopol_mk1,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_sevastopol_mk1_normal.png
 istl_sevastopol,ship,,1,normal,graphics/ISTL/shaders/normal/ships/istl_sevastopol_normal.png
@@ -556,6 +562,8 @@ istl_mirvtorpedo_single,hardpoint,,1,normal,graphics/ISTL/shaders/normal/weapons
 istl_mirvtorpedo_single,turret,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_missilemidtech_single_turret_base_normal.png
 istl_mirvtorpedo_rack,hardpoint,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_missilemidtech_double_hardpoint_base_normal.png
 istl_mirvtorpedo_rack,turret,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_missilemidtech_double_turret_base_normal.png
+istl_mirvtorpedo_barrage,hardpoint,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_missilemidtech_barrage_hardpoint_base_normal.png
+istl_mirvtorpedo_barrage,turret,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_missilemidtech_barrage_turret_base_normal.png
 istl_multipdnode,hardpoint,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_multipdnode_hardpoint_base_normal.png
 istl_multipdnode,turret,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_multipdnode_turret_base_normal.png
 istl_NTKautogun,hardpoint,,1,normal,graphics/ISTL/shaders/normal/weapons/istl_NTKautogun_hardpoint_base_normal.png
@@ -649,6 +657,7 @@ istl_lens_hdem,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_len
 "#istl_lightbomb",missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_lightbomb_surface.png
 istl_marteau_esm,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_marteau_surface.png
 istl_mirvtorpedo,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_mirvtorpedo_surface.png
+istl_multiAMM,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_multiamm_surface.png
 istl_perforator_rocket,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_perforator_surface.png
 istl_plasrocket,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_plasrocket_surface.png
 istl_proxbomb_proj,missile,,,surface,graphics/ISTL/shaders/surface/missiles/istl_proxbomb_sm_surface.png
@@ -713,6 +722,7 @@ istl_puddlejumper_mk1,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_pu
 istl_puddlejumper,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_puddlejumper_surface.png
 istl_pup,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_pup_surface.png
 istl_rafale,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_rafale_surface.png
+istl_rafale2,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_rafale2_surface.png
 istl_samoyed,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_samoyed_surface.png
 istl_sevastopol_mk1,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_sevastopol_mk1_surface.png
 istl_sevastopol,ship,,,surface,graphics/ISTL/shaders/surface/ships/istl_sevastopol_surface.png
@@ -876,6 +886,8 @@ istl_mirvtorpedo_single,hardpoint,,,surface,graphics/ISTL/shaders/surface/weapon
 istl_mirvtorpedo_single,turret,,,surface,graphics/ISTL/shaders/surface/weapons/istl_missilemidtech_single_turret_base_surface.png
 istl_mirvtorpedo_rack,hardpoint,,,surface,graphics/ISTL/shaders/surface/weapons/istl_missilemidtech_double_hardpoint_base_surface.png
 istl_mirvtorpedo_rack,turret,,,surface,graphics/ISTL/shaders/surface/weapons/istl_missilemidtech_double_turret_base_surface.png
+istl_mirvtorpedo_barrage,hardpoint,,,surface,graphics/ISTL/shaders/surface/weapons/istl_missilemidtech_barrage_hardpoint_base_surface.png
+istl_mirvtorpedo_barrage,turret,,,surface,graphics/ISTL/shaders/surface/weapons/istl_missilemidtech_barrage_turret_base_surface.png
 istl_multipdnode,hardpoint,,,surface,graphics/ISTL/shaders/surface/weapons/istl_multipdnode_hardpoint_base_surface.png
 istl_multipdnode,turret,,,surface,graphics/ISTL/shaders/surface/weapons/istl_multipdnode_turret_base_surface.png
 istl_NTKautogun,hardpoint,,,surface,graphics/ISTL/shaders/surface/weapons/istl_NTKautogun_hardpoint_base_surface.png
