@@ -7,6 +7,7 @@
 **超好玩**的开发中单机开放世界太空探索真实社保跑商小游戏。
 
 # <a href = "http://fractalsoftworks.com/" target = "_blank">→ PLAY NOW! 点此立刻社保！←</a>
+### Starsector 0.9a is out! 远行星号0.9a 已经发布！
 
 ## Now Working On 目前正在进行的项目 
 - Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b
@@ -16,11 +17,14 @@
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
-     - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
+
+     - **<a href="Blog Translation/20181116 - Starsector 0.9a Release/20181116-chs&eng.md">Starsector 0.9a Release 远行星号0.9a 正式发布</a>**
     【100 / 100 - Completed 完成】
-     - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
+     - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs&eng.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
     【100 / 100 - Completed 完成】
-	 - **<a href="Blog Translation/20180612 - Pirate Bases, Raids, and Objectives/20180612-chs.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>**
+     - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs&eng.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
+    【100 / 100 - Completed 完成】
+	 - <a href="Blog Translation/20180612 - Pirate Bases, Raids, and Objectives/20180612-chs&eng.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>
     【100 / 100 - Completed 完成】
 
 ## Planned 将要进行的项目
