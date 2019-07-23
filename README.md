@@ -17,16 +17,18 @@
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
-
-	- **<a href="Blog Translation/20190510 - Starsector 0.9.1a Release/20190510-chs&eng.md">Starsector 0.9.1a Release 远行星号0.9.1a 正式发布</a>**
+	
+	- **<a href="Blog Translation/20190708 - Skills and Story Points/20190708-chs&eng.md">Skills and Story Points 技能与剧情点数</a>**
     【100 / 100 - Completed 完成】
-     - <a href="Blog Translation/20181116 - Starsector 0.9a Release/20181116-chs&eng.md">Starsector 0.9a Release 远行星号0.9a 正式发布</a>
+	- <a href="Blog Translation/20190510 - Starsector 0.9.1a Release/20190510-chs&eng.md">Starsector 0.9.1a Release 远行星号0.9.1a 正式发布</a>
     【100 / 100 - Completed 完成】
-     - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs&eng.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
+    - <a href="Blog Translation/20181116 - Starsector 0.9a Release/20181116-chs&eng.md">Starsector 0.9a Release 远行星号0.9a 正式发布</a>
     【100 / 100 - Completed 完成】
-     - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs&eng.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
+    - <a href="Blog Translation/20180212 - Blueprints, Doctrine, and Production/20180212-chs&eng.md">Blueprints, Doctrine, and Production 蓝图系统，势力设置以及舰船订购</a>
     【100 / 100 - Completed 完成】
-	 - <a href="Blog Translation/20180612 - Pirate Bases, Raids, and Objectives/20180612-chs&eng.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>
+    - <a href="Blog Translation/20180302 - Zen and the Art of Battlestation Construction/20180302-chs&eng.md">Zen and the Art of Battlestation Construction 战斗堡垒设计的艺术与玄学</a>
+    【100 / 100 - Completed 完成】
+	- <a href="Blog Translation/20180612 - Pirate Bases, Raids, and Objectives/20180612-chs&eng.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>
     【100 / 100 - Completed 完成】
 
 ## Planned 将要进行的项目
