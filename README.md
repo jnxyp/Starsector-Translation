@@ -29,7 +29,7 @@
     【100 / 100 - Completed 完成】
 	- <a href="Blog Translation/20180612 - Pirate Bases, Raids, and Objectives/20180612-chs&eng.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>
     【100 / 100 - Completed 完成】
-- Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b
+- Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.1.18
 【100 / 100 - Finished by [TBDisciple](https://www.fossic.org/home.php?mod=space&uid=145) and released on [Fossic.org](https://www.fossic.org/forum.php?mod=viewthread&tid=605) 已由 [TBDisciple](https://www.fossic.org/home.php?mod=space&uid=145) 完成并发布在[远行星号中文论坛](https://www.fossic.org/forum.php?mod=viewthread&tid=605)】
 ## Planned 将要进行的项目
 （ Not yet.. 并没有）
