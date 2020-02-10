@@ -1,8 +1,0 @@
-{
-	"id":"istl_decoyflares_main",
-	"type":"WEAPON",
-	"aiType":"FLARE",
-	
-	"weaponDataId":"istl_flarelauncher_main",
-	"outOfUsesSound":"gun_out_of_ammo",
-}

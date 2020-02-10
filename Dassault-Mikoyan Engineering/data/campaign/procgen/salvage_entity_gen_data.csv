@@ -1,6 +1,0 @@
-id,rating,detection_range,type,autoXP,xpDiscover,xpSalvage,tags,drop_value,drop_random,defFaction,probDefenders,minStr,maxStr,maxSize,probStation,stationRole
-weapons_cache_breakers,0,1700,DISCOVERABLE,200,,,no_debris,supply:1500,"breaker_weapons2:10,
-any_hullmod_low:3",,,,,,,
-weapons_cache_small_breakers,0,1200,DISCOVERABLE,200,,,no_debris,supply:500,"breaker_weapons1:10,
-any_hullmod_low:2",,,,,,,
-,,,,,,,,,,,,,,,,
