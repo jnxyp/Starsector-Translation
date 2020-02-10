@@ -1,4 +1,4 @@
-# Starsector Translation 远行星号翻译内容
+# Starsector Blogpost Chinese Translations 远行星号开发日志中文翻译内容
 
 ## What is Starsector? 远行星号是啥？
 
@@ -10,8 +10,6 @@
 ### Starsector 0.9.1a is out! 远行星号0.9.1a 已经发布！
 
 ## Now Working On 目前正在进行的项目 
-- Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b
-【2 / 100 - Translating Planets & Stations Description 正在翻空间站和行星描述】
 - **<a href="Blog Translation\20180601 - Starsector 0.9a (In-Dev) Patch Notes/20180601-chs.md">Starsector 0.9a (In-Dev) Patch Notes 远行星号0.9a（开发中）更新日志</a>**
 【80 / 100 - Working on API changes & bug fixing 正在翻译API修正和已修复bug】
 
@@ -31,12 +29,13 @@
     【100 / 100 - Completed 完成】
 	- <a href="Blog Translation/20180612 - Pirate Bases, Raids, and Objectives/20180612-chs&eng.md">Pirate Bases, Raids, and Objectives 海盗基地、海盗入侵和新的太空设施</a>
     【100 / 100 - Completed 完成】
-
+- Dassault-Mikoyan Engineering 达索-米高扬工程集团 v.0.9.8b
+【100 / 100 - Finished by [TBDisciple](https://www.fossic.org/home.php?mod=space&uid=145) and released on [Fossic.org](https://www.fossic.org/forum.php?mod=viewthread&tid=605) 已由 [TBDisciple](https://www.fossic.org/home.php?mod=space&uid=145) 完成并发布在[远行星号中文论坛](https://www.fossic.org/forum.php?mod=viewthread&tid=605)】
 ## Planned 将要进行的项目
 （ Not yet.. 并没有）
 
 ## License 许可协议
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starsector Mod Translation 远行星号模组翻译</span> 由 <b><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a> & Zhiyuan Huang</b> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">远行星号开发日志中文翻译内容 Starsector Blogpost Chinese Translations</span> 由 <b><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a>, 冰鹭陌鸢, Zhiyuan Huang</b> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
 
 您可以自由地：
 
