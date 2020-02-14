@@ -15,7 +15,10 @@
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
-	- **<a href="Blog Translation\20191127 - Raiding for Fun and Profit/20191127-chs&eng.md">Raiding for Fun and Profit 打家劫舍，快乐生财</a>**
+
+	- **<a href="Blog Translation\20200207 - Painting the Stars/20200207-chs&eng.md">Painting the Stars 描绘群星</a>
+    【100 / 100 - Completed 完成】**
+	- <a href="Blog Translation\20191127 - Raiding for Fun and Profit/20191127-chs&eng.md">Raiding for Fun and Profit 打家劫舍，快乐生财</a>
     【100 / 100 - Completed 完成】
 	- <a href="Blog Translation/20190708 - Skills and Story Points/20190708-chs&eng.md">Skills and Story Points 技能与剧情点数</a>
     【100 / 100 - Completed 完成】
