@@ -13,7 +13,7 @@
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
-	- **<a href="Blog Translation\20200813 - Personal Contacts /20200813-chs&eng.md">Personal Contacts 人脉关系</a>
+	- **<a href="Blog Translation\20200813 - Personal Contacts/20200813-chs&eng.md">Personal Contacts 人脉关系</a>
     【100 / 100 - Completed 完成】**
 	- <a href="Blog Translation\20200207 - Painting the Stars/20200207-chs&eng.md">Painting the Stars 描绘群星</a>
     【100 / 100 - Completed 完成】
