@@ -13,8 +13,10 @@
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
-	- **<a href="Blog Translation\20200813 - Personal Contacts/20200813-chs&eng.md">Personal Contacts 人脉关系</a>
+	- **<a href="Blog Translation\20201217 - Writing Starsector/20201217-chs&eng.md">Writing Starsector 剧情创作</a>
     【100 / 100 - Completed 完成】**
+	- <a href="Blog Translation\20200813 - Personal Contacts/20200813-chs&eng.md">Personal Contacts 人脉关系</a>
+    【100 / 100 - Completed 完成】
 	- <a href="Blog Translation\20200207 - Painting the Stars/20200207-chs&eng.md">Painting the Stars 描绘群星</a>
     【100 / 100 - Completed 完成】
 	- <a href="Blog Translation\20191127 - Raiding for Fun and Profit/20191127-chs&eng.md">Raiding for Fun and Profit 打家劫舍，快乐生财</a>
@@ -37,7 +39,7 @@
 （ Not yet.. 并没有）
 
 ## License 许可协议
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">远行星号开发日志中文翻译内容 Starsector Blogpost Chinese Translations</span> 由 <b><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a>, 冰鹭陌鸢, Zhiyuan Huang</b> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">远行星号开发日志中文翻译内容 Starsector Blogpost Chinese Translations</span> 由 <b><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jnxyp/Starsector-Mod-Translation" property="cc:attributionName" rel="cc:attributionURL">jn_xyp</a>, 冰鹭陌鸢, Zhiyuan Huang, Rody</b> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享 署名-非商业性使用 4.0 国际 许可协议</a>进行许可。
 
 您可以自由地：
 
