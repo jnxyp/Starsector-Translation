@@ -1,0 +1,200 @@
+# [Of Slipstreams and Sensor Ghosts][link-blogpost]
+# 超空间滑流与传感器航迹
+
+Posted September 24, 2021 by **`Alex`** in `Development`
+
+Translated on September 25 by **`jn_xyp`**
+
+于2021年9月25日翻译，译者：**`jn_xyp`**
+
+## **摘要（译者添加）**
+
+Technically, the next release was meant to be a “bugfixing and polish” release. It’s true that the skill system update already pushes the boundaries of that, but still, we’ve somehow ended up with some major new features, too, which will be discussed in this post. The short answer to “how did we get here” is “weeeeell, one thing led to another, and before you know it…”
+
+![][stream1]
+
+I’d actually like to give a longer answer, too. The first thing I want to say, though, is that this is ok! Ultimately, it’s all stuff that was going to be in the game one way or another (though the specific form would depend on exactly how it happened), so as long as it’s added in a way that lets it fit into the existing mechanics nicely, it’s all good.
+
+I could have held off on adding these until a later release – there’s something to be said for sticking with a plan. But also, I think it’s important to take advantage of inspiration when it strikes – and to occasionally, have some fun!
+
+So, how did we get here? A little shy of two months ago, I thought to myself: “I’ve got this document about sensor ghosts laying around, I bet I could just knock these out in a week”. To be fair, I probably could have, but one of the tricky parts of gamedev is deciding how far to follow an idea. Is it something that’s not strictly necessary, or is it something that’s crucial to making the rest of it “click”? There’s a time to cut ruthlessly, and a time to follow through.
+
+The idea, in this case, was that I wanted a certain type of sensor ghost to leave behind it a wake that made it easy to follow. This is a big deal, mechanics-wise – it has implications for how travel in hyperspace fundamentally works! If you can take advantage of these kinds of “slipstreams” to get around faster, that’ll shape gameplay. “Sensor ghosts” without that element – they’d work, sure, and there’s plenty of other mechanics there to keep things lively (and spooky), but cutting out the “wake” idea felt like leaving something vital on the table.
+
+So, I thought to myself, alright, wake, fluid dynamics, let’s read some papers and hack something together. A basic velocity field implementation (not “mathematically correct” in any sense, just “good enough”) looked something like this:
+
+> From the cutting room floor - a fluid-dynamics-inspired visual effect. Doesn't quite "work" for various reasons - too harsh looking, iffy performance, doesn't quite suit what it's needed for, but thought it was neat enough to share!
+
+<video controls style="max-width:745px">
+  <source src="https://www.fossic.org/forum.php?mod=attachment&aid=MTM1MjN8ZTg5YzU0MzVhNDFlMTBlMmQyM2Q3OWY1NmYxMmQxYWF8MTYzMjU1MDg1MA%3D%3D&request=yes&_f=.mp4">
+您的浏览器不支持Video Tag，换一个吧。
+</video>
+
+It looks pretty decent in motion, but it really doesn’t look good at all in a still shot:
+
+![][pixels_stream]
+
+It’s extremely noisy and high contrast. Trying to add some antialiasing didn’t help things much. Another attempt involved rendering it using lines instead of individual points, like this:
+
+> A variation of the same "turbulence" effect - the underlying math is just about the same as in the previous one, but it's visualized differently, with flow lines rather than particles! Also let on the cutting room floor, for various reasons.
+
+<video controls style="max-width:745px">
+  <source src="https://www.fossic.org/forum.php?mod=attachment&aid=MTM1MjR8Njk3N2YzZjhhZTg4YmQzNWI3ZDhiYmQ4YjNiMTA0ZGZ8MTYzMjU1MDg1MA%3D%3D&request=yes&_f=.mp4">
+您的浏览器不支持Video Tag，换一个吧。
+</video>
+
+This looks a bit better, but still doesn’t cut it. In particular, this doesn’t convey any sense of “enter this area to go faster”. The “curving line” particles look pretty nice, though – so, let’s keep those, and toss the fluid dynamics. Here, unfortunately, I don’t have any screenshots, but what followed was these particles going in a straight line along a wider area. That definitely had more potential – there was finally the sense of “this is an area that’ll make you go faster”, though it still needed a lot of work.
+
+At this point, David got involved and suggested adding some textures and borders to the thing. I also got the idea to make it support curved shapes and varying widths; honestly not sure why – it was one of those exploratory “I could probably do it, and want to see how it’d look” type of things, rather than doing it with a specific goal in mind. The sensor ghost from a few paragraphs could only travel in a straight line, so supporting curved shapes wasn’t necessary for it.
+
+One of the earlier versions looked like this:
+
+![][stream_basic]
+
+Below is a shot of me debugging the curved version of the stream. The white curves represent the direction of the flow within the stream at any given point. Note how the curves start to get a little unsteady towards the very bottom – generating parallel curves is a difficult problem! Good enough, though. It’s important to note that this isn’t the actual geometry of the stream; that’d be way too many polygons – this is just rendering a bunch of debug data – curves, normals, and so on.
+
+![][curve_debug]
+
+And here’s a shot of particles following these curves!
+
+![][particles_following]
+
+And another shot, combining particles with some textures:
+
+![][coming_together]
+
+Still not great by any means – but it’s looking promising; you can see how that could turn into something good with some effort. After said effort (which included David’s key suggestion of using multiple scrolling textures), it finally came together.
+
+![][stream2]
+
+It’s worth noting that the “it finally came together” part, despite getting the fewest words, took at least as long as the rest of the process put together. There’s just not as much to talk about there – a lot of iteration and things incrementally looking and working better. There’s a “wobble” effect of the same type that the hyperspace background has (if you came from twitter: you’ve seen it! if not: the animation is embedded at the end of this post), and a border that makes it fit in with the deep hyperspace clouds, looking almost like a channel that cuts through it. The particles that it all started with are still there, too, just more subtle – but instrumental in showing the speed of the stream.
+
+At this point, we had a really nice (if I do say so myself) looking slipstream, and it was a shame to waste it on something that only happened very occasionally. What happens if I just slap one of these across the entire Sector? … what happened, of course, was that the frame rate went through the floor. But it also looked very cool, so much optimizing followed (more on that, later).
+
+What followed that was some thinking about what it’d take to actually make this good gameplay-wise. After all, this is a bit backwards – you don’t generally want to take something cool and just try to cram it in everywhere. On the other hand, it’s just an extension of the “ghost leaves a wake” idea; the fundamental concept of “use this to spice up (and speed up!) hyperspace travel is still the same.
+
+So, we started with sensor ghosts, and ended up with Sector-spanning slipstreams. No problem, let’s just roll with it! It’s pretty common to start with one thing and have it not quite work, but eventually turn into something different that does.
+
+## Movement mechanics
+
+Before looking at the bigger picture of, say, how to generate a layout of slipstreams in the Sector, it makes sense to make sure the fundamentals are in good shape – that moving through a slipstream feels good and is an interesting thing for the player to do. How does it work?
+
+Starting with the obvious, slipstreams make fleets inside them go fast – we’re talking in the area of burn level 40, which is about double what can be achieved normally. Maximum speed is achieved near the center of the stream. Narrower sections are faster, while wider sections slow down considerably. This is all indicated by the movement of the particles in the stream, so is easy to get the hang of.
+
+To get the most speed, you need to stay in the middle of the stream. You have reasonable control over your fleet’s position inside the stream – but the faster the stream, the less control, as your fleet is carried along by the stronger current. Once you get to the middle, as long as the stream is going straight, it’s easy to stay there – but streams will generally curve a bit, and a narrow (and thus faster!) section combined with a sharper curve makes it hard to maintain your position – it’s much like spinning out on a turn on a race track. And much like in that case, you can prepare for an upcoming turn by getting on the inside track. You can see the slipstream on the radar, making this process easier.
+
+In addition, several active abilities interact with slipstream movement. “Emergency Burn” boosts your acceleration, and lets you get around within the stream more easily – and its speed bonus gets added to your maximum speed, too. Saving an e-burn for a tight turn can be a really good idea. “Sustained Burn”, on the other hand, comes with a hefty penalty to acceleration – but its speed bonus can be handy, too. It’s useful in the calmer, wide stretches – or in straightaways. It’s also useful when there’s a break in the slipstream – engaging Sustained Burn inside a stream doesn’t stop your fleet like it would in normal space, and it can be a nice way to keep some momentum going before re-entering the stream.
+
+Overall, I think that provides enough options and considerations to stay engaged. And besides, going really fast is just fun! And that brings us to another point.
+
+(Oh, and worth noting: being inside a slipstream takes precedence over any other terrain your fleet might be in. So, for example, the bonuses/penalties from being in deep hyperspace, or in a storm, and so on, do not apply.)
+
+## Fuel use
+
+Flying through a slipstream is fun – so we need to be really, really careful to make sure it’s definitely worth doing. No matter how we lay these out as far as the overall map of the Sector, it’s going to be rare that “through a slipstream” is the shortest way to get where the player needs to go, purely in terms of distance. And the player won’t even know exactly where the stream they’re in is going, most of the time! (More on that, later, too.)
+
+One thing helping here is an existing mechanic – going at a speed above burn level 20 doesn’t cost extra fuel. For example, going at burn level 40, covering the same distance costs half the fuel that you’d spend covering it at burn 20. By itself, though, that isn’t enough – when you factor in the detours required to get to and from the stream, it’s often unclear whether taking a stream results in a fuel savings.
+
+![][stream_tooltip]
+
+Therefore: traveling through a slipstream provides an additional 50% fuel use reduction. This way, it’s going to be “worth it” for any halfway-reasonable set of detours – if taking a stream looks at all like it might be faster, it’ll also definitely be cheaper.
+
+## Slipstream layout generation
+
+With these lower-level mechanics squared away, the big remaining task was to figure out how a big a role slipstreams play in hyperspace travel overall, and how to generate the slipstream layout for the Sector.
+
+To answer the first question, I don’t think slipstream travel should be something you *always* do – it should be frequent, but it should leave ample room for travel through regular hyperspace. It should be possible to be in deep hyper and not know where the nearest slipstream is. Finding one should be an exciting opportunity. This is largely a subjective feel issue, so it’s not something that’s objectively “right”, but that’s the design goal.
+
+As far as generating a slipstream layout – I think here I’ll just talk about how it works and what effect that has/is intended to have, rather than talking about how it got there. So! First off, slipstreams are dynamic – there isn’t a single fixed layout. Instead, a new layout is generated twice per cycle, and the player only sees as much of the slipstream system on the map as they’ve explored – though unlike with sensors, merely getting near enough for it to show up on your radar is sufficient to “see” it and have it be remembered on the map.
+
+Here’s what the player might see after exploring a bit of it:
+
+![][stream_partial]
+
+And here’s what a full (different) layout might look like:
+
+![][stream_full]
+
+These layouts are not fully procedurally generated, rather there is a pool of hand-crafted layouts which are then randomized slightly. Initially, I’d thought to generate these entirely with code, but it proved surprisingly difficult to produce nice layouts. For example, you don’t want slipstreams intersecting at a shallow angle – it becomes a mess!, and you also *do* want intersections at specific points along their lengths (where these offer more interesting choices about where to go, when the player comes to one). Hand-crafting a bunch of possible layouts was both faster and produced better results.
+
+Combining the layout being dynamic with it also being picked from a pool of possible options means that 1) there’s an important aspect of the hyperspace map that keeps changing and is there to be discovered/explored, but 2) that it’s also learnable, and you can make inferences about what the rest of the slipstream system looks like after discovering and recognizing a portion of it. To keep things fresh, some of the handcrafted layouts have a much higher randomization factor, and can’t be relied on in the same way.
+
+To aid in the task of mapping the slipstream system, the Neutrino Detector active ability now functions in hyperspace, and instead of detecting other fleets and similar entities, detects slipstreams instead – out to a distance of 10 light years.
+
+![][stream_detector]
+
+And, finally, a big feature of the system is that the general flow direction of the streams is seasonal. In the first half of the cycle, they tend to flow to the galactic east (which is like the regular east, but in hyperspace), while in the second half of the cycle, they generally flow west. This is another thing that the player can learn and plan their expeditions around.
+
+One might ask, “but why is slipstream flow synchronized with the Domain cycle, which is an arbitrary human construct?”. I could say that the wizard did it. Or, perhaps, that it’s a good question with terrible implications. But, instead – let’s just say that this isn’t a fixed state of affairs, but at the current time in the Sector, two otherwise independent cycles have conveniently lined up.
+
+## Encounters
+
+One of the design principles of Starsector is that mechanics in the campaign should, generally speaking, funnel the player towards combat. This isn’t a hard and fast rule, there are exceptions, and the degree to which one feature or another might do that can vary – but still, it’s something to use as a guide.
+
+With the above in mind, we could just say that slipstreams let you travel faster and lead the player towards combat simply by virtue of getting them around faster. And that’d be fine! But I think there’s potential here to do better.
+
+One important bit of information is that slipstreams are interrupted when crossing hyperspace areas occupied by star systems. Otherwise it just looks odd, with the slipstream covering up jump-points – and trying to route streams around star systems would be too involved, never mind that there wouldn’t always be a clear path. In a fortunate turn of events, these stream breaks make for a perfect spot for an ambush!
+
+Imagine: you’re cruising along at burn 40, switch over to Sustained Burn to cover the break more quickly, when your sensors officer reports hostiles coming in, weapons hot. Maybe you should’ve gone dark instead.
+
+![][stream_ambush]
+
+This sort of encounter isn’t completely random – rather, it happens if there’s a pirate base nearby. Or a Luddic Path base. Or a system with ruins. And you won’t always encounter hostiles; sometimes you might encounter mercenaries or scavengers instead. So it’s both a potential combat encounter, and a source of information for a more observant player – information that could lead into yet more combat, if they so choose. And, importantly, it’s something that can be predicted to some degree – for example, you can be more careful if you know there’s a pirate base nearby.
+
+(This “encounter point” system is flexible, and isn’t limited to slipstreams. For example, Remnant stations will now send occasional patrols into hyperspace, provided the player has made a disturbance in their system.)
+
+## Performance
+
+I’m not going to dig too deeply into the various optimizations required to make these run smoothly when scaled up from the original use case of “one small slipstream now and again” to “Sector-spanning network”. Mainly those were about not doing things – not generating particles unless the player is close, not recomputing certain data for segments unless they’re visible, and so on. What I wanted to show here is this screenshot, because I think it looks neat:
+
+![][stream_bounding]
+
+What it shows is how the game generates a bounding box for a slipstream. Taking a step back, the game often needs to know “is this fleet (or derelict ship, etc) inside a slipstream?” We could check every segment in the stream to see if it contains the entity, but that gets computationally expensive – there are a lot of slipstreams with a lot of segments, and potentially a lot of entities to check, too.
+
+Instead, a typical approach to this sort of problem is to say “is this entity close enough to bother checking?” If not, we don’t need to do a detailed check, and that saves a lot of computation time. This works pretty well for most things, but for a Sector-wide stream, the answer to “is this entity close enough to it to check” is always “yes”, at least if we’re doing a simple distance check, which can be thought of as “is this point within a circle that contains the stream?”. The entire freakin’ Sector is in that circle.
+
+So a bounding circle isn’t good enough, but a bounding box around the slipstream is, especially if the stream is relatively straight, since the bounding box will have a much, much smaller area. In the screenshot above, the edges of the stream’s segments are in yellow, a “convex hull” (just a polygon, really – computing this is a required intermediate step) containing all of the stream is in white, and the final bounding box – with a bit of padding – is in cyan. One thing to note is that every tenth segment is artificially widened; this is done so that the convex hull has less points in it, which speeds up the bounding box calculation.
+
+For a slipstream that curves around a lot, this approach doesn’t help as much – the box gets a lot bigger and there’s a lot of empty space inside it, which means more unnecessary checks when entities are inside it but not inside the stream. As a further optimization, each stream is split into a bunch of subsections, each of which has a bounding box calculated for it – so, just imagine the same thing as in the screenshot above, but chained together following the shape of a longer stream. This hugs the shape of the stream closely, so we’re going to be able to rule out a lot of potential checks!
+
+## Sensor ghosts
+
+And now, we’ve come around full circle – back to the sensor ghosts that started it all. There’s now, indeed, a type of ghost that leaves a slipstream behind – but instead of being the only means of producing slipstreams, it’s instead a supplement to the main slipstream network, to be used when it happens to be going in the right direction – and when the player is quick enough to be able to hitch a ride. There’s another type, that’s fairly similar but starts off stationary, and can be herded in a specific direction by the player – needless to say, very handy if you happen to find one.
+
+![][leviathan_ghost]
+
+As for other sensor ghosts, it’s the sort of thing where figuring things out (or not, as the case may be) is half the fun, and I don’t want to spoil it. Let’s just say that there are many different kinds, with tie-ins into exploration, combat, certain story elements, dire implications, and several non-obvious (and entirely, intentionally unexplained) interactions with some of the active abilities.
+
+All in all, these additions should do a lot to liven up hyperspace – which it could really use. Almost more importantly, though, they should also strengthen other aspects of the game, because of the tie-ins with abilities and combat encounters.
+
+In case you’re not coming to the blog from twitter, by the way, here’s what the slipstream animation looks like in action:
+
+> New Starsector blog post! "Of Slipstreams and Sensor Ghosts"
+>
+> https://fractalsoftworks.com/2021/09/24/of-slipstreams-and-sensor-ghosts/
+>
+> Livening up hyperspace!
+
+<video controls style="max-width:745px">
+  <source src="https://www.fossic.org/forum.php?mod=attachment&aid=MTM1MjV8MTkyMTU3NDAyYmJhNTg4Y2U0ZTk1OGM3YzU4MDkzNjh8MTYzMjU1MDg1MA%3D%3D&request=yes&_f=.mp4">
+您的浏览器不支持Video Tag，换一个吧。
+</video>
+
+*If you click on the blog post link in the above tweet and get caught in an infinite loop re-reading this post, I will not be held responsible. I will however be amused.
+
+[link-blogpost]: https://fractalsoftworks.com/2021/09/24/of-slipstreams-and-sensor-ghosts/
+
+[coming_together]:coming_together-1024x640.jpg
+[curve_debug]:curve_debug-1024x640.jpg
+[leviathan_ghost]:leviathan_ghost-1024x640.jpg
+[particles_following]:particles_following-1024x640.jpg
+[pixels_stream]:pixels_stream-1024x640.jpg
+[stream1]:stream1-1024x640.jpg
+[stream2]:stream2-1024x640.jpg
+[stream_ambush]:stream_ambush-1024x640.jpg
+[stream_basic]:stream_basic-1024x640.jpg
+[stream_bounding_box]:stream_bounding_box-1024x640.jpg
+[stream_detector]:stream_detector-1024x640.jpg
+[stream_full]:stream_full-1024x640.jpg
+[stream_partial]:stream_partial-1024x640.jpg
+[stream_tooltip]:stream_tooltip-1024x640.jpg
