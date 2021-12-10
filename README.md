@@ -13,7 +13,7 @@
 
 ## Finished 已经完成的项目
 - **Development Blog Post Translation 开发日志翻译**
-    -  **<a href="Blog Translation\20211105 - Starsector 0.95.1a (In Development) Patch Notes/20211105-chs&eng.md">Starsector 0.95.1a (In Development) Patch Notes 远行星号 0.95.1a （开发中） 更新日志</a>
+    -  **<a href="Blog Translation\20211105 - Starsector 0.95.1a (In Development) Patch Notes/20211105-chs&eng.md">Starsector 0.95.1a (Released) Patch Notes 远行星号 0.95.1a （已发布） 更新日志</a>
     【100 / 100 - Completed 完成】**
     - <a href="Blog Translation\20210924 - Of Slipstreams and Sensor Ghosts/20210924-chs&eng.md">Of Slipstreams and Sensor Ghosts 超空间滑流与传感器上的幽灵</a>
     【100 / 100 - Completed 完成】
